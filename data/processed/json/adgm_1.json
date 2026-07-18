@@ -1,0 +1,74 @@
+{
+  "module_id": "adgm_1",
+  "client": "ADG fintech",
+  "subject": "regulatory_compliance",
+  "audience": "teacher_training",
+  "language": "english",
+  "dialect": "interactive",
+  "beats": [
+    {
+      "beat_id": "adgm_1_beat_01",
+      "visual": "Office desk. Laptop on. Coffee mug. Calendar. Everything is still.",
+      "interaction": "",
+      "ost": "",
+      "dialogue": "",
+      "narration": "Soft office ambience"
+    },
+    {
+      "beat_id": "adgm_1_beat_02",
+      "visual": "Phone begins ringing.",
+      "interaction": "Prompt: Click to answer the call.",
+      "ost": "",
+      "dialogue": "",
+      "narration": "Phone ringtone"
+    },
+    {
+      "beat_id": "adgm_1_beat_03",
+      "visual": "User clicks Answer.",
+      "interaction": "Interactive click",
+      "ost": "",
+      "dialogue": "Manager: Good morning. I need a favour.",
+      "narration": "Interactive click"
+    },
+    {
+      "beat_id": "adgm_1_beat_04",
+      "visual": "Close-up of Manager (voice only or avatar).",
+      "interaction": "",
+      "ost": "",
+      "dialogue": "Next week we're conducting an internal awareness session on Beneficial Ownership and Transparency requirements applicable within ADGM.",
+      "narration": ""
+    },
+    {
+      "beat_id": "adgm_1_beat_05",
+      "visual": "Manager continues.",
+      "interaction": "",
+      "ost": "",
+      "dialogue": "I'd like you to lead the session. Don't worry—you don't need to know everything today. You just need to prepare",
+      "narration": ""
+    },
+    {
+      "beat_id": "adgm_1_beat_06",
+      "visual": "",
+      "interaction": "Choose: Accept Challenge / Maybe Later",
+      "ost": "",
+      "dialogue": "",
+      "narration": ""
+    },
+    {
+      "beat_id": "adgm_1_beat_07",
+      "visual": "",
+      "interaction": "If learner clicks Maybe Later",
+      "ost": "",
+      "dialogue": "",
+      "narration": ""
+    },
+    {
+      "beat_id": "adgm_1_beat_08",
+      "visual": "",
+      "interaction": "",
+      "ost": "This preparation is required before your awareness session.",
+      "dialogue": "",
+      "narration": ""
+    }
+  ]
+}

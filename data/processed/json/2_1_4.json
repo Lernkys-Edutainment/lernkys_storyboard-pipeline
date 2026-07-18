@@ -1,0 +1,94 @@
+{
+  "module_id": "2.1.4",
+  "client": "Prachi Sathe",
+  "subject": "brain_science",
+  "audience": "teacher_training",
+  "language": "marathi",
+  "dialect": "linear",
+  "beats": [
+    {
+      "beat_id": "2.1.4_beat_01",
+      "visual": "Talking head full screen",
+      "ost": "",
+      "dialogue": "नमस्कार.\nमागील भागात आपण मेंदू हा शिकण्याचा प्रमुख अवयव आहे, हे समजून घेतले. आता मेंदूशी संबंधित आणखी एक महत्त्वाचा मुद्दा पाहूया — मानवी मेंदू जन्मतः अनेक उपजत क्षमता घेऊन येतो."
+    },
+    {
+      "beat_id": "2.1.4_beat_02",
+      "visual": "Display the line art image of the Mahatma Gandhi and beside that display the quote in animation.",
+      "ost": "महात्मा गांधी\n“All round drawing out of the best in child and man — body, mind and spirit.”",
+      "dialogue": "महात्मा गांधी यांनी शिक्षणाची व्याख्या करताना म्हटले आहे — “All round drawing out of the best in child and man — body, mind and spirit.” या विचारातून शिक्षणाचे मूलभूत उद्दिष्ट स्पष्ट होते."
+    },
+    {
+      "beat_id": "2.1.4_beat_03",
+      "visual": "A line art image of the student and Teacher and beside that display the ost with highlighted words.",
+      "ost": "शिक्षण म्हणजे मुलामध्ये असलेल्या सर्वोत्तम क्षमता, गुण आणि शक्यता यांचा सर्वांगीण विकास होय.",
+      "dialogue": "शिक्षण म्हणजे मुलामध्ये असलेल्या सर्वोत्तम क्षमता, गुण आणि शक्यता यांचा सर्वांगीण विकास होय."
+    },
+    {
+      "beat_id": "2.1.4_beat_04",
+      "visual": "Display the line art image of the pottery man and show from a mud he shaped a beautiful pot.",
+      "ost": "“मूल म्हणजे मातीचा गोळा”",
+      "dialogue": "पूर्वी शिक्षणाविषयी असा दृष्टिकोन होता की “मूल म्हणजे मातीचा गोळा”; त्याला जसा आकार दिला जाईल तसे ते घडेल."
+    },
+    {
+      "beat_id": "2.1.4_beat_05",
+      "visual": "Talking head full screen",
+      "ost": "",
+      "dialogue": "मात्र आधुनिक मानसशास्त्रातील ज्ञानरचनावादी दृष्टिकोनानुसार मूल जन्मतः क्षमता घेऊन येते, आणि इतरांच्या सहकार्याने त्या क्षमतांचा विकास होतो.  \nयाच संदर्भात माणसाचे मूल म्हणजे त्याचा मेंदू अनेक क्षमता घेऊन जन्माला येतो” हा मुद्दा महत्त्वाचा ठरतो."
+    },
+    {
+      "beat_id": "2.1.4_beat_06",
+      "visual": "Display the ost as it on the screen in animation.",
+      "ost": "माणसाच्या मुलाला शिकवावं लागतं, किंवा शिकवण्याची प्रक्रीया घडवून आणावी लागते व 'माणसाचा मेंदू क्षमता घेऊन जन्माला येतो'.",
+      "dialogue": "माणसाच्या मुलाला शिकवावं लागतं, किंवा शिकवण्याची प्रक्रीया घडवून आणावी लागते व 'माणसाचा मेंदू क्षमता घेऊन जन्माला येतो'. आपण बारकाईने यातील फरक पाहू."
+    },
+    {
+      "beat_id": "2.1.4_beat_07",
+      "visual": "Display the pointers in infographics.",
+      "ost": "“प्रत्येक मूल वेगळे असते”\n“विद्यार्थ्यांच्या क्षमतेनुसार ते शिकत व त्याला शिकवावं लागत”\n“आडात नाही तर पोहऱ्यात कुठून येणार”",
+      "dialogue": "आपण अनेकदा काही वाक्ये ऐकतो —\n“प्रत्येक मूल वेगळे असते”,\n“विद्यार्थ्यांच्या क्षमतेनुसार ते शिकत व त्याला शिकवावं लागत”, किंवा “आडात नाही तर पोहऱ्यात कुठून येणार”."
+    },
+    {
+      "beat_id": "2.1.4_beat_08",
+      "visual": "Talking head full screen",
+      "ost": "",
+      "dialogue": "या वाक्यांचा अर्थ आहे, की प्रत्येक मुलात आपल्या क्षमतांनुसार 'शिकण्याची प्रक्रीया घडते'. म्हणजे शिकण्याची प्रक्रीया घडवूनच आणावी लागते पण, ती प्रक्रीया करताना विदयार्थ्यांची 'क्षमता' विचारात घ्यावी लागते"
+    },
+    {
+      "beat_id": "2.1.4_beat_09",
+      "visual": "Display the relatable line art image of Competency-Based Curriculum and then display the ost beside the image",
+      "ost": "‘क्षमताधिष्ठित अभ्यासक्रम’\nविद्यार्थ्यांच्या वैयक्तिक क्षमतांचा विचार करून अध्यापनाची रचना करणे आवश्यक ठरते.",
+      "dialogue": "याच विचारातून ‘क्षमताधिष्ठित अभ्यासक्रम’ ही संकल्पना विकसित झाली आहे. विद्यार्थ्यांच्या वैयक्तिक क्षमतांचा विचार करून अध्यापनाची रचना करणे आवश्यक ठरते."
+    },
+    {
+      "beat_id": "2.1.4_beat_10",
+      "visual": "Talking head full screen",
+      "ost": "",
+      "dialogue": "या मुद्यांमधून हे लक्षात ठेवा की - माणसाचा मेंदू हा प्रगतीस म्हणजे शिकण्यास कारणीभूत आहे, महत्वाचा आहे आणि मेंदू सगळ्यांना असला तरी प्रत्येक मुलाच्या 'क्षमता' वेगळ्या असल्यामुळे 'शिकण्याची प्रक्रिया' प्रत्येकाची वेगळी आहे."
+    },
+    {
+      "beat_id": "2.1.4_beat_11",
+      "visual": "Display a tecaher thinking and in that speech bubble add the example of the area which we have done in module one. No audio of that exaple but just show a recap.",
+      "ost": "",
+      "dialogue": "आता 'नवनिर्मिती' मधील 'क्षेत्रफळ' शिकवल्याचे उदाहरण आठवा. प्रत्येक मूल वेगळ्या क्षमतेचे असल्यामुळे शिकवण्याच्या पद्धतीत नावीन्यता आणल्यावरच शिकण्याची प्रक्रिया प्रत्येकाच्या क्षमतेनुसार होणार आहे."
+    },
+    {
+      "beat_id": "2.1.4_beat_12",
+      "visual": "Display a class of the student in that show one child is reading, one is writing, 2 are doing mischief one is solving sums, one is shouting and display the ost is sync with narration प्रत्येक मूल वेगळे आहे.",
+      "ost": "“प्रत्येक मूल वेगळे आहे.”",
+      "dialogue": "“प्रत्येक मूल वेगळे आहे” या विधानामागील शैक्षणिक अर्थ याच ठिकाणी स्पष्ट होतो. विद्यार्थ्यांतील वैविध्य समजून घेणे ही प्रभावी अध्यापनाची पूर्वअट आहे."
+    },
+    {
+      "beat_id": "2.1.4_beat_13",
+      "visual": "Talking head full screen",
+      "ost": "",
+      "dialogue": "आता पुढील भाग पाहण्याआधी हे करून पहा, तुमच्या वर्गातील विद्यार्थ्यांच्या शिकण्यातील वैविध्य लक्षात घेऊन,"
+    },
+    {
+      "beat_id": "2.1.4_beat_14",
+      "visual": "Create a activity screen.",
+      "ost": "एखादा विषय शिकवताना तुम्ही वापरलेल्या दोन वेगळ्या अध्यापन पद्धतींचा विचार करा. त्या पद्धती विद्यार्थ्यांच्या क्षमतांनुसार कशा उपयुक्त ठरल्या, याची नोंद करा.",
+      "dialogue": "एखादा विषय शिकवताना तुम्ही वापरलेल्या दोन वेगळ्या अध्यापन पद्धतींचा विचार करा. त्या पद्धती विद्यार्थ्यांच्या क्षमतांनुसार कशा उपयुक्त ठरल्या, याची नोंद करा."
+    }
+  ]
+}
