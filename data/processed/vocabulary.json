@@ -1,0 +1,2150 @@
+[
+  {
+    "id": "VIS001",
+    "canonical_phrase": "Talking head full screen",
+    "count": 273,
+    "aliases": [
+      "Talking head full screen"
+    ]
+  },
+  {
+    "id": "VIS002",
+    "canonical_phrase": "Display the pointers in infographics.",
+    "count": 50,
+    "aliases": [
+      "Display the pointers in infographics.",
+      "Display the pointers in the Infographics.",
+      "Display the pointers in the infographics.",
+      "Display the points in infographics."
+    ]
+  },
+  {
+    "id": "VIS003",
+    "canonical_phrase": "Display the content as it is on the screen.",
+    "count": 20,
+    "aliases": [
+      "Display the content as it is on the screen."
+    ]
+  },
+  {
+    "id": "VIS004",
+    "canonical_phrase": "Create an activity screen.",
+    "count": 15,
+    "aliases": [
+      "Create a activity screen.",
+      "Create an activity screen."
+    ]
+  },
+  {
+    "id": "VIS005",
+    "canonical_phrase": "Create a reflection spot screen.",
+    "count": 10,
+    "aliases": [
+      "Create a reflection spot screen."
+    ]
+  },
+  {
+    "id": "VIS006",
+    "canonical_phrase": "Display the ost as it is on the screen in animation.",
+    "count": 8,
+    "aliases": [
+      "Display the ost as it is on the screen in animation."
+    ]
+  },
+  {
+    "id": "VIS007",
+    "canonical_phrase": "Display the ost as it is on the screen.",
+    "count": 7,
+    "aliases": [
+      "Display the ost as it is on the screen."
+    ]
+  },
+  {
+    "id": "VIS008",
+    "canonical_phrase": "Display the content as it is on the screen in animation.",
+    "count": 6,
+    "aliases": [
+      "Display the content as it is on the screen in animation."
+    ]
+  },
+  {
+    "id": "VIS009",
+    "canonical_phrase": "Display the content as it is in animation.",
+    "count": 4,
+    "aliases": [
+      "Display the content as it is in animation."
+    ]
+  },
+  {
+    "id": "VIS010",
+    "canonical_phrase": "Display the content as it is on the screen with highlighted words.",
+    "count": 3,
+    "aliases": [
+      "Display the content as it is on the screen with highlighted words."
+    ]
+  },
+  {
+    "id": "VIS011",
+    "canonical_phrase": "Display the content in infographics.",
+    "count": 3,
+    "aliases": [
+      "Display the content in infographics."
+    ]
+  },
+  {
+    "id": "VIS012",
+    "canonical_phrase": "Display the ost as it is on the screen with highlighted words.",
+    "count": 3,
+    "aliases": [
+      "Display the ost as it is on the screen with highlighted words."
+    ]
+  },
+  {
+    "id": "VIS013",
+    "canonical_phrase": "Display pointers with related images.",
+    "count": 2,
+    "aliases": [
+      "Display pointers with related images."
+    ]
+  },
+  {
+    "id": "VIS014",
+    "canonical_phrase": "Display the content as it is with highlighted words.",
+    "count": 2,
+    "aliases": [
+      "Display the content as it is with highlighted words."
+    ]
+  },
+  {
+    "id": "VIS015",
+    "canonical_phrase": "Display the content as it is with the highlighted words.",
+    "count": 2,
+    "aliases": [
+      "Display the content as it is with the highlighted words."
+    ]
+  },
+  {
+    "id": "VIS016",
+    "canonical_phrase": "Display the pointers in Infographics.",
+    "count": 2,
+    "aliases": [
+      "Display the pointers in Infographics."
+    ]
+  },
+  {
+    "id": "VIS017",
+    "canonical_phrase": "Display the questions in the reflection spot screen.",
+    "count": 2,
+    "aliases": [
+      "Display the questions in the reflection spot screen."
+    ]
+  },
+  {
+    "id": "VIS018",
+    "canonical_phrase": "Display the screen in to full line art animation for explaining the situations.",
+    "count": 2,
+    "aliases": [
+      "Display the screen in to full line art animation for explaining the situations."
+    ]
+  },
+  {
+    "id": "VIS019",
+    "canonical_phrase": "Display this in hierarchy.",
+    "count": 2,
+    "aliases": [
+      "Display this in hierarchy."
+    ]
+  },
+  {
+    "id": "VIS020",
+    "canonical_phrase": "Explain each example in full screen by screen line art animation.",
+    "count": 2,
+    "aliases": [
+      "Explain each example in full screen by screen line art animation."
+    ]
+  },
+  {
+    "id": "VIS021",
+    "canonical_phrase": "Explain this entire example in full line art screen.",
+    "count": 2,
+    "aliases": [
+      "Explain this entire example in full line art screen."
+    ]
+  },
+  {
+    "id": "VIS022",
+    "canonical_phrase": "3D brain rotates on screen.",
+    "count": 1,
+    "aliases": [
+      "3D brain rotates on screen."
+    ]
+  },
+  {
+    "id": "VIS023",
+    "canonical_phrase": "A line art image of the student and Teacher and beside that display the ost with highlighted words.",
+    "count": 1,
+    "aliases": [
+      "A line art image of the student and Teacher and beside that display the ost with highlighted words."
+    ]
+  },
+  {
+    "id": "VIS024",
+    "canonical_phrase": "Arrange pointer vertically.",
+    "count": 1,
+    "aliases": [
+      "Arrange pointer vertically."
+    ]
+  },
+  {
+    "id": "VIS025",
+    "canonical_phrase": "Byfergate the screen in to parts and then display the content also add relatable image.",
+    "count": 1,
+    "aliases": [
+      "Byfergate the screen in to parts and then display the content also add relatable image."
+    ]
+  },
+  {
+    "id": "VIS026",
+    "canonical_phrase": "Byfergate the screen into to and display part 1 in one side and part 2 on other And highlight the imp words.",
+    "count": 1,
+    "aliases": [
+      "Byfergate the screen into to and display part 1 in one side and part 2 on other And highlight the imp words."
+    ]
+  },
+  {
+    "id": "VIS027",
+    "canonical_phrase": "Close-up of Manager (voice only or avatar).",
+    "count": 1,
+    "aliases": [
+      "Close-up of Manager (voice only or avatar)."
+    ]
+  },
+  {
+    "id": "VIS028",
+    "canonical_phrase": "Create a Activity Screen.",
+    "count": 1,
+    "aliases": [
+      "Create a Activity Screen."
+    ]
+  },
+  {
+    "id": "VIS029",
+    "canonical_phrase": "Create a Activity screen.",
+    "count": 1,
+    "aliases": [
+      "Create a Activity screen."
+    ]
+  },
+  {
+    "id": "VIS030",
+    "canonical_phrase": "Create a girl sitting and reading a diary and beside that display the content as it is on the screen with highlighted words.",
+    "count": 1,
+    "aliases": [
+      "Create a girl sitting and reading a diary and beside that display the content as it is on the screen with highlighted words."
+    ]
+  },
+  {
+    "id": "VIS031",
+    "canonical_phrase": "Create a image step by step in animation acc to the narration.",
+    "count": 1,
+    "aliases": [
+      "Create a image step by step in animation acc to the narration."
+    ]
+  },
+  {
+    "id": "VIS032",
+    "canonical_phrase": "Create a reflection spot screen here.",
+    "count": 1,
+    "aliases": [
+      "Create a reflection spot screen here."
+    ]
+  },
+  {
+    "id": "VIS033",
+    "canonical_phrase": "Create a reflection spot screen. Display the questions in 3 different boxes.",
+    "count": 1,
+    "aliases": [
+      "Create a reflection spot screen.\nDisplay the questions in 3 different boxes."
+    ]
+  },
+  {
+    "id": "VIS034",
+    "canonical_phrase": "Create a teacher standing in line art little animation and then beside that display the content as it is on the screen.",
+    "count": 1,
+    "aliases": [
+      "Create a teacher standing in line art little animation and then beside that display the content as it is on the screen."
+    ]
+  },
+  {
+    "id": "VIS035",
+    "canonical_phrase": "Diplay the line art image of the child is doing a social interaction; toddlers are playing in a garden.",
+    "count": 1,
+    "aliases": [
+      "Diplay the line art image of the child is doing a social interaction; toddlers are playing in a garden."
+    ]
+  },
+  {
+    "id": "VIS036",
+    "canonical_phrase": "Display 1 related image on left and then display the text in animation.",
+    "count": 1,
+    "aliases": [
+      "Display 1 related image on left and then display the text in animation."
+    ]
+  },
+  {
+    "id": "VIS037",
+    "canonical_phrase": "Display 2 parts in animation.",
+    "count": 1,
+    "aliases": [
+      "Display 2 parts in animation."
+    ]
+  },
+  {
+    "id": "VIS038",
+    "canonical_phrase": "Display 3 points in Infographics.",
+    "count": 1,
+    "aliases": [
+      "Display 3 points in Infographics."
+    ]
+  },
+  {
+    "id": "VIS039",
+    "canonical_phrase": "Display 5 pointers in animated infographics.",
+    "count": 1,
+    "aliases": [
+      "Display 5 pointers in animated infographics."
+    ]
+  },
+  {
+    "id": "VIS040",
+    "canonical_phrase": "Display a Man sitting in the car but he don’t know how to ride.",
+    "count": 1,
+    "aliases": [
+      "Display a Man sitting in the car but he don’t know how to ride."
+    ]
+  },
+  {
+    "id": "VIS041",
+    "canonical_phrase": "Display a boy in a scared emotion and beside that display the content in animation.",
+    "count": 1,
+    "aliases": [
+      "Display a boy in a scared emotion and beside that display the content in animation."
+    ]
+  },
+  {
+    "id": "VIS042",
+    "canonical_phrase": "Display a child studying in stress.",
+    "count": 1,
+    "aliases": [
+      "Display a child studying in stress."
+    ]
+  },
+  {
+    "id": "VIS043",
+    "canonical_phrase": "Display a class of the student in that show one child is reading, one is writing, 2 are doing mischief one is solving sums, one is shouting and display the ost is sync with narration प्रत्येक मूल वेगळे आहे.",
+    "count": 1,
+    "aliases": [
+      "Display a class of the student in that show one child is reading, one is writing, 2 are doing mischief one is solving sums, one is shouting and display the ost is sync with narration प्रत्येक मूल वेगळे आहे."
+    ]
+  },
+  {
+    "id": "VIS044",
+    "canonical_phrase": "Display a full screen animation of the teacher is conducting one activity in the class.",
+    "count": 1,
+    "aliases": [
+      "Display a full screen animation of the teacher is conducting one activity in the class."
+    ]
+  },
+  {
+    "id": "VIS045",
+    "canonical_phrase": "Display a line art animation for this acc to the narration.",
+    "count": 1,
+    "aliases": [
+      "Display a line art animation for this acc to the narration."
+    ]
+  },
+  {
+    "id": "VIS046",
+    "canonical_phrase": "Display a notepad and draw a box in that box please display each point one by one from the narration. Note: 1 point at a time. Then bring slider and then display next point.",
+    "count": 1,
+    "aliases": [
+      "Display a notepad and draw a box in that box please display each point one by one from the narration.\nNote: 1 point at a time. Then bring slider and then display next point."
+    ]
+  },
+  {
+    "id": "VIS047",
+    "canonical_phrase": "Display a notepad and ost in animation.",
+    "count": 1,
+    "aliases": [
+      "Display a notepad and ost in animation."
+    ]
+  },
+  {
+    "id": "VIS048",
+    "canonical_phrase": "Display a related image acc to the narration.",
+    "count": 1,
+    "aliases": [
+      "Display a related image acc to the narration."
+    ]
+  },
+  {
+    "id": "VIS049",
+    "canonical_phrase": "Display a student and sitting on the bench and teacher is guiding him.",
+    "count": 1,
+    "aliases": [
+      "Display a student and sitting on the bench and teacher is guiding him."
+    ]
+  },
+  {
+    "id": "VIS050",
+    "canonical_phrase": "Display a tecaher thinking and in that speech bubble add the example of the area which we have done in module one. No audio of that exaple but just show a recap.",
+    "count": 1,
+    "aliases": [
+      "Display a tecaher thinking and in that speech bubble add the example of the area which we have done in module one. No audio of that exaple but just show a recap."
+    ]
+  },
+  {
+    "id": "VIS051",
+    "canonical_phrase": "Display as it is on the screen.",
+    "count": 1,
+    "aliases": [
+      "Display as it is on the screen."
+    ]
+  },
+  {
+    "id": "VIS052",
+    "canonical_phrase": "Display entire body showing nervous system and then zoom into each part acc to the narration and with arrow display its ost.",
+    "count": 1,
+    "aliases": [
+      "Display entire body showing nervous system and then zoom into each part acc to the narration and with arrow display its ost."
+    ]
+  },
+  {
+    "id": "VIS053",
+    "canonical_phrase": "Display image acc to the narration show that a teacher is taking lecture outside the school in open environment.",
+    "count": 1,
+    "aliases": [
+      "Display image acc to the narration show that a teacher is taking lecture outside the school in open environment."
+    ]
+  },
+  {
+    "id": "VIS054",
+    "canonical_phrase": "Display in full screen line art animation acc to the narration.",
+    "count": 1,
+    "aliases": [
+      "Display in full screen line art animation acc to the narration."
+    ]
+  },
+  {
+    "id": "VIS055",
+    "canonical_phrase": "Display in pointers.",
+    "count": 1,
+    "aliases": [
+      "Display in pointers."
+    ]
+  },
+  {
+    "id": "VIS056",
+    "canonical_phrase": "Display line art image for each sentence given in the narration.",
+    "count": 1,
+    "aliases": [
+      "Display line art image for each sentence given in the narration."
+    ]
+  },
+  {
+    "id": "VIS057",
+    "canonical_phrase": "Display narration in line art animation.",
+    "count": 1,
+    "aliases": [
+      "Display narration in line art animation."
+    ]
+  },
+  {
+    "id": "VIS058",
+    "canonical_phrase": "Display on the image for the related scenes.",
+    "count": 1,
+    "aliases": [
+      "Display on the image for the related scenes."
+    ]
+  },
+  {
+    "id": "VIS059",
+    "canonical_phrase": "Display one by one image of the stone age peoples from homo sapiens to human.",
+    "count": 1,
+    "aliases": [
+      "Display one by one image of the stone age peoples from homo sapiens to human."
+    ]
+  },
+  {
+    "id": "VIS060",
+    "canonical_phrase": "Display only the image related to the 'Cognitive Process'",
+    "count": 1,
+    "aliases": [
+      "Display only the image related to the 'Cognitive Process'"
+    ]
+  },
+  {
+    "id": "VIS061",
+    "canonical_phrase": "Display pointers in infographics",
+    "count": 1,
+    "aliases": [
+      "Display pointers in infographics"
+    ]
+  },
+  {
+    "id": "VIS062",
+    "canonical_phrase": "Display pointers in infographics.",
+    "count": 1,
+    "aliases": [
+      "Display pointers in infographics."
+    ]
+  },
+  {
+    "id": "VIS063",
+    "canonical_phrase": "Display points with relate images.",
+    "count": 1,
+    "aliases": [
+      "Display points with relate images."
+    ]
+  },
+  {
+    "id": "VIS064",
+    "canonical_phrase": "Display relatable images with the pointers and add a ending line.",
+    "count": 1,
+    "aliases": [
+      "Display relatable images with the pointers and add a ending line."
+    ]
+  },
+  {
+    "id": "VIS065",
+    "canonical_phrase": "Display teacher and then pointers besides it vertically.",
+    "count": 1,
+    "aliases": [
+      "Display teacher and then pointers besides it vertically."
+    ]
+  },
+  {
+    "id": "VIS066",
+    "canonical_phrase": "Display the 3 related images acc to the narration and give naming below it. And then display the ending line.",
+    "count": 1,
+    "aliases": [
+      "Display the 3 related images acc to the narration and give naming below it. And then display the ending line."
+    ]
+  },
+  {
+    "id": "VIS067",
+    "canonical_phrase": "Display the Questions in the Reflection spot screen.",
+    "count": 1,
+    "aliases": [
+      "Display the Questions in the Reflection spot screen."
+    ]
+  },
+  {
+    "id": "VIS068",
+    "canonical_phrase": "Display the Reflection spot screen.",
+    "count": 1,
+    "aliases": [
+      "Display the Reflection spot screen."
+    ]
+  },
+  {
+    "id": "VIS069",
+    "canonical_phrase": "Display the above image again and then decrease the background opacity and then just highlight the brain in animation.",
+    "count": 1,
+    "aliases": [
+      "Display the above image again and then decrease the background opacity and then just highlight the brain in animation."
+    ]
+  },
+  {
+    "id": "VIS070",
+    "canonical_phrase": "Display the animation of the folding thumb with fingers repeat that here and then highlight the outer cover of 4 fingers and then write 'निओकॉर्टेक्स'.",
+    "count": 1,
+    "aliases": [
+      "Display the animation of the folding thumb with fingers repeat that here and then highlight the outer cover of 4 fingers and then write 'निओकॉर्टेक्स'."
+    ]
+  },
+  {
+    "id": "VIS071",
+    "canonical_phrase": "Display the book of marathi student is reading and then display the ost in animation.",
+    "count": 1,
+    "aliases": [
+      "Display the book of marathi student is reading and then display the ost in animation."
+    ]
+  },
+  {
+    "id": "VIS072",
+    "canonical_phrase": "Display the boy reading a book and thinking because while reading he got something related to its prior experience. show a speech bubble and display a line art newtons law in that speech bubble only image. (which we have done in module 1)",
+    "count": 1,
+    "aliases": [
+      "Display the boy reading a book and thinking because while reading he got something related to its prior experience.\nshow a speech bubble and display a line art newtons law in that speech bubble only image.\n(which we have done in module 1)"
+    ]
+  },
+  {
+    "id": "VIS073",
+    "canonical_phrase": "Display the boy reading a book, and then display the content in animation.",
+    "count": 1,
+    "aliases": [
+      "Display the boy reading a book, and then display the content in animation."
+    ]
+  },
+  {
+    "id": "VIS074",
+    "canonical_phrase": "Display the classroom in animation acc to the narration.",
+    "count": 1,
+    "aliases": [
+      "Display the classroom in animation acc to the narration."
+    ]
+  },
+  {
+    "id": "VIS075",
+    "canonical_phrase": "Display the classroom teacher is teaching maths sums and students are solving it in their notebook.",
+    "count": 1,
+    "aliases": [
+      "Display the classroom teacher is teaching maths sums and students are solving it in their notebook."
+    ]
+  },
+  {
+    "id": "VIS076",
+    "canonical_phrase": "Display the content as it is in the screen.",
+    "count": 1,
+    "aliases": [
+      "Display the content as it is in the screen."
+    ]
+  },
+  {
+    "id": "VIS077",
+    "canonical_phrase": "Display the content as it is on the scereen.",
+    "count": 1,
+    "aliases": [
+      "Display the content as it is on the scereen."
+    ]
+  },
+  {
+    "id": "VIS078",
+    "canonical_phrase": "Display the content as it is on the screen with imp highlighted words.",
+    "count": 1,
+    "aliases": [
+      "Display the content as it is on the screen with imp highlighted words."
+    ]
+  },
+  {
+    "id": "VIS079",
+    "canonical_phrase": "Display the content as it is on the screen. And then highlight the system 1.",
+    "count": 1,
+    "aliases": [
+      "Display the content as it is on the screen. And then highlight the system 1."
+    ]
+  },
+  {
+    "id": "VIS080",
+    "canonical_phrase": "Display the content as it is with the highlighted words. Show the school building beside.",
+    "count": 1,
+    "aliases": [
+      "Display the content as it is with the highlighted words. Show the school building beside."
+    ]
+  },
+  {
+    "id": "VIS081",
+    "canonical_phrase": "Display the content as it is,",
+    "count": 1,
+    "aliases": [
+      "Display the content as it is,"
+    ]
+  },
+  {
+    "id": "VIS082",
+    "canonical_phrase": "Display the content in the reflection spot screen.",
+    "count": 1,
+    "aliases": [
+      "Display the content in the reflection spot screen."
+    ]
+  },
+  {
+    "id": "VIS083",
+    "canonical_phrase": "Display the content with highlighted words.",
+    "count": 1,
+    "aliases": [
+      "Display the content with highlighted words."
+    ]
+  },
+  {
+    "id": "VIS084",
+    "canonical_phrase": "Display the diagram of the हिप्पोकॅम्पस in animation. and display only the Temporal Lobe and हिप्पोकॅम्पस the given image is for the reference",
+    "count": 1,
+    "aliases": [
+      "Display the diagram of the हिप्पोकॅम्पस in animation.\nand display only the Temporal Lobe and हिप्पोकॅम्पस\nthe given image is for the reference"
+    ]
+  },
+  {
+    "id": "VIS085",
+    "canonical_phrase": "Display the easy line art animation acc to the narration.",
+    "count": 1,
+    "aliases": [
+      "Display the easy line art animation acc to the narration."
+    ]
+  },
+  {
+    "id": "VIS086",
+    "canonical_phrase": "Display the entire image of the brain then zoom it then display the formation of the limbic brain in animation and then display these parts. The image is only for the reference purpose.",
+    "count": 1,
+    "aliases": [
+      "Display the entire image of the brain then zoom it then display the formation of the limbic brain in animation and then display these parts.\nThe image is only for the reference purpose."
+    ]
+  },
+  {
+    "id": "VIS087",
+    "canonical_phrase": "Display the entire scenario in the line art animation full screen.",
+    "count": 1,
+    "aliases": [
+      "Display the entire scenario in the line art animation full screen."
+    ]
+  },
+  {
+    "id": "VIS088",
+    "canonical_phrase": "Display the entire screen in line art animation that the teacher is teaching but the students are not interested in that. And then decrease the opacity and highlight student and in the speech, bubble add “विद्यार्थ्यांची शिकण्यातील रुची कमी होत आहे.”",
+    "count": 1,
+    "aliases": [
+      "Display the entire screen in line art animation that the teacher is teaching but the students are not interested in that. And then decrease the opacity and highlight student and in the speech, bubble add “विद्यार्थ्यांची शिकण्यातील रुची कमी होत आहे.”"
+    ]
+  },
+  {
+    "id": "VIS089",
+    "canonical_phrase": "Display the formation of 2D image of the brain.",
+    "count": 1,
+    "aliases": [
+      "Display the formation of 2D image of the brain."
+    ]
+  },
+  {
+    "id": "VIS090",
+    "canonical_phrase": "Display the full body image in a rotating way 3D.",
+    "count": 1,
+    "aliases": [
+      "Display the full body image in a rotating way 3D."
+    ]
+  },
+  {
+    "id": "VIS091",
+    "canonical_phrase": "Display the full screen animation acc to the narration.",
+    "count": 1,
+    "aliases": [
+      "Display the full screen animation acc to the narration."
+    ]
+  },
+  {
+    "id": "VIS092",
+    "canonical_phrase": "Display the full screen image of a classroom and show students are doing meditation.",
+    "count": 1,
+    "aliases": [
+      "Display the full screen image of a classroom and show students are doing meditation."
+    ]
+  },
+  {
+    "id": "VIS093",
+    "canonical_phrase": "Display the full screen line art animation acc to the narration.",
+    "count": 1,
+    "aliases": [
+      "Display the full screen line art animation acc to the narration."
+    ]
+  },
+  {
+    "id": "VIS094",
+    "canonical_phrase": "Display the full screen line art animation of a teacher showing a old coin to students and they are excited they have never seen that coin before.",
+    "count": 1,
+    "aliases": [
+      "Display the full screen line art animation of a teacher showing a old coin to students and they are excited they have never seen that coin before."
+    ]
+  },
+  {
+    "id": "VIS095",
+    "canonical_phrase": "Display the full screen line art animation of a teacher showing something through microscope and students are interested.",
+    "count": 1,
+    "aliases": [
+      "Display the full screen line art animation of a teacher showing something through microscope and students are interested."
+    ]
+  },
+  {
+    "id": "VIS096",
+    "canonical_phrase": "Display the full screen line art animation of the classroom and show that teacher is asking a question and students are interested, excited to answer it.",
+    "count": 1,
+    "aliases": [
+      "Display the full screen line art animation of the classroom and show that teacher is asking a question and students are interested, excited to answer it."
+    ]
+  },
+  {
+    "id": "VIS097",
+    "canonical_phrase": "Display the full screen line art image Show some activities which are there in narration.",
+    "count": 1,
+    "aliases": [
+      "Display the full screen line art image Show some activities which are there in narration."
+    ]
+  },
+  {
+    "id": "VIS098",
+    "canonical_phrase": "Display the full screen line art image acc to the narration.",
+    "count": 1,
+    "aliases": [
+      "Display the full screen line art image acc to the narration."
+    ]
+  },
+  {
+    "id": "VIS099",
+    "canonical_phrase": "Display the full screen line art image related to narration.",
+    "count": 1,
+    "aliases": [
+      "Display the full screen line art image related to narration."
+    ]
+  },
+  {
+    "id": "VIS100",
+    "canonical_phrase": "Display the girl in the corridor of the school and thinking about the rangoli show this in line art movements.",
+    "count": 1,
+    "aliases": [
+      "Display the girl in the corridor of the school and thinking about the rangoli show this in line art movements."
+    ]
+  },
+  {
+    "id": "VIS101",
+    "canonical_phrase": "Display the given image in full animation.",
+    "count": 1,
+    "aliases": [
+      "Display the given image in full animation."
+    ]
+  },
+  {
+    "id": "VIS102",
+    "canonical_phrase": "Display the heading then display the 3 pointers in infographics and then one by one add arrow below it in animation and display its explanation.",
+    "count": 1,
+    "aliases": [
+      "Display the heading then display the 3 pointers in infographics and then one by one add arrow below it in animation and display its explanation."
+    ]
+  },
+  {
+    "id": "VIS103",
+    "canonical_phrase": "Display the hierarchy show the 'ब्रेनस्टेम' and then below that the image of the parts of the brain and highlight each part.",
+    "count": 1,
+    "aliases": [
+      "Display the hierarchy show the 'ब्रेनस्टेम' and then below that the image of the parts of the brain and highlight each part."
+    ]
+  },
+  {
+    "id": "VIS104",
+    "canonical_phrase": "Display the image acc to the narration.",
+    "count": 1,
+    "aliases": [
+      "Display the image acc to the narration."
+    ]
+  },
+  {
+    "id": "VIS105",
+    "canonical_phrase": "Display the image of the 'Reptilian brain' and beside that display the ost as it is on the screen in animation",
+    "count": 1,
+    "aliases": [
+      "Display the image of the 'Reptilian brain' and beside that display the ost as it is on the screen in animation"
+    ]
+  },
+  {
+    "id": "VIS106",
+    "canonical_phrase": "Display the image of the Daniel Kahneman and then beside that display the image of the book and ost in animation.",
+    "count": 1,
+    "aliases": [
+      "Display the image of the Daniel Kahneman and then beside that display the image of the book and ost in animation."
+    ]
+  },
+  {
+    "id": "VIS107",
+    "canonical_phrase": "Display the image of the Edward and then display the ost.",
+    "count": 1,
+    "aliases": [
+      "Display the image of the Edward and then display the ost."
+    ]
+  },
+  {
+    "id": "VIS108",
+    "canonical_phrase": "Display the image of the Harward Gardner and then display the ost.",
+    "count": 1,
+    "aliases": [
+      "Display the image of the Harward Gardner and then display the ost."
+    ]
+  },
+  {
+    "id": "VIS109",
+    "canonical_phrase": "Display the image of the Neocortex in 3D and then display the points at end in animation.",
+    "count": 1,
+    "aliases": [
+      "Display the image of the Neocortex in 3D and then display the points at end in animation."
+    ]
+  },
+  {
+    "id": "VIS110",
+    "canonical_phrase": "Display the image of the angry student and the teacher is asking question to him line art animation.",
+    "count": 1,
+    "aliases": [
+      "Display the image of the angry student and the teacher is asking question to him line art animation."
+    ]
+  },
+  {
+    "id": "VIS111",
+    "canonical_phrase": "Display the image of the boy studying and then display the content beside in animation.",
+    "count": 1,
+    "aliases": [
+      "Display the image of the boy studying and then display the content beside in animation."
+    ]
+  },
+  {
+    "id": "VIS112",
+    "canonical_phrase": "Display the image of the boy who is for example writing the essay on the Rain. He is not only just writing but show that is visualizing the Rain.",
+    "count": 1,
+    "aliases": [
+      "Display the image of the boy who is for example writing the essay on the Rain.\nHe is not only just writing but show that is visualizing the Rain."
+    ]
+  },
+  {
+    "id": "VIS113",
+    "canonical_phrase": "Display the image of the brain and highlight the signals in it and then display the ost in animation.",
+    "count": 1,
+    "aliases": [
+      "Display the image of the brain and highlight the signals in it and then display the ost in animation."
+    ]
+  },
+  {
+    "id": "VIS114",
+    "canonical_phrase": "Display the image of the child holding a tropfy.",
+    "count": 1,
+    "aliases": [
+      "Display the image of the child holding a tropfy."
+    ]
+  },
+  {
+    "id": "VIS115",
+    "canonical_phrase": "Display the image of the classroom students are sitting on the benches by closing the eyes.",
+    "count": 1,
+    "aliases": [
+      "Display the image of the classroom students are sitting on the benches by closing the eyes."
+    ]
+  },
+  {
+    "id": "VIS116",
+    "canonical_phrase": "Display the image of the classroom teacher is teaching the lesson. And show teacher is asking question,\"ते युद्ध टाळता आले असते का?",
+    "count": 1,
+    "aliases": [
+      "Display the image of the classroom teacher is teaching the lesson. And show teacher is asking question,\"ते युद्ध टाळता आले असते का?"
+    ]
+  },
+  {
+    "id": "VIS117",
+    "canonical_phrase": "Display the image of the classroom were the teacher is teaching but the students are not attentive they are bored and then after this screen animation again add the next screen of the teacher training were the teachers feel little bored.",
+    "count": 1,
+    "aliases": [
+      "Display the image of the classroom were the teacher is teaching but the students are not attentive they are bored and then after this screen animation again add the next screen of the teacher training were the teachers feel little bored."
+    ]
+  },
+  {
+    "id": "VIS118",
+    "canonical_phrase": "Display the image of the entire brain and write ost.",
+    "count": 1,
+    "aliases": [
+      "Display the image of the entire brain and write ost."
+    ]
+  },
+  {
+    "id": "VIS119",
+    "canonical_phrase": "Display the image of the happy student and then display content beside it.",
+    "count": 1,
+    "aliases": [
+      "Display the image of the happy student and then display content beside it."
+    ]
+  },
+  {
+    "id": "VIS120",
+    "canonical_phrase": "Display the image of the human brain in 3d animation",
+    "count": 1,
+    "aliases": [
+      "Display the image of the human brain in 3d animation"
+    ]
+  },
+  {
+    "id": "VIS121",
+    "canonical_phrase": "Display the image of the lady doing Meditation and then display the content in animation.",
+    "count": 1,
+    "aliases": [
+      "Display the image of the lady doing Meditation and then display the content in animation."
+    ]
+  },
+  {
+    "id": "VIS122",
+    "canonical_phrase": "Display the image of the lady doing deep breathing and then display the content in animation.",
+    "count": 1,
+    "aliases": [
+      "Display the image of the lady doing  deep breathing and then display the content in animation."
+    ]
+  },
+  {
+    "id": "VIS123",
+    "canonical_phrase": "Display the image of the parents have taken the students to the zoo to experience a real animal.",
+    "count": 1,
+    "aliases": [
+      "Display the image of the parents have taken the students to the zoo to experience a real animal."
+    ]
+  },
+  {
+    "id": "VIS124",
+    "canonical_phrase": "Display the image of the student and teacher. show in animation that teacher is explaining to the students first the student is crying but after she explain he stops crying.",
+    "count": 1,
+    "aliases": [
+      "Display the image of the student and teacher.\nshow in animation that teacher is explaining to the students first the student is crying but after she explain he stops crying."
+    ]
+  },
+  {
+    "id": "VIS125",
+    "canonical_phrase": "Display the image of the student and the teacher at one side and then display the pointers in vertically pointers.",
+    "count": 1,
+    "aliases": [
+      "Display the image of the student and the teacher at one side and then display the pointers in vertically pointers."
+    ]
+  },
+  {
+    "id": "VIS126",
+    "canonical_phrase": "Display the image related to psychology and then display the text.",
+    "count": 1,
+    "aliases": [
+      "Display the image related to psychology and then display the text."
+    ]
+  },
+  {
+    "id": "VIS127",
+    "canonical_phrase": "Display the image related to the gravity eg the boy is throwing ball upwards and it is falling down.",
+    "count": 1,
+    "aliases": [
+      "Display the image related to the gravity eg the boy is throwing ball upwards and it is falling down."
+    ]
+  },
+  {
+    "id": "VIS128",
+    "canonical_phrase": "Display the image with the points.",
+    "count": 1,
+    "aliases": [
+      "Display the image with the points."
+    ]
+  },
+  {
+    "id": "VIS129",
+    "canonical_phrase": "Display the images of the नेहमी खेळ, गाणी किंवा मनोरंजन add images related to it and put the cross on that image.",
+    "count": 1,
+    "aliases": [
+      "Display the images of the नेहमी खेळ, गाणी किंवा मनोरंजन add images related to it and put the cross on that image."
+    ]
+  },
+  {
+    "id": "VIS130",
+    "canonical_phrase": "Display the lab and show that the student is doing experiement.",
+    "count": 1,
+    "aliases": [
+      "Display the lab and show that the student is doing experiement."
+    ]
+  },
+  {
+    "id": "VIS131",
+    "canonical_phrase": "Display the line art image acc to the narration full screen. Display a girl doing this exercise. And then display the content as it is in animation below it.",
+    "count": 1,
+    "aliases": [
+      "Display the line art image acc to the narration full screen.\nDisplay a girl doing this exercise.\nAnd then display the content as it is in animation below it."
+    ]
+  },
+  {
+    "id": "VIS132",
+    "canonical_phrase": "Display the line art image acc to the narration.",
+    "count": 1,
+    "aliases": [
+      "Display the line art image acc to the narration."
+    ]
+  },
+  {
+    "id": "VIS133",
+    "canonical_phrase": "Display the line art image for the first para the child mother is encouraging the child (Refer narration) and then after that for the next para show that the mother is scared and because of that in child mind there is some where negative thoughts that he can’t do this.",
+    "count": 1,
+    "aliases": [
+      "Display the line art image for the first para the child mother is encouraging the child (Refer narration) and then after that for the next para show that the mother is scared and because of that in child mind there is some where negative thoughts that he can’t do this."
+    ]
+  },
+  {
+    "id": "VIS134",
+    "canonical_phrase": "Display the line art image of all the persons one by one in animation with work done by them. पॉल ब्रॉका कार्ल वर्निके सॅन्टियागो रामोन व काजाल",
+    "count": 1,
+    "aliases": [
+      "Display the line art image of all the persons one by one in animation with work done by them.\nपॉल ब्रॉका\nकार्ल वर्निके\nसॅन्टियागो रामोन व काजाल"
+    ]
+  },
+  {
+    "id": "VIS135",
+    "canonical_phrase": "Display the line art image of the Mahatma Gandhi and beside that display the quote in animation.",
+    "count": 1,
+    "aliases": [
+      "Display the line art image of the Mahatma Gandhi and beside that display the quote in animation."
+    ]
+  },
+  {
+    "id": "VIS136",
+    "canonical_phrase": "Display the line art image of the Mahatma Gandhi and then display the content.",
+    "count": 1,
+    "aliases": [
+      "Display the line art image of the Mahatma Gandhi and then display the content."
+    ]
+  },
+  {
+    "id": "VIS137",
+    "canonical_phrase": "Display the line art image of the buddha and then display the ost in animation.",
+    "count": 1,
+    "aliases": [
+      "Display the line art image of the buddha and then display the ost in animation."
+    ]
+  },
+  {
+    "id": "VIS138",
+    "canonical_phrase": "Display the line art image of the child acc to the narration.",
+    "count": 1,
+    "aliases": [
+      "Display the line art image of the child acc to the narration."
+    ]
+  },
+  {
+    "id": "VIS139",
+    "canonical_phrase": "Display the line art image of the lady and then zoom into the brain show the nervous system. And then show that lady is pregnant and show the increase of the neurons.",
+    "count": 1,
+    "aliases": [
+      "Display the line art image of the lady and then zoom into the brain show the nervous system. And then show that lady is pregnant and show the increase of the neurons."
+    ]
+  },
+  {
+    "id": "VIS140",
+    "canonical_phrase": "Display the line art image of the pottery man and show from a mud he shaped a beautiful pot.",
+    "count": 1,
+    "aliases": [
+      "Display the line art image of the pottery man and show from a mud he shaped a beautiful pot."
+    ]
+  },
+  {
+    "id": "VIS141",
+    "canonical_phrase": "Display the line art image of the student and the teacher and display the image in animation acc to the narration.(Negative)",
+    "count": 1,
+    "aliases": [
+      "Display the line art image of the student and the teacher and display the image in animation acc to the narration.(Negative)"
+    ]
+  },
+  {
+    "id": "VIS142",
+    "canonical_phrase": "Display the line art image of the student and the teacher and display the image in animation acc to the narration.(Positive)",
+    "count": 1,
+    "aliases": [
+      "Display the line art image of the student and the teacher and display the image in animation acc to the narration.(Positive)"
+    ]
+  },
+  {
+    "id": "VIS143",
+    "canonical_phrase": "Display the line art image of the toddler getting a diverse experience in one screen and after that display a same toddler doing a social conversation in garden.",
+    "count": 1,
+    "aliases": [
+      "Display the line art image of the toddler getting a diverse experience in one screen and after that display a same toddler doing a social conversation in garden."
+    ]
+  },
+  {
+    "id": "VIS144",
+    "canonical_phrase": "Display the line art image of the आंद्रेयास व्हेसालियस and then display the content as it is in animation.",
+    "count": 1,
+    "aliases": [
+      "Display the line art image of the आंद्रेयास व्हेसालियस and then display the content as it is in animation."
+    ]
+  },
+  {
+    "id": "VIS145",
+    "canonical_phrase": "Display the line art image of the इजिप्तमधील इम्होटेप and then display the content as it is in animation.",
+    "count": 1,
+    "aliases": [
+      "Display the line art image of the इजिप्तमधील इम्होटेप and then display the content as it is in animation."
+    ]
+  },
+  {
+    "id": "VIS146",
+    "canonical_phrase": "Display the line art image of the रेने देकार्त and then display the content as it is in animation.",
+    "count": 1,
+    "aliases": [
+      "Display the line art image of the रेने देकार्त and then display the content as it is in animation."
+    ]
+  },
+  {
+    "id": "VIS147",
+    "canonical_phrase": "Display the line art image of the वाइल्डर पेनफील्ड आणि डोनाल्ड हेब and then display the content in animation.",
+    "count": 1,
+    "aliases": [
+      "Display the line art image of the वाइल्डर पेनफील्ड आणि डोनाल्ड हेब and then display the content in animation."
+    ]
+  },
+  {
+    "id": "VIS148",
+    "canonical_phrase": "Display the line art of the student solving the maths and then display the pointers.",
+    "count": 1,
+    "aliases": [
+      "Display the line art of the student solving the maths and then display the pointers."
+    ]
+  },
+  {
+    "id": "VIS149",
+    "canonical_phrase": "Display the main points in infographic and then decrease the opacity of all and just highlight 1 and then reveal the information for it then do the same thing for the next. the suggestion is to create a wheel and reveal point one by one.",
+    "count": 1,
+    "aliases": [
+      "Display the main points in infographic and then decrease the opacity of all and just highlight 1 and then reveal the information for it then do the same thing for the next.\nthe suggestion is to create a wheel and reveal point one by one."
+    ]
+  },
+  {
+    "id": "VIS150",
+    "canonical_phrase": "Display the notepad in line art and then display the content besideit.",
+    "count": 1,
+    "aliases": [
+      "Display the notepad in line art and then display the content besideit."
+    ]
+  },
+  {
+    "id": "VIS151",
+    "canonical_phrase": "Display the ost as it ios and then highlight the word 'भावना'",
+    "count": 1,
+    "aliases": [
+      "Display the ost as it ios and then highlight the word 'भावना'"
+    ]
+  },
+  {
+    "id": "VIS152",
+    "canonical_phrase": "Display the ost as it is in animation with highlighted text.",
+    "count": 1,
+    "aliases": [
+      "Display the ost as it is in animation with highlighted text."
+    ]
+  },
+  {
+    "id": "VIS153",
+    "canonical_phrase": "Display the ost as it is on the sccreen.",
+    "count": 1,
+    "aliases": [
+      "Display the ost as it is on the sccreen."
+    ]
+  },
+  {
+    "id": "VIS154",
+    "canonical_phrase": "Display the ost as it is on the screen in proper animation.",
+    "count": 1,
+    "aliases": [
+      "Display the ost as it is on the screen in proper animation."
+    ]
+  },
+  {
+    "id": "VIS155",
+    "canonical_phrase": "Display the ost as it is on the screen with related image.",
+    "count": 1,
+    "aliases": [
+      "Display the ost as it is on the screen with related image."
+    ]
+  },
+  {
+    "id": "VIS156",
+    "canonical_phrase": "Display the ost as it on the screen in animation.",
+    "count": 1,
+    "aliases": [
+      "Display the ost as it on the screen in animation."
+    ]
+  },
+  {
+    "id": "VIS157",
+    "canonical_phrase": "Display the ost in 3 points infographics.",
+    "count": 1,
+    "aliases": [
+      "Display the ost in 3 points infographics."
+    ]
+  },
+  {
+    "id": "VIS158",
+    "canonical_phrase": "Display the ost in infographics.",
+    "count": 1,
+    "aliases": [
+      "Display the ost in infographics."
+    ]
+  },
+  {
+    "id": "VIS159",
+    "canonical_phrase": "Display the ost with the notepad in animation.",
+    "count": 1,
+    "aliases": [
+      "Display the ost with the notepad in animation."
+    ]
+  },
+  {
+    "id": "VIS160",
+    "canonical_phrase": "Display the pointer as it is on the screen.",
+    "count": 1,
+    "aliases": [
+      "Display the pointer as it is on the screen."
+    ]
+  },
+  {
+    "id": "VIS161",
+    "canonical_phrase": "Display the pointer with line art images.",
+    "count": 1,
+    "aliases": [
+      "Display the pointer with line art images."
+    ]
+  },
+  {
+    "id": "VIS162",
+    "canonical_phrase": "Display the pointers as it is in infographics.",
+    "count": 1,
+    "aliases": [
+      "Display the pointers as it is in infographics."
+    ]
+  },
+  {
+    "id": "VIS163",
+    "canonical_phrase": "Display the pointers as it is with highlighted words.",
+    "count": 1,
+    "aliases": [
+      "Display the pointers as it is with highlighted words."
+    ]
+  },
+  {
+    "id": "VIS164",
+    "canonical_phrase": "Display the pointers in infographic with proper animation.",
+    "count": 1,
+    "aliases": [
+      "Display the pointers in infographic with proper animation."
+    ]
+  },
+  {
+    "id": "VIS165",
+    "canonical_phrase": "Display the pointers in infographics",
+    "count": 1,
+    "aliases": [
+      "Display the pointers in infographics"
+    ]
+  },
+  {
+    "id": "VIS166",
+    "canonical_phrase": "Display the pointers in the activity screen in animation.",
+    "count": 1,
+    "aliases": [
+      "Display the pointers in the activity screen in animation."
+    ]
+  },
+  {
+    "id": "VIS167",
+    "canonical_phrase": "Display the pointers in the hierarchy format with the related images.",
+    "count": 1,
+    "aliases": [
+      "Display the pointers in the hierarchy format with the related images."
+    ]
+  },
+  {
+    "id": "VIS168",
+    "canonical_phrase": "Display the pointers n infographics.",
+    "count": 1,
+    "aliases": [
+      "Display the pointers n infographics."
+    ]
+  },
+  {
+    "id": "VIS169",
+    "canonical_phrase": "Display the pointers vertically.",
+    "count": 1,
+    "aliases": [
+      "Display the pointers vertically."
+    ]
+  },
+  {
+    "id": "VIS170",
+    "canonical_phrase": "Display the pointers with images.",
+    "count": 1,
+    "aliases": [
+      "Display the pointers with images."
+    ]
+  },
+  {
+    "id": "VIS171",
+    "canonical_phrase": "Display the pointers with line art images.",
+    "count": 1,
+    "aliases": [
+      "Display the pointers with line art images."
+    ]
+  },
+  {
+    "id": "VIS172",
+    "canonical_phrase": "Display the pointers with related images.",
+    "count": 1,
+    "aliases": [
+      "Display the pointers with related images."
+    ]
+  },
+  {
+    "id": "VIS173",
+    "canonical_phrase": "Display the pointers with the images. And then fade out the above and fade in the image that highlight the 'मोटर कॉर्टेक्स'",
+    "count": 1,
+    "aliases": [
+      "Display the pointers with the images. And then fade out the above and fade in the image that highlight the 'मोटर कॉर्टेक्स'"
+    ]
+  },
+  {
+    "id": "VIS174",
+    "canonical_phrase": "Display the pointers with the related images",
+    "count": 1,
+    "aliases": [
+      "Display the pointers with the related images"
+    ]
+  },
+  {
+    "id": "VIS175",
+    "canonical_phrase": "Display the pointers with the related images show a girl is feeling cold, and the boy is feeling cold.",
+    "count": 1,
+    "aliases": [
+      "Display the pointers with the related images show a girl is feeling cold, and the boy is feeling cold."
+    ]
+  },
+  {
+    "id": "VIS176",
+    "canonical_phrase": "Display the pointers with the related images.",
+    "count": 1,
+    "aliases": [
+      "Display the pointers with the related images."
+    ]
+  },
+  {
+    "id": "VIS177",
+    "canonical_phrase": "Display the pointers with the related line art images.",
+    "count": 1,
+    "aliases": [
+      "Display the pointers with the related line art images."
+    ]
+  },
+  {
+    "id": "VIS178",
+    "canonical_phrase": "Display the points with the line art images.",
+    "count": 1,
+    "aliases": [
+      "Display the points with the line art images."
+    ]
+  },
+  {
+    "id": "VIS179",
+    "canonical_phrase": "Display the question as it is on the screen.",
+    "count": 1,
+    "aliases": [
+      "Display the question as it is on the screen."
+    ]
+  },
+  {
+    "id": "VIS180",
+    "canonical_phrase": "Display the question in reflect spot screen.",
+    "count": 1,
+    "aliases": [
+      "Display the question in reflect spot screen."
+    ]
+  },
+  {
+    "id": "VIS181",
+    "canonical_phrase": "Display the question marts animated icon and then display the content in animation.",
+    "count": 1,
+    "aliases": [
+      "Display the question marts animated icon and then display the content in animation."
+    ]
+  },
+  {
+    "id": "VIS182",
+    "canonical_phrase": "Display the question on the screen as it is.",
+    "count": 1,
+    "aliases": [
+      "Display the question on the screen as it is."
+    ]
+  },
+  {
+    "id": "VIS183",
+    "canonical_phrase": "Display the questions as it is on the screen.",
+    "count": 1,
+    "aliases": [
+      "Display the questions as it is on the screen."
+    ]
+  },
+  {
+    "id": "VIS184",
+    "canonical_phrase": "Display the relatable line art image of Competency-Based Curriculum and then display the ost beside the image",
+    "count": 1,
+    "aliases": [
+      "Display the relatable line art image of Competency-Based Curriculum and then display the ost beside the image"
+    ]
+  },
+  {
+    "id": "VIS185",
+    "canonical_phrase": "Display the related image and then display content in animation.",
+    "count": 1,
+    "aliases": [
+      "Display the related image and then display content in animation."
+    ]
+  },
+  {
+    "id": "VIS186",
+    "canonical_phrase": "Display the related images with the points.",
+    "count": 1,
+    "aliases": [
+      "Display the related images with the points."
+    ]
+  },
+  {
+    "id": "VIS187",
+    "canonical_phrase": "Display the stone age image in fill line art animation.",
+    "count": 1,
+    "aliases": [
+      "Display the stone age image in fill line art animation."
+    ]
+  },
+  {
+    "id": "VIS188",
+    "canonical_phrase": "Display the structure of the mind mapping and give heading.",
+    "count": 1,
+    "aliases": [
+      "Display the structure of the mind mapping and give heading."
+    ]
+  },
+  {
+    "id": "VIS189",
+    "canonical_phrase": "Display the student emotion with the pointers.",
+    "count": 1,
+    "aliases": [
+      "Display the student emotion with the pointers."
+    ]
+  },
+  {
+    "id": "VIS190",
+    "canonical_phrase": "Display the students with the notebook and then display the sentence.",
+    "count": 1,
+    "aliases": [
+      "Display the students with the notebook and then display the sentence."
+    ]
+  },
+  {
+    "id": "VIS191",
+    "canonical_phrase": "Display the three words in proper infographics.",
+    "count": 1,
+    "aliases": [
+      "Display the three words in proper infographics."
+    ]
+  },
+  {
+    "id": "VIS192",
+    "canonical_phrase": "Display these 2 pointers in infographics.",
+    "count": 1,
+    "aliases": [
+      "Display these 2 pointers in infographics."
+    ]
+  },
+  {
+    "id": "VIS193",
+    "canonical_phrase": "Display these 2 pointers with suitable icons or infographics.",
+    "count": 1,
+    "aliases": [
+      "Display these 2 pointers with suitable icons or infographics."
+    ]
+  },
+  {
+    "id": "VIS194",
+    "canonical_phrase": "Display these pointers in infographics.",
+    "count": 1,
+    "aliases": [
+      "Display these pointers in infographics."
+    ]
+  },
+  {
+    "id": "VIS195",
+    "canonical_phrase": "Display these pointers in vertical infographics.",
+    "count": 1,
+    "aliases": [
+      "Display these pointers in vertical infographics."
+    ]
+  },
+  {
+    "id": "VIS196",
+    "canonical_phrase": "Display this acc to the narration.",
+    "count": 1,
+    "aliases": [
+      "Display this acc to the narration."
+    ]
+  },
+  {
+    "id": "VIS197",
+    "canonical_phrase": "Display this activity in line art animation.",
+    "count": 1,
+    "aliases": [
+      "Display this activity in line art animation."
+    ]
+  },
+  {
+    "id": "VIS198",
+    "canonical_phrase": "Display this activity properly in line art animation.",
+    "count": 1,
+    "aliases": [
+      "Display this activity properly in line art animation."
+    ]
+  },
+  {
+    "id": "VIS199",
+    "canonical_phrase": "Display this as it is on the screen.",
+    "count": 1,
+    "aliases": [
+      "Display this as it is on the screen."
+    ]
+  },
+  {
+    "id": "VIS200",
+    "canonical_phrase": "Display this content as it is on the screen.",
+    "count": 1,
+    "aliases": [
+      "Display this content as it is on the screen."
+    ]
+  },
+  {
+    "id": "VIS201",
+    "canonical_phrase": "Display this entire in the line art animation.",
+    "count": 1,
+    "aliases": [
+      "Display this entire in the line art animation."
+    ]
+  },
+  {
+    "id": "VIS202",
+    "canonical_phrase": "Display this image but only highlight the 'Cerebellum' part decrease opacity of remaining and then display the content in animation.",
+    "count": 1,
+    "aliases": [
+      "Display this image but only highlight the 'Cerebellum' part decrease opacity of remaining \nand then display the content in animation."
+    ]
+  },
+  {
+    "id": "VIS203",
+    "canonical_phrase": "Display this in 3 horizontal pointers with connecting line.",
+    "count": 1,
+    "aliases": [
+      "Display this in 3 horizontal pointers with connecting line."
+    ]
+  },
+  {
+    "id": "VIS204",
+    "canonical_phrase": "Display this in a activity screen.",
+    "count": 1,
+    "aliases": [
+      "Display this in a activity screen."
+    ]
+  },
+  {
+    "id": "VIS205",
+    "canonical_phrase": "Display this in hierarchy",
+    "count": 1,
+    "aliases": [
+      "Display this in hierarchy"
+    ]
+  },
+  {
+    "id": "VIS206",
+    "canonical_phrase": "Display this in infographics.",
+    "count": 1,
+    "aliases": [
+      "Display this in infographics."
+    ]
+  },
+  {
+    "id": "VIS207",
+    "canonical_phrase": "Display this in reflection spot screen.",
+    "count": 1,
+    "aliases": [
+      "Display this in reflection spot screen."
+    ]
+  },
+  {
+    "id": "VIS208",
+    "canonical_phrase": "Display this in vertically display teacher beside.",
+    "count": 1,
+    "aliases": [
+      "Display this in vertically display teacher beside."
+    ]
+  },
+  {
+    "id": "VIS209",
+    "canonical_phrase": "Display this part in hierarchy. And then display the last line.",
+    "count": 1,
+    "aliases": [
+      "Display this part in hierarchy. And then display the last line."
+    ]
+  },
+  {
+    "id": "VIS210",
+    "canonical_phrase": "Display this show a student and then in box display the ost.",
+    "count": 1,
+    "aliases": [
+      "Display this show a student and then in box display the ost."
+    ]
+  },
+  {
+    "id": "VIS211",
+    "canonical_phrase": "Divide the screen in 2 parts and display each part image with the given ost.",
+    "count": 1,
+    "aliases": [
+      "Divide the screen in 2 parts and display each part image with the given ost."
+    ]
+  },
+  {
+    "id": "VIS212",
+    "canonical_phrase": "Explain example in a entire line art animation in a full screen in sync with the ost.",
+    "count": 1,
+    "aliases": [
+      "Explain example in a entire line art animation in a full screen in sync with the ost."
+    ]
+  },
+  {
+    "id": "VIS213",
+    "canonical_phrase": "Explain example in full screen animation.",
+    "count": 1,
+    "aliases": [
+      "Explain example in full screen animation."
+    ]
+  },
+  {
+    "id": "VIS214",
+    "canonical_phrase": "Explain the example acc to the narration in the full screen line art animation. And add some sentences show it between the teacher teaching his student hard maths sums",
+    "count": 1,
+    "aliases": [
+      "Explain the example acc to the narration in the full screen line art animation. And add some sentences \nshow it between the teacher teaching his student hard maths sums"
+    ]
+  },
+  {
+    "id": "VIS215",
+    "canonical_phrase": "Explain the example using the full screen line art image.",
+    "count": 1,
+    "aliases": [
+      "Explain the example using the full screen line art image."
+    ]
+  },
+  {
+    "id": "VIS216",
+    "canonical_phrase": "Explain the example with the full screen line art image.",
+    "count": 1,
+    "aliases": [
+      "Explain the example with the full screen line art image."
+    ]
+  },
+  {
+    "id": "VIS217",
+    "canonical_phrase": "Explain the example with the full screen line art image. Show a girl is tressing a ‘क' आणि 'फ' on a slate.",
+    "count": 1,
+    "aliases": [
+      "Explain the example with the full screen line art image. Show a girl is tressing a ‘क' आणि 'फ' on a slate."
+    ]
+  },
+  {
+    "id": "VIS218",
+    "canonical_phrase": "Explain the example with the line art animation acc to the narration.",
+    "count": 1,
+    "aliases": [
+      "Explain the example with the line art animation acc to the narration."
+    ]
+  },
+  {
+    "id": "VIS219",
+    "canonical_phrase": "Explain the examples in line art images.",
+    "count": 1,
+    "aliases": [
+      "Explain the examples in line art images."
+    ]
+  },
+  {
+    "id": "VIS220",
+    "canonical_phrase": "Explain the screen as given in ost in hierarchy and then display the image for 1st image show a many people and in second image show only 1.",
+    "count": 1,
+    "aliases": [
+      "Explain the screen as given in ost in hierarchy and then display the image for 1st image show a many people and in second image show only 1."
+    ]
+  },
+  {
+    "id": "VIS221",
+    "canonical_phrase": "Explain this example with full screen line art animation.",
+    "count": 1,
+    "aliases": [
+      "Explain this example with full screen line art animation."
+    ]
+  },
+  {
+    "id": "VIS222",
+    "canonical_phrase": "First display the line art image of the walnut and on that image only animate the brain image.",
+    "count": 1,
+    "aliases": [
+      "First display the line art image of the walnut and on that image only animate the brain image."
+    ]
+  },
+  {
+    "id": "VIS223",
+    "canonical_phrase": "First display the question and then display the answer as it is on the screen.",
+    "count": 1,
+    "aliases": [
+      "First display the question and then display the answer as it is on the screen."
+    ]
+  },
+  {
+    "id": "VIS224",
+    "canonical_phrase": "Highlight only the gyrus and the sulcus.",
+    "count": 1,
+    "aliases": [
+      "Highlight only the gyrus and the sulcus."
+    ]
+  },
+  {
+    "id": "VIS225",
+    "canonical_phrase": "Highlight the Occipital Lobe part and use the same image for entire 4 decrease opacity of others parts and highlight this part.",
+    "count": 1,
+    "aliases": [
+      "Highlight the Occipital Lobe part and use the same image for entire 4 decrease opacity of others parts and highlight this part."
+    ]
+  },
+  {
+    "id": "VIS226",
+    "canonical_phrase": "In this display a line art image of the teacher is observing a class",
+    "count": 1,
+    "aliases": [
+      "In this display a line art image of the teacher is observing a class"
+    ]
+  },
+  {
+    "id": "VIS227",
+    "canonical_phrase": "Manager continues.",
+    "count": 1,
+    "aliases": [
+      "Manager continues."
+    ]
+  },
+  {
+    "id": "VIS228",
+    "canonical_phrase": "Now display the entire image but highlight only the फ्रंटल लोब’ part and decrease the opacity of all the remaining part.",
+    "count": 1,
+    "aliases": [
+      "Now display the entire image but highlight only the फ्रंटल लोब’ part and decrease the opacity of all the remaining part."
+    ]
+  },
+  {
+    "id": "VIS229",
+    "canonical_phrase": "Now display the image of the next part of the brain and display its content in animation.",
+    "count": 1,
+    "aliases": [
+      "Now display the image of the next part of the brain and display its content in animation."
+    ]
+  },
+  {
+    "id": "VIS230",
+    "canonical_phrase": "Now highlight the Temporal Lobe.",
+    "count": 1,
+    "aliases": [
+      "Now highlight the Temporal Lobe."
+    ]
+  },
+  {
+    "id": "VIS231",
+    "canonical_phrase": "Now, only highlight the Amygdala from the above image and then display the content in animation.",
+    "count": 1,
+    "aliases": [
+      "Now, only highlight the Amygdala from the above image and then display the content in animation."
+    ]
+  },
+  {
+    "id": "VIS232",
+    "canonical_phrase": "Now, only highlight the Hippocampus from the above image and then display the content in animation.",
+    "count": 1,
+    "aliases": [
+      "Now, only highlight the Hippocampus from the above image and then display the content in animation."
+    ]
+  },
+  {
+    "id": "VIS233",
+    "canonical_phrase": "Office desk. Laptop on. Coffee mug. Calendar. Everything is still.",
+    "count": 1,
+    "aliases": [
+      "Office desk. Laptop on. Coffee mug. Calendar. Everything is still."
+    ]
+  },
+  {
+    "id": "VIS234",
+    "canonical_phrase": "Phone begins ringing.",
+    "count": 1,
+    "aliases": [
+      "Phone begins ringing."
+    ]
+  },
+  {
+    "id": "VIS235",
+    "canonical_phrase": "Please explain each example with related line art full screen image.",
+    "count": 1,
+    "aliases": [
+      "Please explain each example with related line art full screen image."
+    ]
+  },
+  {
+    "id": "VIS236",
+    "canonical_phrase": "Show a 3D image of the human head. Zoom into the skull to reveal the brain. Display key facts around the brain",
+    "count": 1,
+    "aliases": [
+      "Show a 3D image of the human head. Zoom into the skull to reveal the brain. Display key facts around the brain"
+    ]
+  },
+  {
+    "id": "VIS237",
+    "canonical_phrase": "Show a human brain in the center. Around it, icons/images representing human progress appear one by one, such as education, technology, and innovation.",
+    "count": 1,
+    "aliases": [
+      "Show a human brain in the center. Around it, icons/images representing human progress appear one by one, such as education, technology, and innovation."
+    ]
+  },
+  {
+    "id": "VIS238",
+    "canonical_phrase": "Show a line art image of the classroom on board show the त्रिकोण image and students are recognizing it.",
+    "count": 1,
+    "aliases": [
+      "Show a line art image of the classroom on board show the त्रिकोण image and students are recognizing it."
+    ]
+  },
+  {
+    "id": "VIS239",
+    "canonical_phrase": "Show a student doing drawing.",
+    "count": 1,
+    "aliases": [
+      "Show a student doing drawing."
+    ]
+  },
+  {
+    "id": "VIS240",
+    "canonical_phrase": "Show a student studying marathi.",
+    "count": 1,
+    "aliases": [
+      "Show a student studying marathi."
+    ]
+  },
+  {
+    "id": "VIS241",
+    "canonical_phrase": "Show here a boy is reading a coloured map.",
+    "count": 1,
+    "aliases": [
+      "Show here a boy is reading a coloured map."
+    ]
+  },
+  {
+    "id": "VIS242",
+    "canonical_phrase": "Show in full screen line art image that a boy is learning eg addition in school, then using it practicing it and then using it while buying something from the shopkeeper.",
+    "count": 1,
+    "aliases": [
+      "Show in full screen line art image that a boy is learning eg addition in school, then using it practicing it and then using it while buying something from the shopkeeper."
+    ]
+  },
+  {
+    "id": "VIS243",
+    "canonical_phrase": "Show one big lady sitting beside meeni and reading the diary written by meeni at the age of 9 zoom into the diary.",
+    "count": 1,
+    "aliases": [
+      "Show one big lady sitting beside meeni and reading the diary written by meeni at the age of 9 zoom into the diary."
+    ]
+  },
+  {
+    "id": "VIS244",
+    "canonical_phrase": "Show screen by screen animation. Eg, show the classroom teacher is only talking orally, then show the next screen in that the teacher is explaining through the images and then in 3rd screen students are creating something.",
+    "count": 1,
+    "aliases": [
+      "Show screen by screen animation.\nEg, show the classroom teacher is only talking orally, then show the next screen in that the teacher is explaining through the images and then in 3rd screen students are creating something."
+    ]
+  },
+  {
+    "id": "VIS245",
+    "canonical_phrase": "Show that each student is creating something in each image.",
+    "count": 1,
+    "aliases": [
+      "Show that each student is creating something in each image."
+    ]
+  },
+  {
+    "id": "VIS246",
+    "canonical_phrase": "Show the dirty classroom and the students are picking up the litter and throwing it in dustbin.",
+    "count": 1,
+    "aliases": [
+      "Show the dirty classroom and the students are picking up the litter and throwing it in dustbin."
+    ]
+  },
+  {
+    "id": "VIS247",
+    "canonical_phrase": "Show the entire example through the line art images.",
+    "count": 1,
+    "aliases": [
+      "Show the entire example through the line art images."
+    ]
+  },
+  {
+    "id": "VIS248",
+    "canonical_phrase": "Show the flowing animation of neurons inside in the body.",
+    "count": 1,
+    "aliases": [
+      "Show the flowing animation of neurons inside in the body."
+    ]
+  },
+  {
+    "id": "VIS249",
+    "canonical_phrase": "Show the formation of 4 floor building one by one and then zoom into the floor and then show a house (doors) 3 to 4 at each floor.",
+    "count": 1,
+    "aliases": [
+      "Show the formation of 4 floor building one by one and then zoom into the floor and then show a house (doors) 3 to 4 at each floor."
+    ]
+  },
+  {
+    "id": "VIS250",
+    "canonical_phrase": "Show the image of the student and beside that arrange these pointers vertically.",
+    "count": 1,
+    "aliases": [
+      "Show the image of the student and beside that arrange these pointers vertically."
+    ]
+  },
+  {
+    "id": "VIS251",
+    "canonical_phrase": "Show the images that a child is performing and display the point below it.",
+    "count": 1,
+    "aliases": [
+      "Show the images that a child is performing and display the point below it."
+    ]
+  },
+  {
+    "id": "VIS252",
+    "canonical_phrase": "Show the line art image of the boy facing issues while doing maths but then after practicing and after getting proper guidance he done it perfectly.",
+    "count": 1,
+    "aliases": [
+      "Show the line art image of the boy facing issues while doing maths but then after practicing and after getting proper guidance he done it perfectly."
+    ]
+  },
+  {
+    "id": "VIS253",
+    "canonical_phrase": "Show the line art image of the student studying geography.",
+    "count": 1,
+    "aliases": [
+      "Show the line art image of the student studying geography."
+    ]
+  },
+  {
+    "id": "VIS254",
+    "canonical_phrase": "Show the objects of the various shapes given and highlight its borders.",
+    "count": 1,
+    "aliases": [
+      "Show the objects of the various shapes given and highlight its borders."
+    ]
+  },
+  {
+    "id": "VIS255",
+    "canonical_phrase": "Show the ost in hierarchy.",
+    "count": 1,
+    "aliases": [
+      "Show the ost in hierarchy."
+    ]
+  },
+  {
+    "id": "VIS256",
+    "canonical_phrase": "Show the turning of the page animation here to show turning of the diary page. and then display the content acc to the narration.",
+    "count": 1,
+    "aliases": [
+      "Show the turning of the page animation here to show turning of the diary page.\nand then display the content acc to the narration."
+    ]
+  },
+  {
+    "id": "VIS257",
+    "canonical_phrase": "Show the turning of the page animation here to show turning of the diary page. and then display the content acc to the narration. 1st Show the background of the school teacher is saying add that into the speech bubble of the teacher and then show a scenario of home that meeni is talking with her mother.",
+    "count": 1,
+    "aliases": [
+      "Show the turning of the page animation here to show turning of the diary page.\nand then display the content acc to the narration.\n1st Show the background of the school teacher is saying add that into the speech bubble of the teacher and then show a scenario of home that meeni is talking with her mother."
+    ]
+  },
+  {
+    "id": "VIS258",
+    "canonical_phrase": "Show this through a entire animation screens the body.",
+    "count": 1,
+    "aliases": [
+      "Show this through a entire animation screens the body."
+    ]
+  },
+  {
+    "id": "VIS259",
+    "canonical_phrase": "Spilt the screen and generate an image in animation.",
+    "count": 1,
+    "aliases": [
+      "Spilt the screen and generate an image in animation."
+    ]
+  },
+  {
+    "id": "VIS260",
+    "canonical_phrase": "Start with the 1st part reptilian brain and display content related to it in animation.",
+    "count": 1,
+    "aliases": [
+      "Start with the 1st part reptilian brain and display content related to it in animation."
+    ]
+  },
+  {
+    "id": "VIS261",
+    "canonical_phrase": "Student doing a brain activity in line art imagination full screen.",
+    "count": 1,
+    "aliases": [
+      "Student doing a brain activity in line art imagination full screen."
+    ]
+  },
+  {
+    "id": "VIS262",
+    "canonical_phrase": "Take one child and show this activity through images.",
+    "count": 1,
+    "aliases": [
+      "Take one child and show this activity through images."
+    ]
+  },
+  {
+    "id": "VIS263",
+    "canonical_phrase": "The given images are the just the references. Animate it.",
+    "count": 1,
+    "aliases": [
+      "The given images are the just the references. Animate it."
+    ]
+  },
+  {
+    "id": "VIS264",
+    "canonical_phrase": "The image is the given image is just for the reference. Display parts in animation and then display the names of those parts.",
+    "count": 1,
+    "aliases": [
+      "The image is the given image is just for the reference. Display parts in animation and then display the names of those parts."
+    ]
+  },
+  {
+    "id": "VIS265",
+    "canonical_phrase": "The images are sample images please use the similar images images for entire part 4",
+    "count": 1,
+    "aliases": [
+      "The images are sample images please use the similar images images for entire part 4"
+    ]
+  },
+  {
+    "id": "VIS266",
+    "canonical_phrase": "Then display the 3rd part of the brain and then display its content in animation.",
+    "count": 1,
+    "aliases": [
+      "Then display the 3rd part of the brain and then display its content in animation."
+    ]
+  },
+  {
+    "id": "VIS267",
+    "canonical_phrase": "Then on left display and highlight the 'ब्रोकास भाग' and then display the pointers with related images.",
+    "count": 1,
+    "aliases": [
+      "Then on left display and highlight the 'ब्रोकास भाग' and then display the pointers with related images."
+    ]
+  },
+  {
+    "id": "VIS268",
+    "canonical_phrase": "User clicks Answer.",
+    "count": 1,
+    "aliases": [
+      "User clicks Answer."
+    ]
+  }
+]

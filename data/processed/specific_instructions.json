@@ -1,0 +1,102 @@
+[
+  {
+    "beat_id": "2.5.6_beat_19",
+    "type": "scene_specific",
+    "phrase": "Display the full screen line art image. Show some activities mentioned in the narration."
+  },
+  {
+    "beat_id": "2.1.6_beat_09",
+    "type": "layout",
+    "phrase": "Display the three words using an infographic layout."
+  },
+  {
+    "beat_id": "2.1.2_beat_04",
+    "type": "animation",
+    "phrase": "Display the entire sequence as a line art animation."
+  },
+  {
+    "beat_id": "2.7.1_beat_04",
+    "type": "scene_specific",
+    "phrase": "Display an image related to psychology, then reveal the text."
+  },
+  {
+    "beat_id": "2.3.3_beat_22",
+    "type": "scene_specific",
+    "phrase": "Display an illustration of a woman meditating, then animate the content."
+  },
+  {
+    "beat_id": "2.3.3_beat_03",
+    "type": "highlight",
+    "phrase": "Display the brain image, highlight only the 'Cerebellum', reduce the opacity of the remaining parts, then animate the content."
+  },
+  {
+    "beat_id": "2.3.1_beat_05",
+    "type": "hierarchy",
+    "phrase": "Display a hierarchy with 'ब्रेनस्टेम' at the top, followed by images of the brain parts, highlighting each part."
+  },
+  {
+    "beat_id": "2.2.1_beat_12",
+    "type": "scene_specific",
+    "phrase": "Display a line art illustration of आंद्रेयास व्हेसालियस, then animate the on-screen content."
+  },
+  {
+    "beat_id": "2.6.4_beat_10",
+    "type": "scene_specific",
+    "phrase": "Display a line art illustration of the child according to the narration."
+  },
+  {
+    "beat_id": "2.1.6_beat_02",
+    "type": "highlight",
+    "phrase": "Display the OST as it is and highlight the word 'भावना'."
+  },
+  {
+    "beat_id": "2.6.2_beat_10",
+    "type": "scene_specific",
+    "phrase": "Display a girl standing in the school corridor thinking about the rangoli using line art animation."
+  },
+  {
+    "beat_id": "2.7.4_beat_20",
+    "type": "layout",
+    "phrase": "Display a student and show the OST inside a text box."
+  },
+  {
+    "beat_id": "2.5.3_beat_22",
+    "type": "layout",
+    "phrase": "Display three horizontal pointers connected with a line."
+  },
+  {
+    "beat_id": "2.1.5_beat_07",
+    "type": "animation",
+    "phrase": "Explain the example using a full-screen line art animation synchronized with the OST."
+  },
+  {
+    "beat_id": "2.5.5_beat_14",
+    "type": "scene_specific",
+    "phrase": "Display a line art notepad and show the content beside it."
+  },
+  {
+    "beat_id": "2.4.5_beat_02",
+    "type": "highlight",
+    "phrase": "Highlight the Temporal Lobe."
+  },
+  {
+    "beat_id": "2.1.2_beat_07",
+    "type": "layout",
+    "phrase": "Display the content using the Reflection Spot screen."
+  },
+  {
+    "beat_id": "2.1.2_beat_06",
+    "type": "layout",
+    "phrase": "Split the screen and display an animated illustration."
+  },
+  {
+    "beat_id": "2.1.5_beat_09",
+    "type": "scene_specific",
+    "phrase": "Display an illustration of parents taking students to the zoo to experience a real animal."
+  },
+  {
+    "beat_id": "2.3.1_beat_02",
+    "type": "scene_specific",
+    "phrase": "Display an illustration of the 'Reptilian Brain' and animate the OST beside it."
+  }
+]

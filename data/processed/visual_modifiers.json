@@ -1,0 +1,20 @@
+{
+  "animation": [
+    "in animation",
+    "line art animation",
+    "full screen animation",
+    "screen animation"
+  ],
+  "layout": [
+    "full screen",
+    "vertical",
+    "horizontal",
+    "hierarchy",
+    "reflection spot",
+    "infographics"
+  ],
+  "highlight": [
+    "highlighted words",
+    "highlighted pointers"
+  ]
+}

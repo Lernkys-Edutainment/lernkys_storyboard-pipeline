@@ -1,12 +1,5 @@
-from dotenv import load_dotenv
-load_dotenv()
+from retriever.chroma_utils import get_collection
 
-from google import genai
+collection = get_collection()
 
-client = genai.Client()
-
-response = client.models.generate_content(
-    model="gemini-2.5-flash",
-    contents="Say hello in Marathi"
-)
-print(response.text)
+print(collection.count())

@@ -12,7 +12,8 @@
       "interaction": "",
       "ost": "",
       "dialogue": "",
-      "narration": "Soft office ambience"
+      "narration": "Soft office ambience",
+      "source_text": "Soft office ambience"
     },
     {
       "beat_id": "adgm_1_beat_02",
@@ -20,7 +21,8 @@
       "interaction": "Prompt: Click to answer the call.",
       "ost": "",
       "dialogue": "",
-      "narration": "Phone ringtone"
+      "narration": "Phone ringtone",
+      "source_text": "Phone ringtone"
     },
     {
       "beat_id": "adgm_1_beat_03",
@@ -28,7 +30,8 @@
       "interaction": "Interactive click",
       "ost": "",
       "dialogue": "Manager: Good morning. I need a favour.",
-      "narration": "Interactive click"
+      "narration": "Interactive click",
+      "source_text": "Manager: Good morning. I need a favour."
     },
     {
       "beat_id": "adgm_1_beat_04",
@@ -36,7 +39,8 @@
       "interaction": "",
       "ost": "",
       "dialogue": "Next week we're conducting an internal awareness session on Beneficial Ownership and Transparency requirements applicable within ADGM.",
-      "narration": ""
+      "narration": "",
+      "source_text": "Next week we're conducting an internal awareness session on Beneficial Ownership and Transparency requirements applicable within ADGM."
     },
     {
       "beat_id": "adgm_1_beat_05",
@@ -44,7 +48,8 @@
       "interaction": "",
       "ost": "",
       "dialogue": "I'd like you to lead the session. Don't worry—you don't need to know everything today. You just need to prepare",
-      "narration": ""
+      "narration": "",
+      "source_text": "I'd like you to lead the session. Don't worry—you don't need to know everything today. You just need to prepare"
     },
     {
       "beat_id": "adgm_1_beat_06",
@@ -52,7 +57,8 @@
       "interaction": "Choose: Accept Challenge / Maybe Later",
       "ost": "",
       "dialogue": "",
-      "narration": ""
+      "narration": "",
+      "source_text": ""
     },
     {
       "beat_id": "adgm_1_beat_07",
@@ -60,7 +66,8 @@
       "interaction": "If learner clicks Maybe Later",
       "ost": "",
       "dialogue": "",
-      "narration": ""
+      "narration": "",
+      "source_text": ""
     },
     {
       "beat_id": "adgm_1_beat_08",
@@ -68,7 +75,8 @@
       "interaction": "",
       "ost": "This preparation is required before your awareness session.",
       "dialogue": "",
-      "narration": ""
+      "narration": "",
+      "source_text": "This preparation is required before your awareness session."
     }
   ]
 }
