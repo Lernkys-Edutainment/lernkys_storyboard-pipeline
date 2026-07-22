@@ -2,28 +2,47 @@
 search.py
 
 Search the ChromaDB collection for storyboard examples
-similar to a user's script/query.
+similar to a storyboard beat.
 """
 
 from retriever.embedding import get_embedding
 from retriever.chroma_utils import get_collection
 
+# ==========================================================
+# Configuration
+# ==========================================================
+
 MAX_DISTANCE = 1.2
 
 
-def search_storyboards(query: str, top_k: int = 5) -> list[dict]:
+# ==========================================================
+# Search
+# ==========================================================
+
+def search_storyboards(
+    query: str,
+    top_k: int = 5
+) -> list[dict]:
     """
-    Retrieve the most relevant storyboard beats.
+    Retrieve storyboard examples similar to the given narration.
 
     Args:
-        query: User script/query.
-        top_k: Number of nearest neighbours to retrieve.
+        query:
+            Narration/beat to search for.
+
+        top_k:
+            Maximum number of examples to retrieve.
 
     Returns:
-        List of storyboard beats sorted by similarity.
+        List of retrieved storyboard examples sorted by similarity.
     """
 
     collection = get_collection()
+
+    if collection.count() == 0:
+        raise RuntimeError(
+            "Chroma collection is empty. Run index_builder.py first."
+        )
 
     query_embedding = get_embedding(query)
 
@@ -40,54 +59,94 @@ def search_storyboards(query: str, top_k: int = 5) -> list[dict]:
     distances = results["distances"][0]
 
     for beat_id, doc, metadata, distance in zip(
-        ids, docs, metas, distances
+        ids,
+        docs,
+        metas,
+        distances
     ):
 
-        # Ignore irrelevant results
+        # Ignore weak matches
         if distance > MAX_DISTANCE:
             continue
 
         retrieved.append({
+
             "beat_id": beat_id,
-            "source_text": doc,
-            "visual": metadata.get("visual", ""),
-            "ost": metadata.get("ost", ""),
-            "dialogue": metadata.get("dialogue", ""),
-            "distance": distance,
+
+            "source_text": metadata.get(
+                "source_text",
+                doc
+            ),
+
+            "visual": metadata.get(
+                "visual",
+                ""
+            ),
+
+            "ost": metadata.get(
+                "ost",
+                ""
+            ),
+
+            "dialogue": metadata.get(
+                "dialogue",
+                ""
+            ),
+
+            "distance": round(distance, 4),
+
+            "score": round(1 - distance, 4)
+
         })
 
     return retrieved
 
 
+# ==========================================================
+# Testing
+# ==========================================================
+
 if __name__ == "__main__":
 
-    query = input("Enter script: ")
+    print("=" * 80)
+    print("STORYBOARD SEARCH")
+    print("=" * 80)
+
+    query = input("\nEnter narration:\n\n")
 
     retrieved = search_storyboards(query)
 
-    print("\nTop Matches\n")
-
     if not retrieved:
-        print("No relevant storyboard examples found.")
+
+        print("\nNo relevant storyboard examples found.")
+
     else:
+
+        print(f"\nRetrieved {len(retrieved)} examples.\n")
 
         for rank, beat in enumerate(retrieved, start=1):
 
-            print("=" * 70)
+            print("=" * 80)
+
             print(f"Rank      : {rank}")
             print(f"Beat ID   : {beat['beat_id']}")
-            print(f"Distance  : {beat['distance']:.4f}")
+            print(f"Distance  : {beat['distance']}")
+            print(f"Score     : {beat['score']}")
 
-            print("\nSource Text:")
+            print("\nSource Text")
+            print("-" * 40)
             print(beat["source_text"])
 
-            print("\nVisual:")
+            print("\nVisual")
+            print("-" * 40)
             print(beat["visual"])
 
-            print("\nOST:")
+            print("\nOST")
+            print("-" * 40)
             print(beat["ost"])
 
-            print("\nDialogue:")
+            print("\nDialogue")
+            print("-" * 40)
             print(beat["dialogue"])
 
             print()

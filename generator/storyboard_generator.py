@@ -1,21 +1,24 @@
 """
 storyboard_generator.py
 
-Generates storyboard JSON using GPT-5.5.
+Generates storyboard beats using GPT-5.5.
 
 Input:
-    Developer Prompt
-    User Prompt
+    output/intermediate/retrieved_examples.json
 
 Output:
-    Python dictionary containing storyboard JSON.
+    output/generated/generated_storyboard.json
 """
 
-import os
 import json
+import os
+from pathlib import Path
 
 from dotenv import load_dotenv
 from openai import OpenAI
+
+from generator.prompt_builder import build_prompt
+from generator.validator import validate_storyboard
 
 load_dotenv()
 
@@ -26,27 +29,35 @@ MODEL_NAME = os.getenv(
     "gpt-5.5"
 )
 
+INPUT_PATH = Path(
+    "output/intermediate/retrieved_examples.json"
+)
 
-def generate_storyboard(
+OUTPUT_PATH = Path(
+    "output/generated/generated_storyboard.json"
+)
+
+
+# ==========================================================
+# LLM Call
+# ==========================================================
+
+def generate_storyboard_beat(
     developer_prompt: str,
     user_prompt: str
 ) -> dict:
     """
-    Generate storyboard using GPT.
+    Generate a storyboard for a single beat.
 
     Args:
         developer_prompt:
-            High-level instructions for the model.
+            System instructions.
 
         user_prompt:
-            Script + retrieved storyboard examples.
+            Prompt containing the beat and retrieved examples.
 
     Returns:
-        Python dictionary representing the generated storyboard.
-
-    Raises:
-        ValueError:
-            If the model does not return valid JSON.
+        Generated storyboard beat as a dictionary.
     """
 
     response = client.responses.create(
@@ -58,8 +69,7 @@ def generate_storyboard(
     output_text = response.output_text.strip()
 
     try:
-        storyboard = json.loads(output_text)
-        return storyboard
+        return json.loads(output_text)
 
     except json.JSONDecodeError as e:
         raise ValueError(
@@ -68,40 +78,116 @@ def generate_storyboard(
 
 
 # ==========================================================
+# Generate Complete Storyboard
+# ==========================================================
+
+def generate_storyboard() -> dict:
+    """
+    Generate storyboard for all beats.
+
+    Returns:
+        Dictionary containing validated storyboard.
+    """
+
+    if not INPUT_PATH.exists():
+        raise FileNotFoundError(
+            f"Retrieved examples file not found: {INPUT_PATH}"
+        )
+
+    with open(
+        INPUT_PATH,
+        "r",
+        encoding="utf-8"
+    ) as file:
+        retrieved_data = json.load(file)
+
+    generated_storyboard = {
+        "beats": []
+    }
+
+    total = len(retrieved_data["beats"])
+
+    print("=" * 80)
+    print("GENERATING STORYBOARD")
+    print("=" * 80)
+
+    for index, beat in enumerate(
+        retrieved_data["beats"],
+        start=1
+    ):
+
+        developer_prompt, user_prompt = build_prompt(
+            beat,
+            beat["retrieved_examples"]
+        )
+
+        generated_beat = generate_storyboard_beat(
+            developer_prompt,
+            user_prompt
+        )
+
+        generated_storyboard["beats"].append(
+            generated_beat
+        )
+
+        print(
+            f"[{index}/{total}] Generated Beat {generated_beat['beat_id']}"
+        )
+
+    # ======================================================
+    # Validate the complete storyboard
+    # ======================================================
+
+    print("\nValidating generated storyboard...")
+
+    validated_storyboard = validate_storyboard(
+        generated_storyboard
+    )
+
+    print("✓ Storyboard validation successful")
+
+    # ======================================================
+    # Save validated storyboard
+    # ======================================================
+
+    OUTPUT_PATH.parent.mkdir(
+        parents=True,
+        exist_ok=True
+    )
+
+    with open(
+        OUTPUT_PATH,
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        json.dump(
+            validated_storyboard.model_dump(),
+            file,
+            indent=4,
+            ensure_ascii=False
+        )
+
+    print("\n")
+
+    print("=" * 80)
+    print("STORYBOARD GENERATION COMPLETE")
+    print("=" * 80)
+
+    print(f"Saved to:\n{OUTPUT_PATH}")
+
+    return validated_storyboard.model_dump()
+
+
+# ==========================================================
 # Testing
 # ==========================================================
 
 if __name__ == "__main__":
 
-    from generator.prompt_builder import build_prompt
+    storyboard = generate_storyboard()
 
-    # Dummy retrieved example
-    retrieved_examples = [
-        {
-            "source_text": "मेंदूचे तीन भाग आहेत.",
-            "visual": "Show a rotating 3D brain divided into three labelled parts.",
-            "ost": "मेंदूचे तीन भाग",
-            "dialogue": "मेंदूचे तीन भाग आहेत."
-        }
-    ]
-
-    script = """
-हिप्पोकॅम्पस नवीन आठवणी तयार करण्यास मदत करतो.
-"""
-
-    developer_prompt, user_prompt = build_prompt(
-        script,
-        retrieved_examples
-    )
-
-    storyboard = generate_storyboard(
-        developer_prompt,
-        user_prompt
-    )
-
-    print("=" * 80)
-    print("GENERATED STORYBOARD")
-    print("=" * 80)
+    print("\nGenerated Storyboard Preview:\n")
 
     print(
         json.dumps(

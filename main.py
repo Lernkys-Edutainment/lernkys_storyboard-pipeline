@@ -1,113 +1,113 @@
 """
 main.py
 
-End-to-end storyboard generation pipeline.
-
-Flow:
-
-Script
-    ↓
-Retrieve Similar Storyboards
-    ↓
-Build Prompt
-    ↓
-Generate Storyboard
-    ↓
-Validate Storyboard
-    ↓
-Save Output
+Runs the complete storyboard generation pipeline.
 """
 
 import json
-import os
+from pathlib import Path
 
-from retriever.search import search_storyboards
-from generator.prompt_builder import build_prompt
+from preprocessor.docx_reader import read_docx
+from preprocessor.script_cleaner import clean_script
+from preprocessor.beat_segmenter import segment_beats
+
+from retriever.retriever import retrieve_examples
+
 from generator.storyboard_generator import generate_storyboard
 from generator.validator import validate_storyboard
 
 
-OUTPUT_DIR = "output"
-OUTPUT_FILE = os.path.join(OUTPUT_DIR, "storyboard.json")
-
-
-def save_storyboard(storyboard):
-    """
-    Save validated storyboard as JSON.
-    """
-
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-
-    with open(
-        OUTPUT_FILE,
-        "w",
-        encoding="utf-8"
-    ) as f:
-
-        json.dump(
-            storyboard.model_dump(),
-            f,
-            indent=4,
-            ensure_ascii=False
-        )
-
-    print(f"\nStoryboard saved to: {OUTPUT_FILE}")
+INPUT_DOC = Path("sample.docx")
 
 
 def main():
 
-    print("=" * 70)
-    print("LERNKYS STORYBOARD GENERATION PIPELINE")
-    print("=" * 70)
+    print("=" * 80)
+    print("STORYBOARD GENERATION PIPELINE")
+    print("=" * 80)
 
-    script = input("\nEnter script:\n\n")
+    # ------------------------------------------------------
+    # Step 1 : Read Script
+    # ------------------------------------------------------
 
-    if not script.strip():
+    print("\n[1/6] Reading script...")
 
-        print("Script cannot be empty.")
-        return
+    script = read_docx(INPUT_DOC)
 
-    print("\nSearching similar storyboard examples...")
+    print(f"Loaded: {script['filename']}")
+    print(f"Paragraphs: {len(script['paragraphs'])}")
 
-    retrieved_examples = search_storyboards(script)
+    # ------------------------------------------------------
+    # Step 2 : Clean Script
+    # ------------------------------------------------------
 
-    print(f"Retrieved {len(retrieved_examples)} example(s).")
+    print("\n[2/6] Cleaning script...")
 
-    print("\nBuilding prompt...")
+    cleaned_script = clean_script(script)
 
-    developer_prompt, user_prompt = build_prompt(
-        script,
-        retrieved_examples
+    print("✓ Script cleaned")
+
+    # ------------------------------------------------------
+    # Step 3 : Beat Segmentation
+    # ------------------------------------------------------
+
+    print("\n[3/6] Segmenting into beats...")
+
+    beats = segment_beats(
+        cleaned_script["paragraphs"]
     )
 
-    print("Generating storyboard...\n")
+    print(f"✓ Generated {len(beats['beats'])} beats")
 
-    storyboard = generate_storyboard(
-        developer_prompt,
-        user_prompt
-    )
+    # ------------------------------------------------------
+    # Step 4 : Retrieve Examples
+    # ------------------------------------------------------
 
-    print("Validating storyboard...")
+    print("\n[4/6] Retrieving storyboard examples...")
 
-    validated_storyboard = validate_storyboard(
-        storyboard
-    )
+    retrieved = retrieve_examples()
 
-    print("Validation Successful!\n")
+    print("✓ Retrieval complete")
 
-    print("=" * 70)
-    print("GENERATED STORYBOARD")
-    print("=" * 70)
+    # ------------------------------------------------------
+    # Step 5 : Generate Storyboard
+    # ------------------------------------------------------
+
+    print("\n[5/6] Generating storyboard...")
+
+    storyboard = generate_storyboard()
 
     print(
-        json.dumps(
-            validated_storyboard.model_dump(),
-            indent=4,
-            ensure_ascii=False
-        )
+        f"✓ Generated {len(storyboard['beats'])} storyboard beats"
     )
 
-    save_storyboard(validated_storyboard)
+    # ------------------------------------------------------
+    # Step 6 : Validate Storyboard
+    # ------------------------------------------------------
+
+    print("\n[6/6] Validating storyboard...")
+
+    validated = validate_storyboard(storyboard)
+
+    # ------------------------------------------------------
+    # Final sanity check
+    # ------------------------------------------------------
+
+    if len(beats["beats"]) != len(validated.beats):
+        raise ValueError(
+            f"Beat count mismatch.\n"
+            f"Segmented: {len(beats['beats'])}\n"
+            f"Generated: {len(validated.beats)}"
+        )
+
+    print("✓ Storyboard validation successful")
+
+    print("\n" + "=" * 80)
+    print("PIPELINE COMPLETED SUCCESSFULLY")
+    print("=" * 80)
+
+    print("\nGenerated Storyboard:")
+    print("output/generated/generated_storyboard.json")
 
 
 if __name__ == "__main__":

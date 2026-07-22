@@ -1,0 +1,179 @@
+{
+    "beats": [
+        {
+            "beat_id": "1",
+            "source_text": "ह्या प्रशिक्षणामध्ये तुमचे मनापासून स्वागत,",
+            "visual": "Warm opening screen with a friendly trainer/teacher smiling and welcoming the learners. Soft classroom-inspired background with subtle learning icons like books, pencil, board, and speech bubbles. Add a gentle welcome animation with light colors and positive feel.",
+            "ost": "मनापासून स्वागत!",
+            "dialogue": "ह्या प्रशिक्षणामध्ये तुमचे मनापासून स्वागत,"
+        },
+        {
+            "beat_id": "2",
+            "source_text": "आज आपण एक वेगळा आणि विचार करायला लावणारा विषय प्रशिक्षणातून समजून घेणार आहोत.",
+            "visual": "Talking head full screen. Trainer looks into camera with a thoughtful expression. Subtle animated question marks and a lightbulb icon appear softly in the background to suggest curiosity and reflection.",
+            "ost": "एक वेगळा आणि विचार करायला लावणारा विषय",
+            "dialogue": "आज आपण एक वेगळा आणि विचार करायला लावणारा विषय प्रशिक्षणातून समजून घेणार आहोत."
+        },
+        {
+            "beat_id": "3",
+            "source_text": "'प्रशिक्षण' शब्दातील 'प्र' उपसर्गाचा अर्थ आहे 'अधिक' आणि शिक्षण’ या शब्दाचा मूळ धातू ‘शिक्ष’ म्हणजे शिकणे, शिकवणे आणि ज्ञान मिळवणे.",
+            "visual": "Clean educational graphic on a light background. Display the word ‘प्रशिक्षण’ large in the center. Animate it splitting into two highlighted parts: ‘प्र’ and ‘शिक्षण’. Show an arrow from ‘प्र’ to a small label ‘अधिक’. Then show ‘शिक्षण’ connected to its root word ‘शिक्ष’. Under ‘शिक्ष’, display three simple icons one by one: a student reading for ‘शिकणे’, a teacher at a board for ‘शिकवणे’, and an open book/light bulb for ‘ज्ञान मिळवणे’.",
+            "ost": "प्र = अधिक\nशिक्ष = शिकणे, शिकवणे, ज्ञान मिळवणे",
+            "dialogue": "'प्रशिक्षण' शब्दातील 'प्र' उपसर्गाचा अर्थ आहे 'अधिक' आणि शिक्षण’ या शब्दाचा मूळ धातू ‘शिक्ष’ म्हणजे शिकणे, शिकवणे आणि ज्ञान मिळवणे."
+        },
+        {
+            "beat_id": "4",
+            "source_text": "थोडक्यात सांगायचं तर…शिक्षण ही शिकण्याची प्रक्रिया आणि शिक्षक म्हणजे या प्रक्रियेत मदत करणारा मार्गदर्शक किंवा गुरु होय.",
+            "visual": "Talking head on one side of the screen. On the other side, show a simple animated infographic: a path labeled ‘शिकण्याची प्रक्रिया’ with a student walking forward, and a teacher standing beside the path as a supportive guide holding a small lamp or book. Soft classroom background, warm colors, and gentle motion to suggest guidance and learning.",
+            "ost": "शिक्षण = शिकण्याची प्रक्रिया\nशिक्षक = मार्गदर्शक / गुरु",
+            "dialogue": "थोडक्यात सांगायचं तर…शिक्षण ही शिकण्याची प्रक्रिया आणि शिक्षक म्हणजे या प्रक्रियेत मदत करणारा मार्गदर्शक किंवा गुरु होय."
+        },
+        {
+            "beat_id": "5",
+            "source_text": "आपण शिकवतो तेव्हा आपण फक्त माहिती देतो का.. की ऊर्जा देखील देतो? तर सर्वार्थाने शिकण्याच्या गतीमध्ये, प्रक्रियेमध्ये अधिक ऊर्जा, चैतन्य निर्माण करणे म्हणजे प्रशिक्षण होय.",
+            "visual": "Split screen. एका बाजूला शिक्षक फळ्यावर फक्त मुद्दे लिहिताना आणि विद्यार्थी शांतपणे पाहताना दाखवा. दुसऱ्या बाजूला तोच शिक्षक विद्यार्थ्यांसोबत संवाद साधत आहे, विद्यार्थी उत्साहाने हात वर करत आहेत, वर्गात प्रकाशमान ऊर्जा आणि चैतन्य दाखवणारे हलके अॅनिमेटेड स्पार्क्स/वेव्ह्ज. शेवटी स्क्रीनच्या मध्यभागी 'प्रशिक्षण' हा शब्द उभारा.",
+            "ost": "फक्त माहिती नाही...\nऊर्जा आणि चैतन्यही!\nयालाच प्रशिक्षण म्हणतात.",
+            "dialogue": "आपण शिकवतो तेव्हा आपण फक्त माहिती देतो का.. की ऊर्जा देखील देतो? तर सर्वार्थाने शिकण्याच्या गतीमध्ये, प्रक्रियेमध्ये अधिक ऊर्जा, चैतन्य निर्माण करणे म्हणजे प्रशिक्षण होय."
+        },
+        {
+            "beat_id": "6",
+            "source_text": "प्रशिक्षण म्हटलं की कदाचित तुम्हाला वाटू शकते, हे काही वेगळं असेल का? की पुन्हा तेच?",
+            "visual": "Talking head full screen. Presenter looks at the camera with a thoughtful, relatable expression. In the background, subtle animated question marks appear near a small icon of a training notebook and projector, suggesting the common doubt about training sessions.",
+            "ost": "हे काही वेगळं असेल का? की पुन्हा तेच?",
+            "dialogue": "प्रशिक्षण म्हटलं की कदाचित तुम्हाला वाटू शकते, हे काही वेगळं असेल का? की पुन्हा तेच?"
+        },
+        {
+            "beat_id": "7",
+            "source_text": "खरं तर तुमच्यात नवीन काहीतरी शिकण्याची आस आहे, आणि मनापासून शिकण्याची इच्छाही आहे‌, म्हणूनच तुमच्यासाठी उमेद (UMED) या प्रशिक्षण कार्यक्रमाचे आयोजन करण्यात आले आहे.",
+            "visual": "Warm classroom/training setup. Show a group of enthusiastic teachers/participants seated with notebooks, looking curious and motivated. On the screen in front, display the title card of the training program: “उमेद (UMED)”. Add subtle icons around the screen such as a light bulb, open book, and upward arrow to represent learning, motivation, and growth. Presenter stands beside the screen welcoming participants.",
+            "ost": "उमेद (UMED) प्रशिक्षण कार्यक्रम",
+            "dialogue": "खरं तर तुमच्यात नवीन काहीतरी शिकण्याची आस आहे, आणि मनापासून शिकण्याची इच्छाही आहे‌, म्हणूनच तुमच्यासाठी उमेद (UMED) या प्रशिक्षण कार्यक्रमाचे आयोजन करण्यात आले आहे."
+        },
+        {
+            "beat_id": "8",
+            "source_text": "UMED म्हणजे Unique Mindful Education Development, म्हणजेच 'असाधारण सचेतन शैक्षणिक विकास' होय.",
+            "visual": "Clean educational graphic on screen. In the center, show the word “UMED” in large bold letters. Around it, four small icons appear: a unique fingerprint for “Unique”, a calm mindful brain for “Mindful”, an open book for “Education”, and an upward growth arrow for “Development”. Then show the Marathi meaning below with highlighted words.",
+            "ost": "UMED = Unique Mindful Education Development\n'असाधारण सचेतन शैक्षणिक विकास'",
+            "dialogue": "UMED म्हणजे Unique Mindful Education Development, म्हणजेच 'असाधारण सचेतन शैक्षणिक विकास' होय."
+        },
+        {
+            "beat_id": "9",
+            "source_text": "या नावातील प्रत्येक शब्दाचा अर्थ या प्रशिक्षणातील वेगळेपणा सूचित करतो. या नावातील प्रत्येक शब्द काय सांगतो ते समजून घेऊया…",
+            "visual": "Display the training title at the center of the screen. Animate each word separately with a soft highlight glow, as if each word is being selected for explanation. In the background, show subtle icons of learning, discussion, and growth to suggest the uniqueness of the training. End with all words highlighted together and a small question-mark icon transitioning into a learning bulb.",
+            "ost": "नावातील प्रत्येक शब्द प्रशिक्षणातील वेगळेपणा सांगतो",
+            "dialogue": "या नावातील प्रत्येक शब्दाचा अर्थ या प्रशिक्षणातील वेगळेपणा सूचित करतो. या नावातील प्रत्येक शब्द काय सांगतो ते समजून घेऊया…"
+        },
+        {
+            "beat_id": "10",
+            "source_text": "या नावातील प्रत्येक शब्दाचा अर्थ समजून घेऊया",
+            "visual": "Display the full name/title on screen. Animate each word separately with a soft highlight or underline, one after another, indicating that the meaning of every word will be explained next. Use a clean educational background with subtle icons of a book and magnifying glass.",
+            "ost": "प्रत्येक शब्दाचा अर्थ",
+            "dialogue": "या नावातील प्रत्येक शब्दाचा अर्थ समजून घेऊया"
+        },
+        {
+            "beat_id": "11",
+            "source_text": "'Unique' म्हणजे असाधारण, जे साधारण नाही ते म्हणजे आतापर्यंतच्या प्रशिक्षणापेक्षा वेगळा अनुभव देणारे प्रशिक्षण.",
+            "visual": "Clean classroom-training themed background. Center screen shows the word 'Unique' in bold, glowing style. Around it, ordinary training elements like a notebook, chalkboard, and presentation screen appear in muted colors. Then one bright pathway or spotlight separates from the ordinary elements, symbolizing a different learning experience. Highlight the words 'असाधारण' and 'वेगळा अनुभव' with subtle animation.",
+            "ost": "'Unique' = असाधारण\nसाधारण नाही,\nवेगळा अनुभव देणारे प्रशिक्षण",
+            "dialogue": "'Unique' म्हणजे असाधारण, जे साधारण नाही ते म्हणजे आतापर्यंतच्या प्रशिक्षणापेक्षा वेगळा अनुभव देणारे प्रशिक्षण."
+        },
+        {
+            "beat_id": "12",
+            "source_text": "वेगळा अनुभव म्हणजे शिकण्याची प्रक्रिया अधिक 'सजग’ ‘समृद्ध’ करणारा अनुभव.",
+            "visual": "A bright classroom scene. A teacher shows students a new hands-on activity on a table, such as observing leaves, stones, and simple learning materials. Students look curious and engaged; one student writes observations, another asks a question, and others discuss together. Soft highlight around the activity to show a meaningful new experience enriching learning.",
+            "ost": "वेगळा अनुभव = सजग आणि समृद्ध शिकणे",
+            "dialogue": "वेगळा अनुभव म्हणजे शिकण्याची प्रक्रिया अधिक 'सजग’ ‘समृद्ध’ करणारा अनुभव."
+        },
+        {
+            "beat_id": "13",
+            "source_text": "हा अनुभव कसा घ्यायचा तर Mindful राहून म्हणजेच सचेतन राहून.",
+            "visual": "शांत, उबदार प्रकाश असलेला एक साधा सीन. एक विद्यार्थी खिडकीजवळ बसलेला आहे. बाहेर हलकी झुळूक आणि झाडांची पाने हालत आहेत. विद्यार्थी डोळे हलके मिटून खोल श्वास घेतो. कॅमेरा हळूहळू त्याच्या चेहऱ्यावर झूम होतो. त्याच्या भोवती छोटे व्हिज्युअल आयकॉन दिसतात—श्वास, हृदयाची शांत धडधड, कानाजवळ ऐकण्याचे चिन्ह, आणि डोळ्याजवळ निरीक्षणाचे चिन्ह. पार्श्वभूमीतला आवाज मंद होतो आणि विद्यार्थी वर्तमान क्षणात स्थिर झाल्यासारखा दिसतो.",
+            "ost": "Mindful = सचेतन राहणे",
+            "dialogue": "हा अनुभव घ्यायचा असेल, तर आपण Mindful—म्हणजेच सचेतन—राहायला हवं."
+        },
+        {
+            "beat_id": "14",
+            "source_text": "हा अनुभव कशासाठी तर 'शैक्षणिक विकासासाठी'!",
+            "visual": "Talking head on one side with a simple classroom-themed background. On the other side, show a student icon connected to a glowing book, brain, and growth arrow. As the narration says 'शैक्षणिक विकासासाठी', highlight these words in a bright color inside a rounded box.",
+            "ost": "'शैक्षणिक विकासासाठी'",
+            "dialogue": "हा अनुभव कशासाठी तर 'शैक्षणिक विकासासाठी'!"
+        },
+        {
+            "beat_id": "15",
+            "source_text": "शैक्षणिक विकास कोणाचा? निश्चितच तो तुमचा, म्हणजेच शिक्षकांचा, पर्यायाने विद्यार्थ्यांचा आणि सरते शेवटी सर्व ‘शैक्षणिक पर्यावरणाचा’ होय.",
+            "visual": "Talking head on one side with a simple animated flow diagram on the other side. The flow starts with a teacher icon, moves to a group of students, and then expands into a wider school environment showing classroom, books, trees, and community elements. Highlight each stage as it is mentioned in the narration.",
+            "ost": "शिक्षक → विद्यार्थी → शैक्षणिक पर्यावरण",
+            "dialogue": "शैक्षणिक विकास कोणाचा? निश्चितच तो तुमचा, म्हणजेच शिक्षकांचा, पर्यायाने विद्यार्थ्यांचा आणि सरते शेवटी सर्व ‘शैक्षणिक पर्यावरणाचा’ होय."
+        },
+        {
+            "beat_id": "16",
+            "source_text": "हे उमेद प्रशिक्षणाचे पहिले वैशिष्ट्य आहे.",
+            "visual": "उजळ, प्रेरणादायी प्रशिक्षण कक्ष दिसतो. स्क्रीनवर ‘उमेद प्रशिक्षण’ असा शीर्षक असलेला स्लाइड उघडतो आणि त्याखाली मोठ्या क्रमांकात ‘1’ चमकतो. प्रशिक्षक हातात मार्कर घेऊन स्क्रीनकडे इशारा करतो, तर सहभागी उत्सुकतेने नोट्स घेत आहेत. पार्श्वभूमीत सकारात्मक वातावरण दाखवण्यासाठी हलके आयकॉन—चेकमार्क, नोटबुक आणि बल्ब—हळूवार दिसतात.",
+            "ost": "उमेद प्रशिक्षणाचे पहिले वैशिष्ट्य",
+            "dialogue": "हे उमेद प्रशिक्षणाचे पहिले वैशिष्ट्य आहे."
+        },
+        {
+            "beat_id": "17",
+            "source_text": "'उमेद' प्रशिक्षणाचे दुसरे वैशिष्ट्य म्हणजे हे प्रशिक्षण पूर्णत: आँनलाईन आहे - शिक्षकांना स्वत:च्या गतीने आणि स्वतःच्या वेळेत पूर्ण करण्याचे स्वातंत्र्य देणारे हे प्रशिक्षण आहे.",
+            "visual": "Display a teacher sitting comfortably at home with a laptop open showing the 'उमेद' online training screen. Around the teacher, show simple icons of a clock, calendar, play button, and progress bar to represent learning at own pace and own time. Animate the icons appearing one by one, then highlight the laptop screen with a soft glow to emphasize पूर्णत: आँनलाईन प्रशिक्षण.",
+            "ost": "पूर्णत: आँनलाईन प्रशिक्षण\nस्वतःच्या गतीने\nस्वतःच्या वेळेत",
+            "dialogue": "'उमेद' प्रशिक्षणाचे दुसरे वैशिष्ट्य म्हणजे हे प्रशिक्षण पूर्णत: आँनलाईन आहे - शिक्षकांना स्वत:च्या गतीने आणि स्वतःच्या वेळेत पूर्ण करण्याचे स्वातंत्र्य देणारे हे प्रशिक्षण आहे."
+        },
+        {
+            "beat_id": "18",
+            "source_text": "तिसरे वैशिष्ट्य म्हणजे प्रत्येक घटक पूर्ण झाल्यानंतर त्या घटकाचे पुनरावलोकन करण्यासाठी त्यात पूर्वचाचणी व उत्तरचाचणी आहे. या प्रश्नांमुळे तुम्ही काय शिकलात ते तुम्हाला पुन्हा तपासता येईल… आणि अधिक स्पष्ट होईल.",
+            "visual": "Talking head full screen. Presenter explains the third feature with a calm, encouraging tone. A simple side graphic appears showing a completed learning module, followed by two small quiz cards labeled “पूर्वचाचणी” and “उत्तरचाचणी”, with a checkmark indicating self-review and clarity.",
+            "ost": "घटकानंतर पुनरावलोकन\nपूर्वचाचणी + उत्तरचाचणी",
+            "dialogue": "तिसरे वैशिष्ट्य म्हणजे प्रत्येक घटक पूर्ण झाल्यानंतर त्या घटकाचे पुनरावलोकन करण्यासाठी त्यात पूर्वचाचणी व उत्तरचाचणी आहे. या प्रश्नांमुळे तुम्ही काय शिकलात ते तुम्हाला पुन्हा तपासता येईल… आणि अधिक स्पष्ट होईल."
+        },
+        {
+            "beat_id": "19",
+            "source_text": "चौथे वैशिष्ट्य म्हणजे या प्रशिक्षणाचा अभ्यासक्रम. प्रशिक्षणात महत्वाच्या तीन विषयांचा समावेश केला आहे. एक राष्ट्रीय शैक्षणिक धोरण (NEP 2020), मेंदू शास्त्र व पंचकोशीय व्यक्तित्व.",
+            "visual": "Show a clean classroom-style graphic with a large title card: “प्रशिक्षणाचा अभ्यासक्रम”. Under it, display three separate illustrated cards appearing one by one: 1) a policy document icon labeled “राष्ट्रीय शैक्षणिक धोरण (NEP 2020)”, 2) a brain icon labeled “मेंदू शास्त्र”, and 3) a layered human silhouette icon labeled “पंचकोशीय व्यक्तित्व”. End with all three cards aligned neatly on screen.",
+            "ost": "प्रशिक्षणाचा अभ्यासक्रम\n१. NEP 2020\n२. मेंदू शास्त्र\n३. पंचकोशीय व्यक्तित्व",
+            "dialogue": "चौथे वैशिष्ट्य म्हणजे या प्रशिक्षणाचा अभ्यासक्रम. प्रशिक्षणात महत्वाच्या तीन विषयांचा समावेश केला आहे. एक राष्ट्रीय शैक्षणिक धोरण (NEP 2020), मेंदू शास्त्र व पंचकोशीय व्यक्तित्व."
+        },
+        {
+            "beat_id": "20",
+            "source_text": "या विषयातील घटकांची आंतरसाखळी पद्धतीने मांडणी हे या प्रशिक्षणाचे पाचवे वैशिष्ट्य आहे. एक घटक दुसऱ्या घटकात अलगद प्रवेश करतो.",
+            "visual": "Show a clean animated learning flow screen. Five feature cards appear one by one, with the fifth card highlighted. Then display connected topic blocks like a smooth chain: घटक १ gently links into घटक २, घटक २ into घटक ३, showing seamless transition between components. Use soft arrows and subtle motion to emphasize interconnection.",
+            "ost": "पाचवे वैशिष्ट्य\nघटकांची आंतरसाखळी मांडणी\nएक घटक → दुसऱ्या घटकात प्रवेश",
+            "dialogue": "या विषयातील घटकांची आंतरसाखळी पद्धतीने मांडणी हे या प्रशिक्षणाचे पाचवे वैशिष्ट्य आहे. एक घटक दुसऱ्या घटकात अलगद प्रवेश करतो."
+        },
+        {
+            "beat_id": "21",
+            "source_text": "विषयांची मांडणी करताना, वर्ग अध्यापनातील उदाहरणांचा समावेश केला आहे हे प्रशिक्षणाचे सहावे वैशिष्ट्य आहे.",
+            "visual": "Show a clean classroom setting with a teacher explaining a topic on the board. Beside the board, display a highlighted card titled “सहावे वैशिष्ट्य”. On the card, show small icons of a book, classroom, and example bubble. Animate the topic points appearing first, then classroom teaching examples appearing next to them, showing that examples are included while presenting the subjects.",
+            "ost": "सहावे वैशिष्ट्य\nविषयांची मांडणी\nवर्ग अध्यापनातील उदाहरणांचा समावेश",
+            "dialogue": "विषयांची मांडणी करताना, वर्ग अध्यापनातील उदाहरणांचा समावेश केला आहे हे प्रशिक्षणाचे सहावे वैशिष्ट्य आहे."
+        },
+        {
+            "beat_id": "22",
+            "source_text": "अशा या वैशिष्ट्यपूर्ण 'UMED' प्रशिक्षणातून शिकण्याची व शिकवण्याची नवी ‘उमेद’ निर्माण करूया!",
+            "visual": "Bright uplifting classroom scene. A teacher and students stand together around a glowing 'UMED' logo at the center. From the logo, light rays flow toward icons of learning and teaching—book, brain, discussion bubbles, activity tools, and a smiling classroom. End with everyone raising hands confidently, showing new energy and motivation.",
+            "ost": "UMED प्रशिक्षणातून नवी उमेद",
+            "dialogue": "अशा या वैशिष्ट्यपूर्ण 'UMED' प्रशिक्षणातून शिकण्याची व शिकवण्याची नवी ‘उमेद’ निर्माण करूया!"
+        },
+        {
+            "beat_id": "23",
+            "source_text": "थोडक्यात… हे प्रशिक्षण फक्त माहिती देणार नाही… तर अनुभव देणार आहे.",
+            "visual": "Talking head full screen. प्रशिक्षक कॅमेऱ्याकडे आत्मविश्वासाने बोलताना दिसतो. पार्श्वभूमीत हलके अॅनिमेटेड आयकॉन दिसतात—एका बाजूला पुस्तक/माहितीचे चिन्ह आणि दुसऱ्या बाजूला प्रत्यक्ष कृती, संवाद आणि सहभाग दाखवणारी चिन्हे. शेवटी अनुभव दर्शवणारे चिन्ह थोडे उजळते.",
+            "ost": "माहिती नाही, अनुभव",
+            "dialogue": "थोडक्यात… हे प्रशिक्षण फक्त माहिती देणार नाही… तर अनुभव देणार आहे."
+        },
+        {
+            "beat_id": "24",
+            "source_text": "आता पुढची पाच मिनिटे हा विचार करा की “आपण शिक्षक आहोत आणि शिक्षक म्हणून आपण काय साध्य करू शकतो”",
+            "visual": "Create a reflective activity screen. Show a calm classroom background with a teacher silhouette standing near a blackboard. On the blackboard, display a large thought bubble with a question mark and a small 5-minute timer icon in the corner to indicate reflection time.",
+            "ost": "पुढची ५ मिनिटे विचार करा:\nशिक्षक म्हणून आपण काय साध्य करू शकतो?",
+            "dialogue": "आता पुढची पाच मिनिटे हा विचार करा की “आपण शिक्षक आहोत आणि शिक्षक म्हणून आपण काय साध्य करू शकतो”"
+        },
+        {
+            "beat_id": "25",
+            "source_text": "आशा या उमेद ज्याच्या नावातच इतका अर्थ आहे, त्या प्रशिक्षणातील वैशिष्ट्यांपैकी कोणत्या वैशिष्टयाबद्दल तुम्हाला उत्सुकता वाटत आहे? त्यावर चर्चा करा आणि पुढील भागाकडे वळा.",
+            "visual": "Talking head medium shot. Presenter looks warmly at the camera and gestures invitingly. On the side, simple animated icons appear: a group discussion bubble, a question mark, and a forward arrow. The background is clean and classroom-themed, suggesting reflection and peer discussion before moving ahead.",
+            "ost": "चर्चा करा आणि पुढे चला",
+            "dialogue": "आशा या उमेद ज्याच्या नावातच इतका अर्थ आहे, त्या प्रशिक्षणातील वैशिष्ट्यांपैकी कोणत्या वैशिष्टयाबद्दल तुम्हाला उत्सुकता वाटत आहे? त्यावर चर्चा करा आणि पुढील भागाकडे वळा."
+        }
+    ]
+}

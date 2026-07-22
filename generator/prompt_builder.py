@@ -1,7 +1,8 @@
 """
 prompt_builder.py
 
-Builds the prompts sent to the LLM.
+Builds the prompts sent to the LLM for generating
+a storyboard for a single beat.
 
 Output:
     developer_prompt
@@ -18,18 +19,21 @@ from typing import List, Tuple
 DEVELOPER_PROMPT = """
 You are an expert instructional storyboard designer working at Lernkys Edutainment.
 
-Your responsibility is to convert educational scripts into high-quality storyboard beats.
+Your responsibility is to convert ONE educational script beat into ONE storyboard beat.
 
-Your storyboard should:
+Follow these rules:
 
-- Preserve the meaning of the script.
-- Follow the style of approved storyboard examples.
-- Produce clear and visually engaging scene descriptions.
+- Preserve the meaning of the narration.
+- Follow the style of the approved storyboard examples.
+- Use the retrieved examples only as references.
+- Do NOT copy the retrieved examples.
+- Maintain the same language as the input narration.
+- Produce a visually engaging storyboard.
 - Generate concise and readable OST (On Screen Text).
 - Generate natural narration/dialogue.
-- Maintain the same language as the input script.
 - Never invent facts.
 - Never omit important information.
+- Preserve the provided beat_id exactly as it is.
 - Return ONLY valid JSON.
 - Never return Markdown.
 - Never explain your reasoning.
@@ -37,22 +41,18 @@ Your storyboard should:
 
 
 # ============================================================
-# JSON Format
+# Output Schema
 # ============================================================
 
 OUTPUT_SCHEMA = """
-Return the output in the following JSON format:
+Return ONLY valid JSON in the following format:
 
 {
-    "beats": [
-        {
-            "beat_id": "generated_beat_01",
-            "source_text": "...",
-            "visual": "...",
-            "ost": "...",
-            "dialogue": "..."
-        }
-    ]
+    "beat_id": "...",
+    "source_text": "...",
+    "visual": "...",
+    "ost": "...",
+    "dialogue": "..."
 }
 """
 
@@ -62,49 +62,65 @@ Return the output in the following JSON format:
 # ============================================================
 
 def build_user_prompt(
-    script: str,
+    beat: dict,
     retrieved_examples: List[dict]
 ) -> str:
+    """
+    Build the user prompt for a single storyboard beat.
+
+    Args:
+        beat:
+            Dictionary containing:
+                beat_id
+                text
+
+        retrieved_examples:
+            Similar approved storyboard examples.
+
+    Returns:
+        User prompt.
+    """
 
     prompt = ""
 
-    # ------------------------------
-    # Output format
-    # ------------------------------
+    # --------------------------------------------------------
+    # Output Format
+    # --------------------------------------------------------
 
     prompt += OUTPUT_SCHEMA
     prompt += "\n\n"
 
-    # ------------------------------
+    # --------------------------------------------------------
     # Retrieved Examples
-    # ------------------------------
+    # --------------------------------------------------------
 
     if retrieved_examples:
 
         prompt += (
             "Below are approved storyboard examples.\n"
-            "Learn their style, structure, and level of detail.\n"
-            "Do NOT copy them.\n\n"
+            "Study their writing style, level of detail, and structure.\n"
+            "Use them only as inspiration.\n"
+            "Do NOT copy any content.\n\n"
         )
 
-        for idx, beat in enumerate(retrieved_examples, start=1):
+        for idx, example in enumerate(retrieved_examples, start=1):
 
             prompt += f"""
 ==================================================
-Approved Example {idx}
+APPROVED EXAMPLE {idx}
 ==================================================
 
 Source Text:
-{beat["source_text"]}
+{example["source_text"]}
 
 Visual:
-{beat["visual"]}
+{example["visual"]}
 
 OST:
-{beat["ost"]}
+{example["ost"]}
 
 Dialogue:
-{beat["dialogue"]}
+{example["dialogue"]}
 
 """
 
@@ -113,38 +129,47 @@ Dialogue:
         prompt += """
 No similar storyboard examples were retrieved.
 
-Generate the storyboard using your own reasoning while following the required JSON format.
+Generate the storyboard using your own reasoning while
+following the required JSON format.
 
 """
 
-    # ------------------------------
-    # New Script
-    # ------------------------------
+    # --------------------------------------------------------
+    # Current Beat
+    # --------------------------------------------------------
 
     prompt += f"""
-
 ==================================================
-NEW SCRIPT
+CURRENT BEAT
 ==================================================
 
-{script}
+Beat ID:
+{beat["beat_id"]}
+
+Narration:
+{beat["text"]}
 
 """
 
-    # ------------------------------
-    # Final Instruction
-    # ------------------------------
+    # --------------------------------------------------------
+    # Final Instructions
+    # --------------------------------------------------------
 
     prompt += """
-Generate a storyboard for the above script.
+Generate ONE storyboard beat.
 
-Return ONLY valid JSON.
+Requirements:
 
-Do not include explanations.
-
-Do not include markdown.
-
-Do not wrap the JSON inside ``` blocks.
+1. Keep the same beat_id.
+2. Copy the narration exactly into source_text.
+3. Generate a detailed visual.
+4. Generate concise OST.
+5. Generate natural dialogue.
+6. Maintain the same language.
+7. Return ONLY valid JSON.
+8. Do NOT include explanations.
+9. Do NOT include Markdown.
+10. Do NOT wrap JSON inside ``` blocks.
 """
 
     return prompt
@@ -155,14 +180,27 @@ Do not wrap the JSON inside ``` blocks.
 # ============================================================
 
 def build_prompt(
-    script: str,
+    beat: dict,
     retrieved_examples: List[dict]
 ) -> Tuple[str, str]:
+    """
+    Build prompts for GPT.
+
+    Args:
+        beat:
+            Beat dictionary.
+
+        retrieved_examples:
+            Retrieved storyboard examples.
+
+    Returns:
+        (developer_prompt, user_prompt)
+    """
 
     developer_prompt = DEVELOPER_PROMPT
 
     user_prompt = build_user_prompt(
-        script,
+        beat,
         retrieved_examples
     )
 
@@ -175,6 +213,11 @@ def build_prompt(
 
 if __name__ == "__main__":
 
+    beat = {
+        "beat_id": "beat_001",
+        "text": "हिप्पोकॅम्पस नवीन आठवणी तयार करण्यास मदत करतो."
+    }
+
     examples = [
         {
             "source_text": "मेंदूचे तीन भाग आहेत.",
@@ -184,10 +227,8 @@ if __name__ == "__main__":
         }
     ]
 
-    script = "हिप्पोकॅम्पस नवीन आठवणी तयार करण्यास मदत करतो."
-
     developer_prompt, user_prompt = build_prompt(
-        script,
+        beat,
         examples
     )
 
