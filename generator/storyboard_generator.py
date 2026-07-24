@@ -1,21 +1,10 @@
-"""
-storyboard_generator.py
-
-Generates storyboard beats using GPT-5.5.
-
-Input:
-    output/intermediate/retrieved_examples.json
-
-Output:
-    output/generated/generated_storyboard.json
-"""
-
 import json
 import os
 from pathlib import Path
 
 from dotenv import load_dotenv
 from openai import OpenAI
+from tqdm.auto import tqdm
 
 from generator.prompt_builder import build_prompt
 from generator.validator import validate_storyboard
@@ -37,28 +26,10 @@ OUTPUT_PATH = Path(
     "output/generated/generated_storyboard.json"
 )
 
-
-# ==========================================================
-# LLM Call
-# ==========================================================
-
 def generate_storyboard_beat(
     developer_prompt: str,
     user_prompt: str
 ) -> dict:
-    """
-    Generate a storyboard for a single beat.
-
-    Args:
-        developer_prompt:
-            System instructions.
-
-        user_prompt:
-            Prompt containing the beat and retrieved examples.
-
-    Returns:
-        Generated storyboard beat as a dictionary.
-    """
 
     response = client.responses.create(
         model=MODEL_NAME,
@@ -76,21 +47,10 @@ def generate_storyboard_beat(
             f"Model returned invalid JSON:\n\n{output_text}"
         ) from e
 
-
-# ==========================================================
-# Generate Complete Storyboard
-# ==========================================================
-
 def generate_storyboard(
     input_path: Path = INPUT_PATH,
     output_path: Path = OUTPUT_PATH
 ) -> dict:
-    """
-    Generate storyboard for all beats.
-
-    Returns:
-        Dictionary containing validated storyboard.
-    """
 
     input_path = Path(input_path)
     output_path = Path(output_path)
@@ -111,15 +71,14 @@ def generate_storyboard(
         "beats": []
     }
 
-    total = len(retrieved_data["beats"])
-
     print("=" * 80)
     print("GENERATING STORYBOARD")
     print("=" * 80)
 
-    for index, beat in enumerate(
+    for beat in tqdm(
         retrieved_data["beats"],
-        start=1
+        desc="Generating Storyboard",
+        unit="beat"
     ):
 
         developer_prompt, user_prompt = build_prompt(
@@ -136,25 +95,15 @@ def generate_storyboard(
             generated_beat
         )
 
-        print(
-            f"[{index}/{total}] Generated Beat {generated_beat['beat_id']}"
-        )
+    print()
 
-    # ======================================================
-    # Validate the complete storyboard
-    # ======================================================
-
-    print("\nValidating generated storyboard...")
+    print("Validating generated storyboard...")
 
     validated_storyboard = validate_storyboard(
         generated_storyboard
     )
 
     print("OK: Storyboard validation successful")
-
-    # ======================================================
-    # Save validated storyboard
-    # ======================================================
 
     output_path.parent.mkdir(
         parents=True,
@@ -174,7 +123,7 @@ def generate_storyboard(
             ensure_ascii=False
         )
 
-    print("\n")
+    print()
 
     print("=" * 80)
     print("STORYBOARD GENERATION COMPLETE")
@@ -184,10 +133,6 @@ def generate_storyboard(
 
     return validated_storyboard.model_dump()
 
-
-# ==========================================================
-# Testing
-# ==========================================================
 
 if __name__ == "__main__":
 
