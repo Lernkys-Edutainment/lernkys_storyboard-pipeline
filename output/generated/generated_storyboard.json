@@ -2,178 +2,283 @@
     "beats": [
         {
             "beat_id": "1",
-            "source_text": "ह्या प्रशिक्षणामध्ये तुमचे मनापासून स्वागत,",
-            "visual": "Warm opening screen with a friendly trainer/teacher smiling and welcoming the learners. Soft classroom-inspired background with subtle learning icons like books, pencil, board, and speech bubbles. Add a gentle welcome animation with light colors and positive feel.",
-            "ost": "मनापासून स्वागत!",
-            "dialogue": "ह्या प्रशिक्षणामध्ये तुमचे मनापासून स्वागत,"
+            "source_text": "Umed 3.3.2",
+            "visual": "Opening title screen with a clean, modern educational design. A softly animated gradient background shifts between calm blue and white tones. In the center, a large rounded card appears with the label “Umed 3.3.2” displayed clearly. Subtle geometric shapes and light motion lines add energy without distracting from the title.",
+            "ost": "Umed 3.3.2",
+            "dialogue": "Umed 3.3.2"
         },
         {
             "beat_id": "2",
-            "source_text": "आज आपण एक वेगळा आणि विचार करायला लावणारा विषय प्रशिक्षणातून समजून घेणार आहोत.",
-            "visual": "Talking head full screen. Trainer looks into camera with a thoughtful expression. Subtle animated question marks and a lightbulb icon appear softly in the background to suggest curiosity and reflection.",
-            "ost": "एक वेगळा आणि विचार करायला लावणारा विषय",
-            "dialogue": "आज आपण एक वेगळा आणि विचार करायला लावणारा विषय प्रशिक्षणातून समजून घेणार आहोत."
+            "source_text": "पंचप्राण",
+            "visual": "एक शांत, आध्यात्मिक पृष्ठभूमि में हल्की सुनहरी आभा फैलती है। स्क्रीन के केंद्र में ध्यान मुद्रा में बैठी एक सौम्य आकृति दिखाई देती है। उसके चारों ओर पाँच कोमल प्रकाश-वृत्त धीरे-धीरे उभरते हैं, जो संतुलन और ऊर्जा का संकेत देते हैं। कैमरा धीरे से ज़ूम इन करता है और वातावरण में शांति, गहराई और जिज्ञासा का भाव बनता है।",
+            "ost": "पंचप्राण",
+            "dialogue": "पंचप्राण"
         },
         {
             "beat_id": "3",
-            "source_text": "'प्रशिक्षण' शब्दातील 'प्र' उपसर्गाचा अर्थ आहे 'अधिक' आणि शिक्षण’ या शब्दाचा मूळ धातू ‘शिक्ष’ म्हणजे शिकणे, शिकवणे आणि ज्ञान मिळवणे.",
-            "visual": "Clean educational graphic on a light background. Display the word ‘प्रशिक्षण’ large in the center. Animate it splitting into two highlighted parts: ‘प्र’ and ‘शिक्षण’. Show an arrow from ‘प्र’ to a small label ‘अधिक’. Then show ‘शिक्षण’ connected to its root word ‘शिक्ष’. Under ‘शिक्ष’, display three simple icons one by one: a student reading for ‘शिकणे’, a teacher at a board for ‘शिकवणे’, and an open book/light bulb for ‘ज्ञान मिळवणे’.",
-            "ost": "प्र = अधिक\nशिक्ष = शिकणे, शिकवणे, ज्ञान मिळवणे",
-            "dialogue": "'प्रशिक्षण' शब्दातील 'प्र' उपसर्गाचा अर्थ आहे 'अधिक' आणि शिक्षण’ या शब्दाचा मूळ धातू ‘शिक्ष’ म्हणजे शिकणे, शिकवणे आणि ज्ञान मिळवणे."
+            "source_text": "आपण मागील भागात श्वास म्हणजे प्राण नाही, हे वाक्य पहिले होते, आठवतंय ना? या वाक्याचे स्पष्टीकरण पाहूया.",
+            "visual": "Talking head full screen. प्रशिक्षक कॅमेऱ्याकडे पाहून मागील भागाची आठवण करून देतात. पार्श्वभूमीत हलक्या अॅनिमेशनमध्ये श्वास दर्शवणारी निळी लहर आणि बाजूला 'प्राण' हा शब्द वेगळा ठळक दिसतो. शेवटी दोन्ही शब्दांमध्ये फरक समजावण्यासाठी स्क्रीनवर प्रश्नचिन्हासह साधा ट्रांझिशन.",
+            "ost": "श्वास म्हणजे प्राण नाही",
+            "dialogue": "आपण मागील भागात श्वास म्हणजे प्राण नाही, हे वाक्य पहिले होते, आठवतंय ना? या वाक्याचे स्पष्टीकरण पाहूया."
         },
         {
             "beat_id": "4",
-            "source_text": "थोडक्यात सांगायचं तर…शिक्षण ही शिकण्याची प्रक्रिया आणि शिक्षक म्हणजे या प्रक्रियेत मदत करणारा मार्गदर्शक किंवा गुरु होय.",
-            "visual": "Talking head on one side of the screen. On the other side, show a simple animated infographic: a path labeled ‘शिकण्याची प्रक्रिया’ with a student walking forward, and a teacher standing beside the path as a supportive guide holding a small lamp or book. Soft classroom background, warm colors, and gentle motion to suggest guidance and learning.",
-            "ost": "शिक्षण = शिकण्याची प्रक्रिया\nशिक्षक = मार्गदर्शक / गुरु",
-            "dialogue": "थोडक्यात सांगायचं तर…शिक्षण ही शिकण्याची प्रक्रिया आणि शिक्षक म्हणजे या प्रक्रियेत मदत करणारा मार्गदर्शक किंवा गुरु होय."
+            "source_text": "शरीरातील महत्त्वाच्या क्रिया पार पाडण्यासाठी हे पाच प्राण कार्यरत असतात:",
+            "visual": "Talking head on one side with a clean infographic of a human body outline on the other side. Around the body, five soft glowing points or icons appear to represent the five प्राण, connected with gentle flowing lines to suggest body functions working in harmony.",
+            "ost": "शरीरातील क्रियांसाठी पाच प्राण",
+            "dialogue": "शरीरातील महत्त्वाच्या क्रिया पार पाडण्यासाठी हे पाच प्राण कार्यरत असतात:"
         },
         {
             "beat_id": "5",
-            "source_text": "आपण शिकवतो तेव्हा आपण फक्त माहिती देतो का.. की ऊर्जा देखील देतो? तर सर्वार्थाने शिकण्याच्या गतीमध्ये, प्रक्रियेमध्ये अधिक ऊर्जा, चैतन्य निर्माण करणे म्हणजे प्रशिक्षण होय.",
-            "visual": "Split screen. एका बाजूला शिक्षक फळ्यावर फक्त मुद्दे लिहिताना आणि विद्यार्थी शांतपणे पाहताना दाखवा. दुसऱ्या बाजूला तोच शिक्षक विद्यार्थ्यांसोबत संवाद साधत आहे, विद्यार्थी उत्साहाने हात वर करत आहेत, वर्गात प्रकाशमान ऊर्जा आणि चैतन्य दाखवणारे हलके अॅनिमेटेड स्पार्क्स/वेव्ह्ज. शेवटी स्क्रीनच्या मध्यभागी 'प्रशिक्षण' हा शब्द उभारा.",
-            "ost": "फक्त माहिती नाही...\nऊर्जा आणि चैतन्यही!\nयालाच प्रशिक्षण म्हणतात.",
-            "dialogue": "आपण शिकवतो तेव्हा आपण फक्त माहिती देतो का.. की ऊर्जा देखील देतो? तर सर्वार्थाने शिकण्याच्या गतीमध्ये, प्रक्रियेमध्ये अधिक ऊर्जा, चैतन्य निर्माण करणे म्हणजे प्रशिक्षण होय."
+            "source_text": "संस्कृतमध्ये 'प्राण' हा शब्द 'प्र' (प्रकर्षणाने/मुख्य) आणि 'अन्' (हालचाल किंवा श्वास घेणे) या दोन शब्दांपासून बनला आहे.",
+            "visual": "Display a Sanskrit-style parchment background. In the center, show the word 'प्राण' in large Devanagari letters. Animate it gently splitting into two parts: 'प्र' on the left and 'अन्' on the right. Under 'प्र', show a small label 'प्रकर्षणाने / मुख्य' with a subtle glowing highlight. Under 'अन्', show a simple line-art animation of breathing or movement with the label 'हालचाल / श्वास घेणे'. Finally, bring both parts back together to form 'प्राण'.",
+            "ost": "प्राण = प्र + अन्",
+            "dialogue": "संस्कृतमध्ये 'प्राण' हा शब्द 'प्र' म्हणजे प्रकर्षणाने किंवा मुख्य, आणि 'अन्' म्हणजे हालचाल किंवा श्वास घेणे, या दोन शब्दांपासून बनला आहे."
         },
         {
             "beat_id": "6",
-            "source_text": "प्रशिक्षण म्हटलं की कदाचित तुम्हाला वाटू शकते, हे काही वेगळं असेल का? की पुन्हा तेच?",
-            "visual": "Talking head full screen. Presenter looks at the camera with a thoughtful, relatable expression. In the background, subtle animated question marks appear near a small icon of a training notebook and projector, suggesting the common doubt about training sessions.",
-            "ost": "हे काही वेगळं असेल का? की पुन्हा तेच?",
-            "dialogue": "प्रशिक्षण म्हटलं की कदाचित तुम्हाला वाटू शकते, हे काही वेगळं असेल का? की पुन्हा तेच?"
+            "source_text": "1) प्राण हा प्रामुख्याने हृदय आणि फुफ्फुसांच्या भागात असतो. याचा संबंध श्वास घेणे आणि अन्नाचे पचन सुरू करणे याच्याशी असतो. जेव्हा आपण दीर्घ श्वास घेतो किंवा अन्नाचा घास घेतो, तेव्हा 'प्राण' वायू सक्रिय असतो.",
+            "visual": "मानवी शरीराचा वरचा भाग दाखवा. छातीच्या भागात हृदय आणि फुफ्फुसे हलक्या प्रकाशाने हायलाइट करा. व्यक्ती दीर्घ श्वास घेताना फुफ्फुसे फुगताना दिसावीत. पुढच्या कटमध्ये व्यक्ती अन्नाचा घास घेताना दाखवा आणि अन्ननलिकेतून अन्न खाली जाताना, पचनाची सुरुवात सूचित करणारा सौम्य अॅनिमेशन इफेक्ट दाखवा. छातीभोवती निळसर प्रकाशलहरी दाखवून ‘प्राण’ वायू सक्रिय असल्याची भावना निर्माण करा.",
+            "ost": "प्राण वायू\nहृदय आणि फुफ्फुसे\nश्वास घेणे\nपचनाची सुरुवात",
+            "dialogue": "प्राण हा प्रामुख्याने हृदय आणि फुफ्फुसांच्या भागात असतो. याचा संबंध श्वास घेणे आणि अन्नाचे पचन सुरू करणे याच्याशी असतो. जेव्हा आपण दीर्घ श्वास घेतो किंवा अन्नाचा घास घेतो, तेव्हा 'प्राण' वायू सक्रिय असतो."
         },
         {
             "beat_id": "7",
-            "source_text": "खरं तर तुमच्यात नवीन काहीतरी शिकण्याची आस आहे, आणि मनापासून शिकण्याची इच्छाही आहे‌, म्हणूनच तुमच्यासाठी उमेद (UMED) या प्रशिक्षण कार्यक्रमाचे आयोजन करण्यात आले आहे.",
-            "visual": "Warm classroom/training setup. Show a group of enthusiastic teachers/participants seated with notebooks, looking curious and motivated. On the screen in front, display the title card of the training program: “उमेद (UMED)”. Add subtle icons around the screen such as a light bulb, open book, and upward arrow to represent learning, motivation, and growth. Presenter stands beside the screen welcoming participants.",
-            "ost": "उमेद (UMED) प्रशिक्षण कार्यक्रम",
-            "dialogue": "खरं तर तुमच्यात नवीन काहीतरी शिकण्याची आस आहे, आणि मनापासून शिकण्याची इच्छाही आहे‌, म्हणूनच तुमच्यासाठी उमेद (UMED) या प्रशिक्षण कार्यक्रमाचे आयोजन करण्यात आले आहे."
+            "source_text": "2) अपान, 'अप' म्हणजे खाली किंवा दूर नेणे. जो शरीरातील कचरा खालच्या दिशेने नेऊन बाहेर टाकतो, तो अपान. हा ओटीपोटात आणि शरीराच्या खालच्या भागात कार्यरत असतो. शरीरातील टाकाऊ पदार्थ बाहेर टाकणे हे याचे मुख्य कार्य आहे. मलमूत्र विसर्जन आणि प्रसूती दरम्यान होणारी हालचाल ही 'अपान' वायूमुळे सुलभ होते.",
+            "visual": "मानवी शरीराचा साधा फ्रंट व्ह्यू सिल्हूट दाखवा. ओटीपोट आणि शरीराचा खालचा भाग हलक्या रंगाने हायलाइट करा. वरून खाली जाणारे सौम्य अॅनिमेटेड बाण दाखवा, जे अपानाची दिशा स्पष्ट करतील. बाजूला 'अपान' असा लेबल असलेला कॉलआउट दिसेल. पुढे स्वच्छ, प्रतीकात्मक आयकॉन्सद्वारे टाकाऊ पदार्थ बाहेर टाकणे, मलमूत्र विसर्जन आणि प्रसूतीदरम्यानची हालचाल दाखवा. दृश्य माहितीपूर्ण आणि संवेदनशील ठेवा, कोणतेही ग्राफिक तपशील दाखवू नका.",
+            "ost": "अपान\nदिशा: खाली आणि बाहेर\nकार्य: टाकाऊ पदार्थ बाहेर टाकणे",
+            "dialogue": "2) अपान, 'अप' म्हणजे खाली किंवा दूर नेणे. जो शरीरातील कचरा खालच्या दिशेने नेऊन बाहेर टाकतो, तो अपान. हा ओटीपोटात आणि शरीराच्या खालच्या भागात कार्यरत असतो. शरीरातील टाकाऊ पदार्थ बाहेर टाकणे हे याचे मुख्य कार्य आहे. मलमूत्र विसर्जन आणि प्रसूती दरम्यान होणारी हालचाल ही 'अपान' वायूमुळे सुलभ होते."
         },
         {
             "beat_id": "8",
-            "source_text": "UMED म्हणजे Unique Mindful Education Development, म्हणजेच 'असाधारण सचेतन शैक्षणिक विकास' होय.",
-            "visual": "Clean educational graphic on screen. In the center, show the word “UMED” in large bold letters. Around it, four small icons appear: a unique fingerprint for “Unique”, a calm mindful brain for “Mindful”, an open book for “Education”, and an upward growth arrow for “Development”. Then show the Marathi meaning below with highlighted words.",
-            "ost": "UMED = Unique Mindful Education Development\n'असाधारण सचेतन शैक्षणिक विकास'",
-            "dialogue": "UMED म्हणजे Unique Mindful Education Development, म्हणजेच 'असाधारण सचेतन शैक्षणिक विकास' होय."
+            "source_text": "3) समान, सम' म्हणजे संतुलित करणे. जो शरीराच्या मध्यभागी राहून सर्व अवयवांना ऊर्जेचे समान वाटप करतो, तो समान. हा जठराच्या भागात असतो. खाल्लेल्या अन्नाचे पचन करून त्यातून रस तयार करणे आणि ऊर्जा सर्व शरीराला समप्रमाणात वाटणे हे याचे काम आहे. जेवणानंतर पचनक्रिया व्यवस्थित होणे ही 'समान' वायूची फलश्रुती आहे.",
+            "visual": "Display a clean line-art human body from front view. Highlight the middle abdominal/stomach region with a warm glow and label it as 'समान वायू'. Show food entering the stomach, then simple animated arrows indicating digestion and formation of रस. From the stomach area, show balanced energy lines spreading equally toward different body parts like hands, legs, chest, and head. End with a calm satisfied person after a meal, with the stomach area glowing gently to show proper digestion.",
+            "ost": "समान वायू\nस्थान: जठराचा भाग\nकार्य: पचन व ऊर्जेचे समान वाटप",
+            "dialogue": "3) समान, सम' म्हणजे संतुलित करणे. जो शरीराच्या मध्यभागी राहून सर्व अवयवांना ऊर्जेचे समान वाटप करतो, तो समान. हा जठराच्या भागात असतो. खाल्लेल्या अन्नाचे पचन करून त्यातून रस तयार करणे आणि ऊर्जा सर्व शरीराला समप्रमाणात वाटणे हे याचे काम आहे. जेवणानंतर पचनक्रिया व्यवस्थित होणे ही 'समान' वायूची फलश्रुती आहे."
         },
         {
             "beat_id": "9",
-            "source_text": "या नावातील प्रत्येक शब्दाचा अर्थ या प्रशिक्षणातील वेगळेपणा सूचित करतो. या नावातील प्रत्येक शब्द काय सांगतो ते समजून घेऊया…",
-            "visual": "Display the training title at the center of the screen. Animate each word separately with a soft highlight glow, as if each word is being selected for explanation. In the background, show subtle icons of learning, discussion, and growth to suggest the uniqueness of the training. End with all words highlighted together and a small question-mark icon transitioning into a learning bulb.",
-            "ost": "नावातील प्रत्येक शब्द प्रशिक्षणातील वेगळेपणा सांगतो",
-            "dialogue": "या नावातील प्रत्येक शब्दाचा अर्थ या प्रशिक्षणातील वेगळेपणा सूचित करतो. या नावातील प्रत्येक शब्द काय सांगतो ते समजून घेऊया…"
+            "source_text": "4) उदान, 'उत्' म्हणजे वरच्या दिशेला जाणारा. जो गळ्यापासून मेंदूकडे उर्ध्वगामी हालचाल करतो, तो उदान. हा कंठ (गळा) आणि मेंदूच्या भागात असतो. वाचा, विचारशक्ती आणि स्मरणशक्ती यावर याचे नियंत्रण असते. गाणे गाणे किंवा एखादे भाषण प्रभावीपणे मांडणे यासाठी 'उदान' वायूचे संतुलित असणे गरजेचे आहे.",
+            "visual": "Display an infographic of a human upper body silhouette from chest to head. Highlight the throat and brain area with a soft glow. Show an upward arrow moving from the throat toward the brain to represent उर्ध्वगामी हालचाल. Around the highlighted area, place simple icons: a speaking mouth for वाचा, a lightbulb for विचारशक्ती, a memory symbol for स्मरणशक्ती, a music note for गाणे, and a podium/microphone for भाषण. Keep the design clean and educational with warm colors.",
+            "ost": "उदान वायू\nगळ्यापासून मेंदूकडे उर्ध्वगामी हालचाल\nवाचा, विचारशक्ती, स्मरणशक्ती\nगाणे व प्रभावी भाषणासाठी संतुलन गरजेचे",
+            "dialogue": "4) उदान, 'उत्' म्हणजे वरच्या दिशेला जाणारा. जो गळ्यापासून मेंदूकडे उर्ध्वगामी हालचाल करतो, तो उदान. हा कंठ म्हणजे गळा आणि मेंदूच्या भागात असतो. वाचा, विचारशक्ती आणि स्मरणशक्ती यावर याचे नियंत्रण असते. गाणे गाणे किंवा एखादे भाषण प्रभावीपणे मांडणे यासाठी 'उदान' वायूचे संतुलित असणे गरजेचे आहे."
         },
         {
             "beat_id": "10",
-            "source_text": "या नावातील प्रत्येक शब्दाचा अर्थ समजून घेऊया",
-            "visual": "Display the full name/title on screen. Animate each word separately with a soft highlight or underline, one after another, indicating that the meaning of every word will be explained next. Use a clean educational background with subtle icons of a book and magnifying glass.",
-            "ost": "प्रत्येक शब्दाचा अर्थ",
-            "dialogue": "या नावातील प्रत्येक शब्दाचा अर्थ समजून घेऊया"
+            "source_text": "5) व्यान, वि-अन्' म्हणजे सर्वत्र व्यापून असणारा. जो रक्ताभिसरणाद्वारे संपूर्ण शरीरात पसरलेला असतो, तो व्यान. हा संपूर्ण शरीरात संचार करतो. रक्ताभिसरण आणि शरीराच्या सांध्यांची हालचाल यावर याचे नियंत्रण असते. चालताना किंवा हातपाय हलवताना संपूर्ण शरीरात जो समन्वय साधला जातो, तो 'व्यान' वायूमुळे शक्य होतो.",
+            "visual": "Show a full human body silhouette with glowing red-blue blood circulation lines spreading throughout the body. Highlight the word ‘व्यान’ at the center, with soft animated waves moving from the heart to the entire body. Then show joints like shoulders, elbows, knees, and ankles highlighted with small circular motion icons. Finally, show a person walking and moving hands and legs in a coordinated way, with connecting lines indicating whole-body coordination.",
+            "ost": "व्यान: सर्वत्र व्यापून असणारा\nरक्ताभिसरणाद्वारे संपूर्ण शरीरात पसरतो\nरक्ताभिसरण आणि सांध्यांची हालचाल नियंत्रित करतो\nशरीरातील समन्वय साधतो",
+            "dialogue": "5) व्यान, वि-अन्' म्हणजे सर्वत्र व्यापून असणारा. जो रक्ताभिसरणाद्वारे संपूर्ण शरीरात पसरलेला असतो, तो व्यान. हा संपूर्ण शरीरात संचार करतो. रक्ताभिसरण आणि शरीराच्या सांध्यांची हालचाल यावर याचे नियंत्रण असते. चालताना किंवा हातपाय हलवताना संपूर्ण शरीरात जो समन्वय साधला जातो, तो 'व्यान' वायूमुळे शक्य होतो."
         },
         {
             "beat_id": "11",
-            "source_text": "'Unique' म्हणजे असाधारण, जे साधारण नाही ते म्हणजे आतापर्यंतच्या प्रशिक्षणापेक्षा वेगळा अनुभव देणारे प्रशिक्षण.",
-            "visual": "Clean classroom-training themed background. Center screen shows the word 'Unique' in bold, glowing style. Around it, ordinary training elements like a notebook, chalkboard, and presentation screen appear in muted colors. Then one bright pathway or spotlight separates from the ordinary elements, symbolizing a different learning experience. Highlight the words 'असाधारण' and 'वेगळा अनुभव' with subtle animation.",
-            "ost": "'Unique' = असाधारण\nसाधारण नाही,\nवेगळा अनुभव देणारे प्रशिक्षण",
-            "dialogue": "'Unique' म्हणजे असाधारण, जे साधारण नाही ते म्हणजे आतापर्यंतच्या प्रशिक्षणापेक्षा वेगळा अनुभव देणारे प्रशिक्षण."
+            "source_text": "उपप्राण (पाच दुय्यम वायू) मुख्य प्राणांना मदत करण्यासाठी पाच उपप्राण असतात, जे शरीराच्या नैसर्गिक प्रतिक्षिप्त क्रियांवर नियंत्रण ठेवतात:",
+            "visual": "Display a clean infographic of a human body silhouette in the center. Around it, show five small glowing circular nodes labeled as उपप्राण, connected to the body with soft lines. Add subtle icons suggesting natural reflex actions, such as blinking, sneezing, yawning or similar body responses, without naming them in detail. Keep the background calm and educational, with a focus on the idea that these five secondary vayus support the main pranas.",
+            "ost": "उपप्राण\nपाच दुय्यम वायू\nनैसर्गिक प्रतिक्षिप्त क्रियांवर नियंत्रण",
+            "dialogue": "उपप्राण, म्हणजेच पाच दुय्यम वायू, मुख्य प्राणांना मदत करतात. हे उपप्राण शरीराच्या नैसर्गिक प्रतिक्षिप्त क्रियांवर नियंत्रण ठेवतात."
         },
         {
             "beat_id": "12",
-            "source_text": "वेगळा अनुभव म्हणजे शिकण्याची प्रक्रिया अधिक 'सजग’ ‘समृद्ध’ करणारा अनुभव.",
-            "visual": "A bright classroom scene. A teacher shows students a new hands-on activity on a table, such as observing leaves, stones, and simple learning materials. Students look curious and engaged; one student writes observations, another asks a question, and others discuss together. Soft highlight around the activity to show a meaningful new experience enriching learning.",
-            "ost": "वेगळा अनुभव = सजग आणि समृद्ध शिकणे",
-            "dialogue": "वेगळा अनुभव म्हणजे शिकण्याची प्रक्रिया अधिक 'सजग’ ‘समृद्ध’ करणारा अनुभव."
+            "source_text": "i)नाग, ढेकर देणे किंवा वायू बाहेर सोडणे. यामुळे पोटातील दाब कमी होतो.",
+            "visual": "Soft 2D animation. स्क्रीनवर पोटाचा साधा कट-सेक्शन डायग्राम दिसतो. पोटात छोटे हवेचे बुडबुडे जमा झालेले दाखवले जातात. त्यानंतर तीन आयकॉन एकामागोमाग दिसतात—नाग, ढेकर देणे आणि वायू बाहेर सोडणे. प्रत्येक कृतीनंतर पोटातील बुडबुडे कमी होत जातात आणि पोटाभोवतीचा दाब दाखवणाऱ्या लाल रेषा हलक्या होत नाहीशा होतात. शेवटी व्यक्ती आराम वाटल्यासारखी दिसते.",
+            "ost": "पोटातील दाब कमी होतो",
+            "dialogue": "i)नाग, ढेकर देणे किंवा वायू बाहेर सोडणे. यामुळे पोटातील दाब कमी होतो."
         },
         {
             "beat_id": "13",
-            "source_text": "हा अनुभव कसा घ्यायचा तर Mindful राहून म्हणजेच सचेतन राहून.",
-            "visual": "शांत, उबदार प्रकाश असलेला एक साधा सीन. एक विद्यार्थी खिडकीजवळ बसलेला आहे. बाहेर हलकी झुळूक आणि झाडांची पाने हालत आहेत. विद्यार्थी डोळे हलके मिटून खोल श्वास घेतो. कॅमेरा हळूहळू त्याच्या चेहऱ्यावर झूम होतो. त्याच्या भोवती छोटे व्हिज्युअल आयकॉन दिसतात—श्वास, हृदयाची शांत धडधड, कानाजवळ ऐकण्याचे चिन्ह, आणि डोळ्याजवळ निरीक्षणाचे चिन्ह. पार्श्वभूमीतला आवाज मंद होतो आणि विद्यार्थी वर्तमान क्षणात स्थिर झाल्यासारखा दिसतो.",
-            "ost": "Mindful = सचेतन राहणे",
-            "dialogue": "हा अनुभव घ्यायचा असेल, तर आपण Mindful—म्हणजेच सचेतन—राहायला हवं."
+            "source_text": "ii) कूर्म, डोळ्यांच्या पापण्यांची उघडझाप करणे. यामुळे डोळ्यांचे संरक्षण होते.",
+            "visual": "स्वच्छ, रंगीत शैक्षणिक अ‍ॅनिमेशन शैलीतील दृश्य. स्क्रीनच्या मध्यभागी एका मुलाचा चेहरा क्लोज-अपमध्ये दिसतो. त्याचे डोळे हळूवार उघडझाप करत आहेत. प्रत्येक पापणी मिटताना डोळ्यांवर एक हलका चमकदार संरक्षणात्मक थर तयार झाल्यासारखा इफेक्ट दिसतो. बाजूला धूळकण आणि तेजस्वी प्रकाशाचे छोटे चिन्ह दिसतात, पण पापण्यांच्या उघडझापेमुळे डोळे सुरक्षित राहतात असे दृश्यात्मक दाखवले जाते. कोपऱ्यात छोटा लेबल-टॅग: “कूर्म”.",
+            "ost": "कूर्म: पापण्यांची उघडझाप\nडोळ्यांचे संरक्षण",
+            "dialogue": "कूर्म म्हणजे डोळ्यांच्या पापण्यांची उघडझाप. या क्रियेमुळे आपल्या डोळ्यांचे संरक्षण होते."
         },
         {
             "beat_id": "14",
-            "source_text": "हा अनुभव कशासाठी तर 'शैक्षणिक विकासासाठी'!",
-            "visual": "Talking head on one side with a simple classroom-themed background. On the other side, show a student icon connected to a glowing book, brain, and growth arrow. As the narration says 'शैक्षणिक विकासासाठी', highlight these words in a bright color inside a rounded box.",
-            "ost": "'शैक्षणिक विकासासाठी'",
-            "dialogue": "हा अनुभव कशासाठी तर 'शैक्षणिक विकासासाठी'!"
+            "source_text": "iii) कृकल, भूक लागणे, तहान लागणे किंवा शिंक येणे. ही शरीराची गरज दर्शवणारी क्रिया आहे.",
+            "visual": "Display a clean infographic with four simple line-art icons: a stomach sound icon for कृकल, a hungry child holding stomach, a water glass for thirst, and a person sneezing. Connect all icons to a central human body outline labeled as body needs.",
+            "ost": "कृकल\nभूक लागणे\nतहान लागणे\nशिंक येणे\nशरीराची गरज दर्शवणारी क्रिया",
+            "dialogue": "iii) कृकल, भूक लागणे, तहान लागणे किंवा शिंक येणे. ही शरीराची गरज दर्शवणारी क्रिया आहे."
         },
         {
             "beat_id": "15",
-            "source_text": "शैक्षणिक विकास कोणाचा? निश्चितच तो तुमचा, म्हणजेच शिक्षकांचा, पर्यायाने विद्यार्थ्यांचा आणि सरते शेवटी सर्व ‘शैक्षणिक पर्यावरणाचा’ होय.",
-            "visual": "Talking head on one side with a simple animated flow diagram on the other side. The flow starts with a teacher icon, moves to a group of students, and then expands into a wider school environment showing classroom, books, trees, and community elements. Highlight each stage as it is mentioned in the narration.",
-            "ost": "शिक्षक → विद्यार्थी → शैक्षणिक पर्यावरण",
-            "dialogue": "शैक्षणिक विकास कोणाचा? निश्चितच तो तुमचा, म्हणजेच शिक्षकांचा, पर्यायाने विद्यार्थ्यांचा आणि सरते शेवटी सर्व ‘शैक्षणिक पर्यावरणाचा’ होय."
+            "source_text": "देवदत्त, जांभई देणे. थकवा आल्यावर शरीराला अतिरिक्त प्राणवायू मिळावा म्हणून ही क्रिया घडते.",
+            "visual": "Talking head full screen. बाजूला साधे अॅनिमेशन दाखवा: थकलेली व्यक्ती डेस्कवर बसलेली आहे, तिला जांभई येते. जांभई देताना तोंडातून आत जाणाऱ्या हवेचे सौम्य निळे अॅरो दाखवा आणि शरीराला अतिरिक्त प्राणवायू मिळत असल्याचे सूचक दृश्य दाखवा.",
+            "ost": "देवदत्त: जांभई देणे",
+            "dialogue": "देवदत्त, जांभई देणे. थकवा आल्यावर शरीराला अतिरिक्त प्राणवायू मिळावा म्हणून ही क्रिया घडते."
         },
         {
             "beat_id": "16",
-            "source_text": "हे उमेद प्रशिक्षणाचे पहिले वैशिष्ट्य आहे.",
-            "visual": "उजळ, प्रेरणादायी प्रशिक्षण कक्ष दिसतो. स्क्रीनवर ‘उमेद प्रशिक्षण’ असा शीर्षक असलेला स्लाइड उघडतो आणि त्याखाली मोठ्या क्रमांकात ‘1’ चमकतो. प्रशिक्षक हातात मार्कर घेऊन स्क्रीनकडे इशारा करतो, तर सहभागी उत्सुकतेने नोट्स घेत आहेत. पार्श्वभूमीत सकारात्मक वातावरण दाखवण्यासाठी हलके आयकॉन—चेकमार्क, नोटबुक आणि बल्ब—हळूवार दिसतात.",
-            "ost": "उमेद प्रशिक्षणाचे पहिले वैशिष्ट्य",
-            "dialogue": "हे उमेद प्रशिक्षणाचे पहिले वैशिष्ट्य आहे."
+            "source_text": "धनंजय, हा मृत्यूच्या क्षणापर्यंत आणि मृत्यूनंतरही काही काळ शरीरात राहतो; हा शरीराच्या पोषणाशी संबंधित असतो.",
+            "visual": "प्राचीन भारतीय ज्ञानपरंपरेची सौम्य पार्श्वभूमी. स्क्रीनवर मानवी शरीराचे शांत, प्रतीकात्मक रेखाचित्र दिसते. शरीराभोवती हलका सुवर्ण प्रकाश आहे. निवेदक बाजूला उभा राहून शरीराच्या मध्यभागाकडे इशारा करतो. प्रकाश हळूहळू शरीरात टिकून राहिल्यासारखा दाखवला जातो, ज्यातून धनंजय शरीरात मृत्यूच्या क्षणापर्यंत आणि त्यानंतरही काही काळ राहतो हे सूचित होते.",
+            "ost": "धनंजय: पोषणाशी संबंधित",
+            "dialogue": "धनंजय, हा मृत्यूच्या क्षणापर्यंत आणि मृत्यूनंतरही काही काळ शरीरात राहतो; हा शरीराच्या पोषणाशी संबंधित असतो."
         },
         {
             "beat_id": "17",
-            "source_text": "'उमेद' प्रशिक्षणाचे दुसरे वैशिष्ट्य म्हणजे हे प्रशिक्षण पूर्णत: आँनलाईन आहे - शिक्षकांना स्वत:च्या गतीने आणि स्वतःच्या वेळेत पूर्ण करण्याचे स्वातंत्र्य देणारे हे प्रशिक्षण आहे.",
-            "visual": "Display a teacher sitting comfortably at home with a laptop open showing the 'उमेद' online training screen. Around the teacher, show simple icons of a clock, calendar, play button, and progress bar to represent learning at own pace and own time. Animate the icons appearing one by one, then highlight the laptop screen with a soft glow to emphasize पूर्णत: आँनलाईन प्रशिक्षण.",
-            "ost": "पूर्णत: आँनलाईन प्रशिक्षण\nस्वतःच्या गतीने\nस्वतःच्या वेळेत",
-            "dialogue": "'उमेद' प्रशिक्षणाचे दुसरे वैशिष्ट्य म्हणजे हे प्रशिक्षण पूर्णत: आँनलाईन आहे - शिक्षकांना स्वत:च्या गतीने आणि स्वतःच्या वेळेत पूर्ण करण्याचे स्वातंत्र्य देणारे हे प्रशिक्षण आहे."
+            "source_text": "प्राण आणि त्याच्या या उपविभागांचे संतुलन म्हणजे उत्तम आरोग्य. जेव्हा यांपैकी कोणत्याही प्राणाच्या प्रवाहात अडथळा येतो, तेव्हा शरीरात आजार निर्माण होतात.",
+            "visual": "Line art animation: मानवी शरीराची शांत आकृती स्क्रीनवर दिसते. शरीरात पाच दिशांनी वाहणारे हलके, चमकदार ऊर्जा-प्रवाह संतुलितपणे फिरताना दाखवा. मग एका प्रवाहात छोटा अडथळा दिसतो आणि त्या भागाभोवती लाल रंगाची हलकी चिन्हे दिसू लागतात, ज्यातून असंतुलन आणि आजाराची सुरुवात सूचित होते.",
+            "ost": "प्राणाचे संतुलन = उत्तम आरोग्य",
+            "dialogue": "प्राण आणि त्याच्या या उपविभागांचे संतुलन म्हणजे उत्तम आरोग्य. जेव्हा यांपैकी कोणत्याही प्राणाच्या प्रवाहात अडथळा येतो, तेव्हा शरीरात आजार निर्माण होतात."
         },
         {
             "beat_id": "18",
-            "source_text": "तिसरे वैशिष्ट्य म्हणजे प्रत्येक घटक पूर्ण झाल्यानंतर त्या घटकाचे पुनरावलोकन करण्यासाठी त्यात पूर्वचाचणी व उत्तरचाचणी आहे. या प्रश्नांमुळे तुम्ही काय शिकलात ते तुम्हाला पुन्हा तपासता येईल… आणि अधिक स्पष्ट होईल.",
-            "visual": "Talking head full screen. Presenter explains the third feature with a calm, encouraging tone. A simple side graphic appears showing a completed learning module, followed by two small quiz cards labeled “पूर्वचाचणी” and “उत्तरचाचणी”, with a checkmark indicating self-review and clarity.",
-            "ost": "घटकानंतर पुनरावलोकन\nपूर्वचाचणी + उत्तरचाचणी",
-            "dialogue": "तिसरे वैशिष्ट्य म्हणजे प्रत्येक घटक पूर्ण झाल्यानंतर त्या घटकाचे पुनरावलोकन करण्यासाठी त्यात पूर्वचाचणी व उत्तरचाचणी आहे. या प्रश्नांमुळे तुम्ही काय शिकलात ते तुम्हाला पुन्हा तपासता येईल… आणि अधिक स्पष्ट होईल."
+            "source_text": "उदाहरणार्थ, जर 'अपान' बिघडला तर बद्धकोष्ठतेचा त्रास होतो, तर 'उदान' बिघडल्यास मानसिक गोंधळ किंवा बोलण्यात अडथळे येऊ शकतात.",
+            "visual": "Show a clean split-screen infographic with a human silhouette in the center. On the left side, highlight the lower abdomen area with the label 'अपान' and show a simple icon representing stomach discomfort/constipation. On the right side, highlight the head and throat area with the label 'उदान' and show icons of a confused mind and a broken speech bubble to indicate mental confusion and difficulty in speaking. Use calm medical-style colors and clear arrows connecting each imbalance to its effect.",
+            "ost": "'अपान' बिघडला → बद्धकोष्ठता\n'उदान' बिघडला → मानसिक गोंधळ / बोलण्यात अडथळे",
+            "dialogue": "उदाहरणार्थ, जर 'अपान' बिघडला तर बद्धकोष्ठतेचा त्रास होतो, तर 'उदान' बिघडल्यास मानसिक गोंधळ किंवा बोलण्यात अडथळे येऊ शकतात."
         },
         {
             "beat_id": "19",
-            "source_text": "चौथे वैशिष्ट्य म्हणजे या प्रशिक्षणाचा अभ्यासक्रम. प्रशिक्षणात महत्वाच्या तीन विषयांचा समावेश केला आहे. एक राष्ट्रीय शैक्षणिक धोरण (NEP 2020), मेंदू शास्त्र व पंचकोशीय व्यक्तित्व.",
-            "visual": "Show a clean classroom-style graphic with a large title card: “प्रशिक्षणाचा अभ्यासक्रम”. Under it, display three separate illustrated cards appearing one by one: 1) a policy document icon labeled “राष्ट्रीय शैक्षणिक धोरण (NEP 2020)”, 2) a brain icon labeled “मेंदू शास्त्र”, and 3) a layered human silhouette icon labeled “पंचकोशीय व्यक्तित्व”. End with all three cards aligned neatly on screen.",
-            "ost": "प्रशिक्षणाचा अभ्यासक्रम\n१. NEP 2020\n२. मेंदू शास्त्र\n३. पंचकोशीय व्यक्तित्व",
-            "dialogue": "चौथे वैशिष्ट्य म्हणजे या प्रशिक्षणाचा अभ्यासक्रम. प्रशिक्षणात महत्वाच्या तीन विषयांचा समावेश केला आहे. एक राष्ट्रीय शैक्षणिक धोरण (NEP 2020), मेंदू शास्त्र व पंचकोशीय व्यक्तित्व."
+            "source_text": "योगासने आणि प्राणायाम यांच्या माध्यमातून या पंचप्राणांवर नियंत्रण मिळवता येते, ज्यामुळे शरीर निरोगी आणि मन शांत राहते.",
+            "visual": "Show a calm yoga setting with a person sitting in a peaceful meditative posture. Around the body, use soft flowing lines to represent balanced पंचप्राण energy. On one side, show simple icons of योगासने and प्राणायाम, and on the other side show a healthy body symbol and a शांत मन symbol with soothing colors.",
+            "ost": "योगासने + प्राणायाम\nपंचप्राणांवर नियंत्रण\nशरीर निरोगी • मन शांत",
+            "dialogue": "योगासने आणि प्राणायाम यांच्या माध्यमातून या पंचप्राणांवर नियंत्रण मिळवता येते, ज्यामुळे शरीर निरोगी आणि मन शांत राहते."
         },
         {
             "beat_id": "20",
-            "source_text": "या विषयातील घटकांची आंतरसाखळी पद्धतीने मांडणी हे या प्रशिक्षणाचे पाचवे वैशिष्ट्य आहे. एक घटक दुसऱ्या घटकात अलगद प्रवेश करतो.",
-            "visual": "Show a clean animated learning flow screen. Five feature cards appear one by one, with the fifth card highlighted. Then display connected topic blocks like a smooth chain: घटक १ gently links into घटक २, घटक २ into घटक ३, showing seamless transition between components. Use soft arrows and subtle motion to emphasize interconnection.",
-            "ost": "पाचवे वैशिष्ट्य\nघटकांची आंतरसाखळी मांडणी\nएक घटक → दुसऱ्या घटकात प्रवेश",
-            "dialogue": "या विषयातील घटकांची आंतरसाखळी पद्धतीने मांडणी हे या प्रशिक्षणाचे पाचवे वैशिष्ट्य आहे. एक घटक दुसऱ्या घटकात अलगद प्रवेश करतो."
+            "source_text": "शरीराच्या आत चालणारी ही 'अदृश्य इंजिनं' आपल्याला चैतन्यपूर्ण ठेवण्याचे महान कार्य करत असतात.",
+            "visual": "Animated human silhouette on screen. Inside the body, soft glowing engine-like icons pulse rhythmically, with flowing light lines spreading through the body to show energy and liveliness. The person gradually appears more active and cheerful, standing upright with a bright glow around them.",
+            "ost": "‘अदृश्य इंजिनं’ आपल्याला चैतन्यपूर्ण ठेवतात",
+            "dialogue": "शरीराच्या आत चालणारी ही 'अदृश्य इंजिनं' आपल्याला चैतन्यपूर्ण ठेवण्याचे महान कार्य करत असतात."
         },
         {
             "beat_id": "21",
-            "source_text": "विषयांची मांडणी करताना, वर्ग अध्यापनातील उदाहरणांचा समावेश केला आहे हे प्रशिक्षणाचे सहावे वैशिष्ट्य आहे.",
-            "visual": "Show a clean classroom setting with a teacher explaining a topic on the board. Beside the board, display a highlighted card titled “सहावे वैशिष्ट्य”. On the card, show small icons of a book, classroom, and example bubble. Animate the topic points appearing first, then classroom teaching examples appearing next to them, showing that examples are included while presenting the subjects.",
-            "ost": "सहावे वैशिष्ट्य\nविषयांची मांडणी\nवर्ग अध्यापनातील उदाहरणांचा समावेश",
-            "dialogue": "विषयांची मांडणी करताना, वर्ग अध्यापनातील उदाहरणांचा समावेश केला आहे हे प्रशिक्षणाचे सहावे वैशिष्ट्य आहे."
+            "source_text": "आजच्या काळात 'Bio-electromagnetism' या विषयात संशोधन करणाऱ्या पाश्चात्य शास्त्रज्ञांचे असे मत आहे की, मानवी शरीराभोवती आणि आत एक सूक्ष्म विद्युत चुंबकीय क्षेत्र असते.",
+            "visual": "Show a modern research laboratory. A scientist is observing a human body silhouette on a digital screen. Around the silhouette, show soft glowing blue and purple electromagnetic waves forming a subtle field outside the body, with faint light patterns also visible inside the body. Add small scientific icons like sensors, wave graphs, and magnetic field lines in the background to suggest Bio-electromagnetism research.",
+            "ost": "मानवी शरीराभोवती आणि आत सूक्ष्म विद्युत चुंबकीय क्षेत्र असते.",
+            "dialogue": "आजच्या काळात 'Bio-electromagnetism' या विषयात संशोधन करणाऱ्या पाश्चात्य शास्त्रज्ञांचे असे मत आहे की, मानवी शरीराभोवती आणि आत एक सूक्ष्म विद्युत चुंबकीय क्षेत्र असते."
         },
         {
             "beat_id": "22",
-            "source_text": "अशा या वैशिष्ट्यपूर्ण 'UMED' प्रशिक्षणातून शिकण्याची व शिकवण्याची नवी ‘उमेद’ निर्माण करूया!",
-            "visual": "Bright uplifting classroom scene. A teacher and students stand together around a glowing 'UMED' logo at the center. From the logo, light rays flow toward icons of learning and teaching—book, brain, discussion bubbles, activity tools, and a smiling classroom. End with everyone raising hands confidently, showing new energy and motivation.",
-            "ost": "UMED प्रशिक्षणातून नवी उमेद",
-            "dialogue": "अशा या वैशिष्ट्यपूर्ण 'UMED' प्रशिक्षणातून शिकण्याची व शिकवण्याची नवी ‘उमेद’ निर्माण करूया!"
+            "source_text": "Vagus Nerve, आधुनिक विज्ञानातील 'व्हेगस नर्व्ह'चे कार्य आणि पंचप्राणांचे नियंत्रण यात मोठे साधर्म्य आढळते. ही नस हृदय, फुफ्फुस आणि पचनसंस्थेला जोडलेली असते.",
+            "visual": "Show a clean medical-style infographic of the human upper body. Highlight the 'व्हेगस नर्व्ह' starting from the brainstem and branching down toward the heart, lungs, and digestive system with glowing lines. On one side, show a subtle symbolic graphic for 'पंचप्राणांचे नियंत्रण' and connect it visually to the highlighted nerve to show similarity.",
+            "ost": "Vagus Nerve\nहृदय, फुफ्फुस आणि पचनसंस्थेला जोडलेली नस",
+            "dialogue": "Vagus Nerve, आधुनिक विज्ञानातील 'व्हेगस नर्व्ह'चे कार्य आणि पंचप्राणांचे नियंत्रण यात मोठे साधर्म्य आढळते. ही नस हृदय, फुफ्फुस आणि पचनसंस्थेला जोडलेली असते."
         },
         {
             "beat_id": "23",
-            "source_text": "थोडक्यात… हे प्रशिक्षण फक्त माहिती देणार नाही… तर अनुभव देणार आहे.",
-            "visual": "Talking head full screen. प्रशिक्षक कॅमेऱ्याकडे आत्मविश्वासाने बोलताना दिसतो. पार्श्वभूमीत हलके अॅनिमेटेड आयकॉन दिसतात—एका बाजूला पुस्तक/माहितीचे चिन्ह आणि दुसऱ्या बाजूला प्रत्यक्ष कृती, संवाद आणि सहभाग दाखवणारी चिन्हे. शेवटी अनुभव दर्शवणारे चिन्ह थोडे उजळते.",
-            "ost": "माहिती नाही, अनुभव",
-            "dialogue": "थोडक्यात… हे प्रशिक्षण फक्त माहिती देणार नाही… तर अनुभव देणार आहे."
+            "source_text": "Cellular Energy, पेशींच्या स्तरावर निर्माण होणारी ऊर्जा (ATP) म्हणजेच सूक्ष्म स्वरूपातील प्राण होय.",
+            "visual": "A clean educational animation shows a close-up view of human body cells. The camera zooms into one cell, revealing tiny mitochondria glowing softly. Small bright ATP energy particles appear inside the cell and spread outward like gentle sparks, symbolizing energy being produced at the cellular level. A subtle label points to the glowing ATP particles, while the overall visual feels scientific yet simple and engaging.",
+            "ost": "Cellular Energy = पेशींच्या स्तरावर निर्माण होणारी ऊर्जा (ATP)",
+            "dialogue": "Cellular Energy, पेशींच्या स्तरावर निर्माण होणारी ऊर्जा म्हणजे ATP. हेच सूक्ष्म स्वरूपातील प्राण मानले जाते."
         },
         {
             "beat_id": "24",
-            "source_text": "आता पुढची पाच मिनिटे हा विचार करा की “आपण शिक्षक आहोत आणि शिक्षक म्हणून आपण काय साध्य करू शकतो”",
-            "visual": "Create a reflective activity screen. Show a calm classroom background with a teacher silhouette standing near a blackboard. On the blackboard, display a large thought bubble with a question mark and a small 5-minute timer icon in the corner to indicate reflection time.",
-            "ost": "पुढची ५ मिनिटे विचार करा:\nशिक्षक म्हणून आपण काय साध्य करू शकतो?",
-            "dialogue": "आता पुढची पाच मिनिटे हा विचार करा की “आपण शिक्षक आहोत आणि शिक्षक म्हणून आपण काय साध्य करू शकतो”"
+            "source_text": "थोडक्यात सांगायचे तर प्राचीन ऋषींनी प्राणांचे वर्गीकरण कार्यानुसार केले होते, तर आधुनिक विज्ञानाने त्याचे वर्गीकरण अवयव संस्थांनुसार (Systems) केले आहे. नाव वेगवेगळी असली, तरी दोन्ही शास्त्रे शरीरातील एकाच 'जिवंत तत्त्वाचा' अभ्यास करत आहेत.",
+            "visual": "Split screen visual. On the left side, show an ancient ऋषी sitting calmly with palm-leaf manuscripts, with simple icons representing different functions of प्राण around the body. On the right side, show a modern medical classroom/lab with a human body diagram highlighting organ systems like respiratory, circulatory, and nervous systems. In the center, both sides connect through a glowing human silhouette, symbolizing the same living principle studied by both traditions.",
+            "ost": "नावे वेगवेगळी, अभ्यास एकाच ‘जिवंत तत्त्वाचा’",
+            "dialogue": "थोडक्यात सांगायचे तर प्राचीन ऋषींनी प्राणांचे वर्गीकरण कार्यानुसार केले होते, तर आधुनिक विज्ञानाने त्याचे वर्गीकरण अवयव संस्थांनुसार (Systems) केले आहे. नाव वेगवेगळी असली, तरी दोन्ही शास्त्रे शरीरातील एकाच 'जिवंत तत्त्वाचा' अभ्यास करत आहेत."
         },
         {
             "beat_id": "25",
-            "source_text": "आशा या उमेद ज्याच्या नावातच इतका अर्थ आहे, त्या प्रशिक्षणातील वैशिष्ट्यांपैकी कोणत्या वैशिष्टयाबद्दल तुम्हाला उत्सुकता वाटत आहे? त्यावर चर्चा करा आणि पुढील भागाकडे वळा.",
-            "visual": "Talking head medium shot. Presenter looks warmly at the camera and gestures invitingly. On the side, simple animated icons appear: a group discussion bubble, a question mark, and a forward arrow. The background is clean and classroom-themed, suggesting reflection and peer discussion before moving ahead.",
-            "ost": "चर्चा करा आणि पुढे चला",
-            "dialogue": "आशा या उमेद ज्याच्या नावातच इतका अर्थ आहे, त्या प्रशिक्षणातील वैशिष्ट्यांपैकी कोणत्या वैशिष्टयाबद्दल तुम्हाला उत्सुकता वाटत आहे? त्यावर चर्चा करा आणि पुढील भागाकडे वळा."
+            "source_text": "पाश्चात्य देशात आता 'Breathwork' आणि 'Bioenergetics' या नावाखाली प्राणायामाचा मोठा अभ्यास केला जात आहे.",
+            "visual": "आधुनिक पाश्चात्य संशोधन केंद्राचे दृश्य. काचेच्या भिंती असलेल्या शांत स्टुडिओमध्ये काही लोक योगा मॅटवर बसून श्वसनाचा सराव करत आहेत. बाजूला एक संशोधक टॅबलेटवर श्वासोच्छ्वासाचे ग्राफ पाहत आहे. स्क्रीनवर फुफ्फुसांचा हलका अॅनिमेटेड आयकॉन आणि ऊर्जा-तरंग दिसतात. पार्श्वभूमीत 'Breathwork' आणि 'Bioenergetics' असे बोर्ड दिसतात, ज्यातून प्राणायामाचा आधुनिक अभ्यास दाखवला जातो.",
+            "ost": "प्राणायामाचा आधुनिक अभ्यास",
+            "dialogue": "पाश्चात्य देशात आता 'Breathwork' आणि 'Bioenergetics' या नावाखाली प्राणायामाचा मोठा अभ्यास केला जात आहे."
+        },
+        {
+            "beat_id": "26",
+            "source_text": "एकंदरीत प्राणमय कोशातील पंच प्राण आणि उपप्राण हे महत्वाचे आहेत. ही माहिती नवी आहे. ती लक्षात ठेवा.",
+            "visual": "Show a calm educational infographic. In the center, display a simple human silhouette with a soft glowing aura labeled “प्राणमय कोश”. Around the silhouette, place two connected sections: one titled “पंच प्राण” and the other titled “उपप्राण”. Use gentle arrows and subtle light movement to suggest flow of energy. End with the key message highlighted as a note card: “ही माहिती नवी आहे — लक्षात ठेवा.”",
+            "ost": "प्राणमय कोशातील पंच प्राण आणि उपप्राण महत्वाचे आहेत.\n\nही माहिती नवी आहे — लक्षात ठेवा.",
+            "dialogue": "एकंदरीत प्राणमय कोशातील पंच प्राण आणि उपप्राण हे महत्वाचे आहेत. ही माहिती नवी आहे. ती लक्षात ठेवा."
+        },
+        {
+            "beat_id": "27",
+            "source_text": "विद्यार्थ्यानी मोकळ्या हवेत खेळणे का गरजेचं आहे, श्वासचे प्रकार, प्राणायाम त्यांना येण का गरजेच आहे याची उजळणी करा आणि नियोजनस सुरवात करा.",
+            "visual": "Classroom scene with a teacher standing near a smart board. On the board, show three connected visual icons: children playing in an open playground, lungs with different breathing patterns, and students doing simple pranayama. The teacher points to the board while students discuss in small groups. On one side, show a checklist titled ‘उजळणी’ and at the bottom a planner/calendar icon indicating the start of planning.",
+            "ost": "उजळणी करा:\nमोकळ्या हवेत खेळणे\nश्वासाचे प्रकार\nप्राणायाम\nनियोजनाला सुरुवात",
+            "dialogue": "विद्यार्थ्यांनी मोकळ्या हवेत खेळणे का गरजेचे आहे, श्वासाचे प्रकार आणि प्राणायाम त्यांना येणे का आवश्यक आहे, याची उजळणी करा आणि नियोजनाला सुरुवात करा."
+        },
+        {
+            "beat_id": "28",
+            "source_text": "या भागातील महत्त्वाचे मुद्दे लक्षात ठेवा:",
+            "visual": "Talking head on screen. The presenter looks directly at the camera with a focused expression. A clean animated checklist graphic appears beside them, with empty checkboxes ready to introduce the key points from the section.",
+            "ost": "महत्त्वाचे मुद्दे",
+            "dialogue": "या भागातील महत्त्वाचे मुद्दे लक्षात ठेवा:"
+        },
+        {
+            "beat_id": "29",
+            "source_text": "• पंचप्राण — प्राण, अपान, समान, उदान आणि व्यान.",
+            "visual": "शांत, ध्यानमय पार्श्वभूमीवर पद्मासनात बसलेली एक व्यक्ती दिसते. तिच्या शरीराभोवती मऊ सुवर्ण प्रकाशाची आभा आहे. शरीराच्या मध्यभागातून पाच वेगवेगळ्या दिशांना हलक्या रंगीत ऊर्जा-रेषा प्रवाहित होताना दिसतात. प्रत्येक ऊर्जा-रेषेजवळ क्रमाने नाव दिसते: प्राण, अपान, समान, उदान, व्यान. दृश्य साधे, स्वच्छ आणि आध्यात्मिक भाव निर्माण करणारे आहे.",
+            "ost": "पंचप्राण: प्राण, अपान, समान, उदान, व्यान",
+            "dialogue": "पंचप्राण म्हणजे प्राण, अपान, समान, उदान आणि व्यान."
+        },
+        {
+            "beat_id": "30",
+            "source_text": "• शरीरातील विविध कार्यांशी त्यांचा संबंध.",
+            "visual": "स्क्रीनवर मानवी शरीराची स्वच्छ, साधी अॅनिमेटेड आकृती दिसते. शरीराच्या आत हृदय, मेंदू, फुफ्फुसे आणि पचनसंस्थेची प्रतीकात्मक आयकॉन्स हलक्या प्रकाशाने हायलाइट होतात. या आयकॉन्सना एकमेकांशी जोडणाऱ्या रेषा दिसतात, ज्यातून शरीरातील वेगवेगळ्या कार्यांशी असलेला संबंध दृश्यरित्या स्पष्ट होतो. शेवटी सर्व आयकॉन्स एकत्र सौम्य ग्लोमध्ये दिसतात.",
+            "ost": "शरीरातील विविध कार्यांशी संबंध",
+            "dialogue": "शरीरातील विविध कार्यांशी त्यांचा संबंध."
+        },
+        {
+            "beat_id": "31",
+            "source_text": "• उपप्राणांची संकल्पना आणि नैसर्गिक जैविक प्रक्रिया.",
+            "visual": "Talking head medium shot. Presenter stands against a clean, warm background with a subtle illustration of a human body outline beside them. Simple animated icons appear one by one around the body outline, suggesting natural biological processes like breathing, blinking, digestion, and bodily regulation. The tone is calm and explanatory.",
+            "ost": "उपप्राण आणि जैविक प्रक्रिया",
+            "dialogue": "आता आपण उपप्राणांची संकल्पना आणि नैसर्गिक जैविक प्रक्रिया यांचा संबंध समजून घेऊया."
+        },
+        {
+            "beat_id": "32",
+            "source_text": "• प्राणमय कोशाचा संबंध ऊर्जा, कार्यक्षमता आणि संतुलनाशी आहे.",
+            "visual": "शांत, उजळ वातावरणात एक व्यक्ती ध्यानमुद्रेत बसलेली दिसते. तिच्या शरीराभोवती हलके सुवर्ण आणि निळसर प्रकाशाचे प्रवाह फिरताना दाखवले आहेत, जे ऊर्जा दर्शवतात. एका बाजूला व्यक्ती उत्साहाने काम करतानाचे छोटे दृश्य, तर दुसऱ्या बाजूला तोल साधणाऱ्या तराजूचे प्रतीक दिसते. संपूर्ण दृश्यात शांतता, प्रवाह आणि स्थिरता जाणवते.",
+            "ost": "प्राणमय कोश: ऊर्जा • कार्यक्षमता • संतुलन",
+            "dialogue": "प्राणमय कोशाचा संबंध आपल्या ऊर्जा, कार्यक्षमता आणि संतुलनाशी जोडलेला आहे."
+        },
+        {
+            "beat_id": "33",
+            "source_text": "• सक्रिय जीवनशैली, खेळ आणि शारीरिक हालचालींचे महत्त्व.",
+            "visual": "Show a bright, energetic scene in a park and school playground. Children are running, playing football, skipping rope, cycling, and doing simple stretching exercises. Use clean line-art icons around them showing a heart, muscles, and a smiling face to suggest health, strength, and happiness. Add subtle motion lines to highlight active movement.",
+            "ost": "सक्रिय जीवनशैली आणि शारीरिक हालचालींचे महत्त्व",
+            "dialogue": "सक्रिय जीवनशैली, खेळ आणि नियमित शारीरिक हालचाली आरोग्यासाठी खूप महत्त्वाच्या असतात."
+        },
+        {
+            "beat_id": "34",
+            "source_text": "पुढील भाग पाहण्यापूर्वी ५ मिनिटे एक निरीक्षणात्मक कृती करा.",
+            "visual": "Activity screen. मध्यभागी मोठा ५ मिनिटांचा टायमर आयकॉन दिसतो. बाजूला नोटपॅड आणि पेन्सिलचे साधे चित्र, ज्यातून निरीक्षण नोंदवण्याची कृती सूचित होते. पार्श्वभूमी शांत आणि स्वच्छ, लक्ष कृतीवर केंद्रित.",
+            "ost": "५ मिनिटांची निरीक्षणात्मक कृती",
+            "dialogue": "पुढील भाग पाहण्यापूर्वी ५ मिनिटे एक निरीक्षणात्मक कृती करा."
+        },
+        {
+            "beat_id": "35",
+            "source_text": "तुमच्या वर्गातील विद्यार्थ्यांचा विचार करा आणि पुढील प्रश्नांवर नोंदी करा:",
+            "visual": "Create an activity screen. Show a clean classroom-themed background with a notebook and pen illustration on one side. Add subtle icons of students in small circles to suggest thinking about learners. Keep space in the center for the activity prompt and upcoming questions.",
+            "ost": "विद्यार्थ्यांचा विचार करा आणि नोंदी करा",
+            "dialogue": "तुमच्या वर्गातील विद्यार्थ्यांचा विचार करा आणि पुढील प्रश्नांवर नोंदी करा:"
+        },
+        {
+            "beat_id": "36",
+            "source_text": "१. विद्यार्थ्यांना दिवसभरात पुरेशी शारीरिक हालचाल मिळते का?",
+            "visual": "शाळेच्या आवारातील सकाळचा प्रसंग. एका बाजूला काही विद्यार्थी मैदानावर धावत, उड्या मारत आणि खेळत आहेत; तर दुसऱ्या बाजूला काही विद्यार्थी वर्गात बाकांवर बसलेले दिसतात. स्क्रीनच्या मध्यभागी विचारमग्न शिक्षक/शिक्षिका क्लिपबोर्ड हातात धरून विद्यार्थ्यांच्या दैनंदिन हालचालीकडे पाहत आहेत. पार्श्वभूमीत घड्याळ आणि दिवसाचे टप्पे दाखवणारे हलके आयकॉन्स दिसतात.",
+            "ost": "दिवसभरातील शारीरिक हालचाल?",
+            "dialogue": "विद्यार्थ्यांना दिवसभरात पुरेशी शारीरिक हालचाल मिळते का?"
+        },
+        {
+            "beat_id": "37",
+            "source_text": "२. मोकळ्या जागेत खेळण्याच्या संधी किती उपलब्ध आहेत?",
+            "visual": "शाळेच्या परिसराचा विस्तृत दृश्य. एका बाजूला मोठे मैदान, झाडांची सावली आणि खेळण्यासाठी मोकळी जागा दिसते. काही मुले फुटबॉल खेळत आहेत, काही दोरीवर उड्या मारत आहेत, तर काही मुले रिकाम्या जागेकडे उत्सुकतेने पाहत आहेत. स्क्रीनवर एक छोटा चेकलिस्ट आयकॉन दिसतो, जणू उपलब्ध खेळाच्या संधी मोजल्या जात आहेत.",
+            "ost": "२. मोकळ्या जागेत खेळण्याच्या संधी",
+            "dialogue": "दुसरा मुद्दा असा—मोकळ्या जागेत खेळण्यासाठी आपल्याला किती संधी उपलब्ध आहेत?"
+        },
+        {
+            "beat_id": "38",
+            "source_text": "३. विद्यार्थी दीर्घकाळ बसून राहतात की सक्रियपणे सहभागी होतात?",
+            "visual": "Display a classroom scene split into two parts. On one side, show students sitting quietly for a long time at their desks, looking passive. On the other side, show students actively participating in learning activities—raising hands, discussing in groups, and interacting with the teacher. Highlight the contrast between passive sitting and active participation.",
+            "ost": "विद्यार्थ्यांचा सहभाग",
+            "dialogue": "३. विद्यार्थी दीर्घकाळ बसून राहतात की सक्रियपणे सहभागी होतात?"
+        },
+        {
+            "beat_id": "39",
+            "source_text": "४. शारीरिकदृष्ट्या सक्रिय विद्यार्थी आणि शिकण्यात सहभाग यांच्यात काही संबंध दिसून येतो का?",
+            "visual": "Classroom scene with two side-by-side visuals: on one side, students doing a simple physical activity like stretching or movement; on the other side, the same students actively raising hands, discussing, and participating in learning. A subtle connecting arrow appears between both visuals to suggest relationship. Display the question prominently on screen.",
+            "ost": "शारीरिक सक्रियता आणि शिकण्यात सहभाग यांचा संबंध?",
+            "dialogue": "४. शारीरिकदृष्ट्या सक्रिय विद्यार्थी आणि शिकण्यात सहभाग यांच्यात काही संबंध दिसून येतो का?"
+        },
+        {
+            "beat_id": "40",
+            "source_text": "तुमची निरीक्षणे नोंदवा आणि पुढील भागाकडे वळा.",
+            "visual": "Show a teacher at a desk writing observations in a notebook. Beside the notebook, display small icons of students’ participation and responses. Then show the teacher closing the notebook and tapping a “पुढील भाग” button on a tablet, indicating transition to the next section.",
+            "ost": "निरीक्षणे नोंदवा • पुढील भागाकडे वळा",
+            "dialogue": "तुमची निरीक्षणे नोंदवा आणि पुढील भागाकडे वळा."
         }
     ]
 }

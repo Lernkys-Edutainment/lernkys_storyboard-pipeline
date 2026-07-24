@@ -19,7 +19,14 @@ MODEL_NAME = os.getenv(
 )
 
 
-def segment_beats(paragraphs: list[str]) -> dict:
+def segment_beats(paragraphs_or_path, output_path: Path = None) -> dict:
+    if isinstance(paragraphs_or_path, (str, Path)):
+        path = Path(paragraphs_or_path)
+        with open(path, "r", encoding="utf-8") as f:
+            cleaned_script = json.load(f)
+        paragraphs = cleaned_script["paragraphs"]
+    else:
+        paragraphs = paragraphs_or_path
 
     developer_prompt, user_prompt = build_prompt(paragraphs)
 
@@ -43,10 +50,13 @@ def segment_beats(paragraphs: list[str]) -> dict:
             original_paragraphs=paragraphs,
             beats=validated_beats
         )
-        output_dir = Path("output/intermediate")
-        output_dir.mkdir(parents=True, exist_ok=True)
+        
+        if output_path is not None:
+            output_file = Path(output_path)
+        else:
+            output_file = Path("output/intermediate/beats.json")
 
-        output_file = output_dir / "beats.json"
+        output_file.parent.mkdir(parents=True, exist_ok=True)
 
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(
@@ -56,7 +66,7 @@ def segment_beats(paragraphs: list[str]) -> dict:
                 ensure_ascii=False
             )
 
-        print(f"✓ Beats saved to {output_file}")
+        print(f"OK: Beats saved to {output_file}")
 
         return validated_beats
 
@@ -94,5 +104,5 @@ if __name__ == "__main__":
 
     print("\n")
     print("=" * 80)
-    print("✓ Beat Coverage Validation Passed")
+    print("OK: Beat Coverage Validation Passed")
     print("=" * 80)

@@ -26,12 +26,18 @@ OUTPUT_PATH = Path(
 # ==========================================================
 
 def retrieve_examples(
+    beats_path: Path = BEATS_PATH,
+    output_path: Path = OUTPUT_PATH,
     top_k: int = 5
 ) -> dict:
     """
     Retrieve storyboard examples for every beat.
 
     Args:
+        beats_path:
+            Path to the beats JSON file.
+        output_path:
+            Path where retrieval results should be saved.
         top_k:
             Number of storyboard examples to retrieve.
 
@@ -39,14 +45,17 @@ def retrieve_examples(
         Dictionary containing retrieved examples for each beat.
     """
 
-    if not BEATS_PATH.exists():
+    beats_path = Path(beats_path)
+    output_path = Path(output_path)
+
+    if not beats_path.exists():
 
         raise FileNotFoundError(
-            f"Beats file not found: {BEATS_PATH}"
+            f"Beats file not found: {beats_path}"
         )
 
     with open(
-        BEATS_PATH,
+        beats_path,
         "r",
         encoding="utf-8"
     ) as file:
@@ -92,13 +101,13 @@ def retrieve_examples(
             f"for Beat {beat_id}"
         )
 
-    OUTPUT_PATH.parent.mkdir(
+    output_path.parent.mkdir(
         parents=True,
         exist_ok=True
     )
 
     with open(
-        OUTPUT_PATH,
+        output_path,
         "w",
         encoding="utf-8"
     ) as file:
@@ -117,7 +126,7 @@ def retrieve_examples(
     print("=" * 80)
 
     print(
-        f"Saved results to:\n{OUTPUT_PATH}"
+        f"Saved results to:\n{output_path}"
     )
 
     return retrieved_output
@@ -129,4 +138,4 @@ def retrieve_examples(
 
 if __name__ == "__main__":
 
-    retrieve_examples(top_k=5)
+    retrieve_examples(BEATS_PATH, OUTPUT_PATH, top_k=5)

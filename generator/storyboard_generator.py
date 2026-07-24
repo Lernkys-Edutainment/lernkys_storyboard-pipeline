@@ -81,7 +81,10 @@ def generate_storyboard_beat(
 # Generate Complete Storyboard
 # ==========================================================
 
-def generate_storyboard() -> dict:
+def generate_storyboard(
+    input_path: Path = INPUT_PATH,
+    output_path: Path = OUTPUT_PATH
+) -> dict:
     """
     Generate storyboard for all beats.
 
@@ -89,13 +92,16 @@ def generate_storyboard() -> dict:
         Dictionary containing validated storyboard.
     """
 
-    if not INPUT_PATH.exists():
+    input_path = Path(input_path)
+    output_path = Path(output_path)
+
+    if not input_path.exists():
         raise FileNotFoundError(
-            f"Retrieved examples file not found: {INPUT_PATH}"
+            f"Retrieved examples file not found: {input_path}"
         )
 
     with open(
-        INPUT_PATH,
+        input_path,
         "r",
         encoding="utf-8"
     ) as file:
@@ -144,19 +150,19 @@ def generate_storyboard() -> dict:
         generated_storyboard
     )
 
-    print("✓ Storyboard validation successful")
+    print("OK: Storyboard validation successful")
 
     # ======================================================
     # Save validated storyboard
     # ======================================================
 
-    OUTPUT_PATH.parent.mkdir(
+    output_path.parent.mkdir(
         parents=True,
         exist_ok=True
     )
 
     with open(
-        OUTPUT_PATH,
+        output_path,
         "w",
         encoding="utf-8"
     ) as file:
@@ -174,7 +180,7 @@ def generate_storyboard() -> dict:
     print("STORYBOARD GENERATION COMPLETE")
     print("=" * 80)
 
-    print(f"Saved to:\n{OUTPUT_PATH}")
+    print(f"Saved to:\n{output_path}")
 
     return validated_storyboard.model_dump()
 
