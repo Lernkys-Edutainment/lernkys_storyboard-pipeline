@@ -11,6 +11,13 @@ Output:
 
 from typing import List, Tuple
 
+from config import (
+    TALKING_HEAD_PERCENTAGE,
+    ANIMATION_COMPLEXITY,
+    ANIMATION_COMPLEXITY_GUIDELINES,
+    CREATIVE_BRIEF,
+)
+
 
 # ============================================================
 # Developer Prompt
@@ -24,12 +31,15 @@ Your responsibility is to convert ONE educational script beat into ONE storyboar
 Follow these rules:
 
 - Preserve the meaning of the narration.
-- Follow the style of the approved storyboard examples.
+- Learn the structure, tone, and level of detail from the approved storyboard examples.
 - Use the retrieved examples only as references.
 - Do NOT copy the retrieved examples.
 - Maintain the same language as the input narration.
 - Produce a visually engaging storyboard.
 - Generate concise and readable OST (On Screen Text).
+- Every beat MUST contain a non-empty "ost" field.
+- If no on-screen text is required, return exactly: "No OST".
+- Never return an empty string ("") for the ost field.
 - Generate natural narration/dialogue.
 - Never invent facts.
 - Never omit important information.
@@ -37,6 +47,17 @@ Follow these rules:
 - Return ONLY valid JSON.
 - Never return Markdown.
 - Never explain your reasoning.
+------------------------------------------------------------
+BATCH CONFIGURATION
+------------------------------------------------------------
+
+- Carefully follow the Batch Creative Brief provided in the user prompt.
+- Treat the Storyboard Requirements as mandatory.
+- Maintain continuity with the Previous Context.
+- Follow the mandatory VISUAL TYPE specified in the user prompt.
+- Follow the specified Animation Complexity.
+- Maintain the requested Visual Style.
+- Generate visuals suitable for the Target Audience.
 """
 
 
@@ -54,8 +75,55 @@ Return ONLY valid JSON in the following format:
     "ost": "...",
     "dialogue": "..."
 }
+
+Rules:
+- The "ost" field is mandatory.
+- Never return an empty string for "ost".
+- If no on-screen text is required, return exactly:
+  "ost": "No OST"
 """
 
+
+def build_batch_creative_brief() -> str:
+    """
+    Build the batch-level creative brief that will be
+    injected into every storyboard generation prompt.
+    """
+
+    return f"""
+==================================================
+BATCH CREATIVE BRIEF
+==================================================
+
+Target Audience:
+{CREATIVE_BRIEF["target_audience"]}
+
+Visual Style:
+{CREATIVE_BRIEF["visual_style"]}
+
+--------------------------------------------------
+Previous Context
+--------------------------------------------------
+
+{CREATIVE_BRIEF["previous_context"]}
+
+--------------------------------------------------
+Storyboard Requirements
+--------------------------------------------------
+
+{CREATIVE_BRIEF["storyboard_requirements"]}
+
+--------------------------------------------------
+Animation Complexity
+--------------------------------------------------
+
+Selected Complexity:
+{ANIMATION_COMPLEXITY}
+
+{ANIMATION_COMPLEXITY_GUIDELINES[ANIMATION_COMPLEXITY]}
+
+==================================================
+"""
 
 # ============================================================
 # Build User Prompt
@@ -63,7 +131,8 @@ Return ONLY valid JSON in the following format:
 
 def build_user_prompt(
     beat: dict,
-    retrieved_examples: List[dict]
+    retrieved_examples: List[dict],
+    visual_type: str = "Other"
 ) -> str:
     """
     Build the user prompt for a single storyboard beat.
@@ -90,6 +159,12 @@ def build_user_prompt(
     prompt += OUTPUT_SCHEMA
     prompt += "\n\n"
 
+    prompt += build_batch_creative_brief()
+    prompt += "\n\n"
+
+    prompt += (
+        "The following Batch Creative Brief applies to the entire storyboard. " "Treat it as mandatory when generating this storyboard beat.\n\n"
+    )
     # --------------------------------------------------------
     # Retrieved Examples
     # --------------------------------------------------------
@@ -135,6 +210,50 @@ following the required JSON format.
 """
 
     # --------------------------------------------------------
+    # Visual Type
+    # --------------------------------------------------------
+
+    if visual_type == "Talking Head":
+        prompt += """==================================================
+VISUAL TYPE
+==================================================
+
+Talking Head (Mandatory)
+
+Requirements:
+• Presenter visible throughout the beat.
+• Professional studio background.
+• Presenter looks directly into camera.
+• Presenter narrates naturally.
+• Minimal facial expressions and hand gestures.
+• No diagrams.
+• No infographics.
+• No animations.
+• No educational graphics.
+
+"""
+    else:
+        prompt += """==================================================
+VISUAL TYPE
+==================================================
+
+Other Visual (Mandatory)
+
+Requirements:
+• Do NOT include a presenter.
+• Select the most suitable educational visual.
+
+Possible visual styles:
+• Animation
+• Infographic
+• Illustration
+• Activity Screen
+• Reflection Screen
+• Title Screen
+
+"""
+
+    # --------------------------------------------------------
     # Current Beat
     # --------------------------------------------------------
 
@@ -164,12 +283,18 @@ Requirements:
 2. Copy the narration exactly into source_text.
 3. Generate a detailed visual.
 4. Generate concise OST.
-5. Generate natural dialogue.
-6. Maintain the same language.
-7. Return ONLY valid JSON.
-8. Do NOT include explanations.
-9. Do NOT include Markdown.
-10. Do NOT wrap JSON inside ``` blocks.
+5. Every beat MUST contain a non-empty "ost" field.
+6. If no OST is required, return exactly "No OST".
+7. Never return an empty string for ost.
+8. Generate natural dialogue.
+9. Maintain the same language.
+10. Return ONLY valid JSON.
+11. Do NOT include explanations.
+12. Do NOT include Markdown.
+13. Do NOT wrap JSON inside ``` blocks.
+14. Follow the Batch Creative Brief provided above.
+15. Follow the mandatory VISUAL TYPE specification when deciding whether this beat should include a presenter or another visual style.
+16. Follow the specified Animation Complexity while designing the visual.
 """
 
     return prompt
@@ -181,7 +306,8 @@ Requirements:
 
 def build_prompt(
     beat: dict,
-    retrieved_examples: List[dict]
+    retrieved_examples: List[dict],
+    visual_type: str = "Other"
 ) -> Tuple[str, str]:
     """
     Build prompts for GPT.
@@ -201,7 +327,8 @@ def build_prompt(
 
     user_prompt = build_user_prompt(
         beat,
-        retrieved_examples
+        retrieved_examples,
+        visual_type
     )
 
     return developer_prompt, user_prompt
@@ -229,7 +356,8 @@ if __name__ == "__main__":
 
     developer_prompt, user_prompt = build_prompt(
         beat,
-        examples
+        examples,
+        visual_type="Talking Head"
     )
 
     print("=" * 80)

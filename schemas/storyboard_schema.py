@@ -40,6 +40,11 @@ class StoryboardBeat(BaseModel):
         description="Dialogue or narration"
     )
 
+    graphics_type: str = Field(
+        default="Other",
+        description="Graphics or animation style of the beat"
+    )
+
 
 class Storyboard(BaseModel):
     beats: List[StoryboardBeat] = Field(

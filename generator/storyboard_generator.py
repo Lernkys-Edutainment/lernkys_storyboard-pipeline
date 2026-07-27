@@ -49,7 +49,8 @@ def generate_storyboard_beat(
 
 def generate_storyboard(
     input_path: Path = INPUT_PATH,
-    output_path: Path = OUTPUT_PATH
+    output_path: Path = OUTPUT_PATH,
+    talking_head_plan: dict = None
 ) -> dict:
 
     input_path = Path(input_path)
@@ -71,6 +72,10 @@ def generate_storyboard(
         "beats": []
     }
 
+    if talking_head_plan is None:
+        from planning.talking_head_planner import create_talking_head_plan
+        talking_head_plan = create_talking_head_plan(retrieved_data["beats"])
+
     print("=" * 80)
     print("GENERATING STORYBOARD")
     print("=" * 80)
@@ -80,10 +85,13 @@ def generate_storyboard(
         desc="Generating Storyboard",
         unit="beat"
     ):
+        beat_id = beat.get("beat_id")
+        visual_type = talking_head_plan.get(str(beat_id), "Other")
 
         developer_prompt, user_prompt = build_prompt(
             beat,
-            beat["retrieved_examples"]
+            beat["retrieved_examples"],
+            visual_type
         )
 
         generated_beat = generate_storyboard_beat(
@@ -91,6 +99,7 @@ def generate_storyboard(
             user_prompt
         )
 
+        generated_beat["graphics_type"] = visual_type
         generated_storyboard["beats"].append(
             generated_beat
         )

@@ -1,22 +1,35 @@
 from pathlib import Path
 from tqdm import tqdm
 
-from config import SCRIPTS_DIR, OUTPUT_DIR
 from process_script import process_script
+from utils.folder_picker import select_folder
 
 
 def run_batch():
-    if not SCRIPTS_DIR.exists():
-        print(f"Scripts directory does not exist: {SCRIPTS_DIR}")
+    """
+    Run the storyboard generation pipeline for all DOCX files
+    in a user-selected folder.
+    """
+
+    try:
+        print("\n📂 Select the folder containing the scripts...\n")
+        scripts_dir = select_folder("Select Folder Containing Scripts")
+
+        print("\n📂 Select the folder where generated storyboards will be saved...\n")
+        output_dir = select_folder("Select Output Folder")
+
+    except ValueError:
+        print("\n❌ Folder selection cancelled.")
         return
 
-    docx_files = sorted(SCRIPTS_DIR.glob("*.docx"))
+    # Find all DOCX files
+    docx_files = sorted(scripts_dir.glob("*.docx"))
 
     if not docx_files:
-        print(f"No DOCX files found in {SCRIPTS_DIR}")
+        print(f"\n❌ No DOCX files found in:\n{scripts_dir}")
         return
 
-    print(f"\nFound {len(docx_files)} scripts in {SCRIPTS_DIR}.\n")
+    print(f"\n✅ Found {len(docx_files)} script(s) in:\n{scripts_dir}\n")
 
     progress = tqdm(
         docx_files,
@@ -27,7 +40,8 @@ def run_batch():
     for script_path in progress:
         progress.set_postfix(module=script_path.stem)
 
-        script_output_dir = OUTPUT_DIR / script_path.stem
+        # Create a separate output folder for each script
+        script_output_dir = output_dir / script_path.stem
 
         try:
             process_script(script_path, script_output_dir)
@@ -39,7 +53,7 @@ def run_batch():
     progress.close()
 
     print("\n" + "=" * 80)
-    print("BATCH PROCESSING COMPLETED")
+    print("✅ BATCH PROCESSING COMPLETED")
     print("=" * 80)
 
 

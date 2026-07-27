@@ -29,6 +29,29 @@ def validate_storyboard(storyboard: dict) -> Storyboard:
             If required fields are empty.
     """
 
+    # ------------------------------------------------------------------
+    # Normalize LLM output before validation
+    # ------------------------------------------------------------------
+
+    for beat in storyboard.get("beats", []):
+
+        # Strip whitespace from all string fields
+        beat["source_text"] = beat.get("source_text", "").strip()
+        beat["visual"] = beat.get("visual", "").strip()
+        beat["dialogue"] = beat.get("dialogue", "").strip()
+
+        # Replace empty OST with "No OST"
+        ost = beat.get("ost", "")
+
+        if ost is None or not ost.strip():
+            beat["ost"] = "No OST"
+        else:
+            beat["ost"] = ost.strip()
+
+    # ------------------------------------------------------------------
+    # Schema Validation
+    # ------------------------------------------------------------------
+
     try:
         validated = Storyboard.model_validate(storyboard)
 
@@ -40,9 +63,9 @@ def validate_storyboard(storyboard: dict) -> Storyboard:
         print()
         raise
 
-    # ----------------------------------------------------------
-    # Semantic validation
-    # ----------------------------------------------------------
+    # ------------------------------------------------------------------
+    # Semantic Validation
+    # ------------------------------------------------------------------
 
     if len(validated.beats) == 0:
         raise ValueError("Storyboard contains no beats.")
@@ -52,22 +75,22 @@ def validate_storyboard(storyboard: dict) -> Storyboard:
         if not beat.beat_id:
             raise ValueError("Beat ID cannot be empty.")
 
-        if not beat.source_text.strip():
+        if not beat.source_text:
             raise ValueError(
                 f"Beat {beat.beat_id}: source_text is empty."
             )
 
-        if not beat.visual.strip():
+        if not beat.visual:
             raise ValueError(
                 f"Beat {beat.beat_id}: visual is empty."
             )
 
-        if not beat.ost.strip():
+        if not beat.ost:
             raise ValueError(
                 f"Beat {beat.beat_id}: ost is empty."
             )
 
-        if not beat.dialogue.strip():
+        if not beat.dialogue:
             raise ValueError(
                 f"Beat {beat.beat_id}: dialogue is empty."
             )
@@ -87,7 +110,7 @@ if __name__ == "__main__":
                 "beat_id": "generated_beat_01",
                 "source_text": "मेंदूचे तीन भाग आहेत.",
                 "visual": "Show a rotating 3D brain.",
-                "ost": "मेंदूचे तीन भाग",
+                "ost": "",
                 "dialogue": "मेंदूचे तीन भाग आहेत."
             }
         ]
@@ -107,5 +130,5 @@ if __name__ == "__main__":
         )
     )
 
-    print("\nFirst Beat Visual:")
-    print(validated.beats[0].visual)
+    print("\nFirst Beat OST:")
+    print(validated.beats[0].ost)

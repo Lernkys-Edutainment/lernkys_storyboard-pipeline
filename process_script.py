@@ -16,6 +16,7 @@ def process_script(input_doc: Path, output_dir: Path = None):
         # Backward compatibility mode using original paths
         cleaned_script_path = Path("output/intermediate/cleaned_script.json")
         beats_path = Path("output/intermediate/beats.json")
+        visual_plan_path = Path("output/intermediate/visual_plan.json")
         retrieved_examples_path = Path("output/intermediate/retrieved_examples.json")
         generated_storyboard_path = Path("output/generated/generated_storyboard.json")
         generated_storyboard_docx = Path("output/generated/generated_storyboard.docx")
@@ -24,6 +25,7 @@ def process_script(input_doc: Path, output_dir: Path = None):
         output_dir.mkdir(parents=True, exist_ok=True)
         cleaned_script_path = output_dir / "cleaned_script.json"
         beats_path = output_dir / "beats.json"
+        visual_plan_path = output_dir / "visual_plan.json"
         retrieved_examples_path = output_dir / "retrieved_examples.json"
         generated_storyboard_path = output_dir / "generated_storyboard.json"
         generated_storyboard_docx = output_dir / "generated_storyboard.docx"
@@ -67,9 +69,22 @@ def process_script(input_doc: Path, output_dir: Path = None):
 
     print("\n[5/7] Generating storyboard...")
 
+    import json
+    from planning.talking_head_planner import create_talking_head_plan
+
+    print("Generating talking head plan...")
+    talking_head_plan = create_talking_head_plan(beats)
+
+    # Save visual plan JSON
+    visual_plan_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(visual_plan_path, "w", encoding="utf-8") as f:
+        json.dump(talking_head_plan, f, indent=4, ensure_ascii=False)
+    print(f"OK: Visual plan saved to {visual_plan_path}")
+
     storyboard = generate_storyboard(
         retrieved_examples_path,
-        generated_storyboard_path
+        generated_storyboard_path,
+        talking_head_plan=talking_head_plan
     )
 
     print(

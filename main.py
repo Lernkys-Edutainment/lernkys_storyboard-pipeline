@@ -2,8 +2,8 @@ from pathlib import Path
 
 from process_script import process_script
 
-INPUT_DOC = Path("sample.docx")
-OUTPUT_DIR = Path("output/sample")
+INPUT_DOC = Path("data/raw/scripts/Umed_2.1.1_Script.docx")
+OUTPUT_DIR = Path("output/Umed_2.1.1_Script")
 
 
 def main():

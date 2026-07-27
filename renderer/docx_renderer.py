@@ -59,6 +59,16 @@ def set_cell(cell,text,bold=False):
     r.bold=bold
     r.font.size=Pt(10)
 
+def classify_screen_non_presenter(text):
+    t = text.lower()
+    if "infographic" in t: return "Infographic"
+    if "animation" in t or "line art" in t: return "Animation"
+    if "activity" in t: return "Activity"
+    if "reflection" in t: return "Reflection"
+    if "question" in t: return "Question"
+    if "image" in t: return "Image"
+    return "Other"
+
 def render_storyboard(input_json="output/generated/generated_storyboard.json",
                       output_docx="output/generated/generated_storyboard.docx"):
     input_json = Path(input_json)
@@ -79,7 +89,20 @@ def render_storyboard(input_json="output/generated/generated_storyboard.json",
         cells=table.add_row().cells
         set_cell(cells[0],beat.get("beat_id",""),True)
         visual=beat.get("visual","")
-        st=classify_screen(visual).value
+        
+        # Read the planner's graphics_type decision directly from the beat
+        graphics_type = beat.get("graphics_type")
+        if graphics_type == "Talking Head":
+            st = "Talking Head"
+        elif graphics_type == "Other":
+            # Classify but exclude Talking Head
+            st = classify_screen_non_presenter(visual)
+        elif graphics_type is not None:
+            st = graphics_type
+        else:
+            # Backward compatibility fallback
+            st = classify_screen(visual).value
+            
         set_cell(cells[1],st+"\n\n"+visual)
         shade_cell(cells[1],SCREEN_COLORS.get(st,"FFFFFF"))
         set_cell(cells[2],beat.get("ost",""))
