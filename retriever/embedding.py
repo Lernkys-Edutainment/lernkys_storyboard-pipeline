@@ -6,18 +6,40 @@ Generates vector embeddings using OpenAI's embedding models.
 
 import os
 
+import streamlit as st
 from dotenv import load_dotenv
 from openai import OpenAI
 
+# ==========================================================
+# Load Environment Variables
+# ==========================================================
+
 load_dotenv()
 
-client = OpenAI()
+api_key = os.getenv("OPENAI_API_KEY")
+
+if not api_key:
+    try:
+        api_key = st.secrets["OPENAI_API_KEY"]
+    except Exception:
+        raise RuntimeError(
+            "OPENAI_API_KEY not found in environment variables or Streamlit Secrets."
+        )
+
+client = OpenAI(api_key=api_key)
+
+# ==========================================================
+# Configuration
+# ==========================================================
 
 EMBEDDING_MODEL = os.getenv(
     "EMBEDDING_MODEL",
     "text-embedding-3-small"
 )
 
+# ==========================================================
+# Embedding Generation
+# ==========================================================
 
 def get_embedding(text: str) -> list[float]:
     """
