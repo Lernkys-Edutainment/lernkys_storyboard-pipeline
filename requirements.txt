@@ -217,3 +217,4 @@ Werkzeug==3.1.8
 widgetsnbextension==4.0.15
 wrapt==2.1.1
 yarl==1.22.0
+streamlit

@@ -1,5 +1,4 @@
-import math
-from config import TALKING_HEAD_PERCENTAGE
+import config
 
 
 def create_talking_head_plan(beats: dict) -> dict:
@@ -23,7 +22,7 @@ def create_talking_head_plan(beats: dict) -> dict:
         return {}
 
     # Calculate target number of talking head beats
-    num_talking_heads = round((TALKING_HEAD_PERCENTAGE / 100.0) * total_beats)
+    num_talking_heads = round((config.TALKING_HEAD_PERCENTAGE / 100.0) * total_beats)
     num_talking_heads = max(0, min(total_beats, num_talking_heads))
 
     chosen_indices = set()

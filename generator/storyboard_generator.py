@@ -1,6 +1,7 @@
 import json
 import os
 from pathlib import Path
+import streamlit as st
 
 from dotenv import load_dotenv
 from openai import OpenAI
@@ -11,7 +12,17 @@ from generator.validator import validate_storyboard
 
 load_dotenv()
 
-client = OpenAI()
+api_key = os.getenv("OPENAI_API_KEY")
+
+if not api_key:
+    try:
+        api_key = st.secrets["OPENAI_API_KEY"]
+    except Exception:
+        raise RuntimeError(
+            "OPENAI_API_KEY not found in environment variables or Streamlit Secrets."
+        )
+
+client = OpenAI(api_key=api_key)
 
 MODEL_NAME = os.getenv(
     "LLM_MODEL",

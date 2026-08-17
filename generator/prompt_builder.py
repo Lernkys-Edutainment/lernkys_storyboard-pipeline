@@ -11,12 +11,7 @@ Output:
 
 from typing import List, Tuple
 
-from config import (
-    TALKING_HEAD_PERCENTAGE,
-    ANIMATION_COMPLEXITY,
-    ANIMATION_COMPLEXITY_GUIDELINES,
-    CREATIVE_BRIEF,
-)
+import config
 
 
 # ============================================================
@@ -96,31 +91,31 @@ BATCH CREATIVE BRIEF
 ==================================================
 
 Target Audience:
-{CREATIVE_BRIEF["target_audience"]}
+{config.CREATIVE_BRIEF["target_audience"]}
 
 Visual Style:
-{CREATIVE_BRIEF["visual_style"]}
+{config.CREATIVE_BRIEF["visual_style"]}
 
 --------------------------------------------------
 Previous Context
 --------------------------------------------------
 
-{CREATIVE_BRIEF["previous_context"]}
+{config.CREATIVE_BRIEF["previous_context"]}
 
 --------------------------------------------------
 Storyboard Requirements
 --------------------------------------------------
 
-{CREATIVE_BRIEF["storyboard_requirements"]}
+{config.CREATIVE_BRIEF["storyboard_requirements"]}
 
 --------------------------------------------------
 Animation Complexity
 --------------------------------------------------
 
 Selected Complexity:
-{ANIMATION_COMPLEXITY}
+{config.ANIMATION_COMPLEXITY}
 
-{ANIMATION_COMPLEXITY_GUIDELINES[ANIMATION_COMPLEXITY]}
+{config.ANIMATION_COMPLEXITY_GUIDELINES[config.ANIMATION_COMPLEXITY]}
 
 ==================================================
 """
